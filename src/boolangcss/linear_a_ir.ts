@@ -10,9 +10,10 @@ export function emitToken(decl: CSSDecl, signMap: SignMap): LinearAToken {
   // Determine CODA sign from CSS unit if present
   const unitMatch = decl.resolvedCSS.match(/(px|em|%|rem|vh|vw|pt)$/);
   const unit      = unitMatch ? unitMatch[1] : "";
-  const codaSign  = signMap.unitToSign.get(unit) ?? signMap.allSigns.find(
-    s => s.positionBias === "CODA"
-  )!.sign;
+  const codaSign  = signMap.unitToSign.get(unit)
+    ?? signMap.allSigns.find(s => s.positionBias === "CODA")?.sign
+    ?? signMap.allSigns[0]?.sign
+    ?? "𐘽";
 
   const group = `${onsetSign}.${bodySign}.${codaSign}`;
 
