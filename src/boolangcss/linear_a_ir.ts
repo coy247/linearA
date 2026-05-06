@@ -1,6 +1,7 @@
 import { type CSSDecl, type LinearAToken } from "./types.ts";
 import { type SignMap } from "./sign_map.ts";
 import { SIGN_STATES, VALID_TRANSITIONS, FSM_THRESHOLD } from "../../spec/linear-a-fsm-validator.ts";
+import { booLangDiv } from "../../../booLang-hardening/acceptable_range_governor.ts";
 
 /** Emit a Linear A token for one CSS declaration */
 export function emitToken(decl: CSSDecl, signMap: SignMap): LinearAToken {
@@ -34,7 +35,8 @@ export function emitTokens(decls: CSSDecl[], signMap: SignMap): LinearAToken[] {
 export function computeFsmScore(tokens: LinearAToken[]): number {
   if (tokens.length === 0) return 0;
   const valid = tokens.filter(t => t.valid).length;
-  return valid / tokens.length;
+  const result = booLangDiv(valid, tokens.length);
+  return result === "DEFINED" ? 0 : result;
 }
 
 /** Format Linear A tokens as .linearA file content */
