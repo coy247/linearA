@@ -1,0 +1,100 @@
+---
+# linear-a-fsm.yaml — Canonical Linear A FSM Specification
+# Generated: 2026-05-06
+# Source: corpus/analysis/bigram-matrix.json
+# Authority: non-authoritative (derived from corpus statistics)
+# No Linear B phonetic values — signs are opaque structural tokens
+---
+
+fsm:
+  id: linear_a_word_fsm
+  version: 1
+  authority: non-authoritative
+  description: >
+    Finite-state machine describing the morphological structure of Linear A
+    sign groups. Derived from positional frequency and bigram transition analysis
+    of the full Linear A corpus. No phonetic assumptions from Linear B.
+    A sign group is FSM-valid if its state sequence passes the governor gate.
+
+  corpus_stats:
+    total_inscriptions: 321
+    total_signs: 8885
+    unique_signs: 321
+    total_bigrams: 3980
+
+  states:
+    - id: STATE_ONSET
+      label: onset
+      role: >
+        Sign-group initial position. High frequency at word start.
+        Structural prefix marker. Equivalent to PREFIX in Voynich FSM.
+      sign_count: 212
+      top_signs: ["𐝫", "𐙂", "𐘾", "𐙕", "𐘤", "𐘇", "𐘚", "𐘁", "𐝆", "𐝃", "𐘉", "𐙉", "𐙍", "𐙗", "𐘼", "𐘌"]
+
+    - id: STATE_BODY
+      label: body
+      role: >
+        Sign-group medial position. Core semantic carrier.
+        Equivalent to CORE in Voynich FSM.
+      sign_count: 51
+      top_signs: ["𐘳", "𐘅", "𐘞", "𐘀", "𐘸", "𐘙", "𐙁", "𐘴", "𐘆", "𐘻", "𐘘", "𐘬", "𐘭", "𐘹", "𐘈", "𐘯"]
+
+    - id: STATE_CODA
+      label: coda
+      role: >
+        Sign-group terminal position. Morphological suffix bridge.
+        Equivalent to OPERATOR in Voynich FSM.
+      sign_count: 36
+      top_signs: ["𐘽", "𐘋", "𐘍", "𐙈", "𐘷", "𐙌", "𐙏", "𐘪", "𐙭", "𐜨", "𐜅", "𐙵", "𐜊", "𐝌", "𐚅", "𐛅"]
+
+  valid_transitions:
+    - from: STATE_ONSET
+      to:   STATE_ONSET
+      count: 798
+      pct:   20.05
+    - from: STATE_BODY
+      to:   STATE_BODY
+      count: 733
+      pct:   18.42
+    - from: STATE_ONSET
+      to:   STATE_BODY
+      count: 720
+      pct:   18.09
+    - from: STATE_BODY
+      to:   STATE_ONSET
+      count: 480
+      pct:   12.06
+    - from: STATE_ONSET
+      to:   STATE_MIXED
+      count: 260
+      pct:   6.53
+    - from: STATE_BODY
+      to:   STATE_MIXED
+      count: 249
+      pct:   6.26
+    - from: STATE_MIXED
+      to:   STATE_BODY
+      count: 211
+      pct:   5.30
+    - from: STATE_MIXED
+      to:   STATE_ONSET
+      count: 180
+      pct:   4.52
+
+  canonical_word_shape:
+    pattern: STATE_ONSET → STATE_BODY → STATE_CODA → STATE_BODY → STATE_ONSET
+    description: >
+      The minimal complete Linear A sign group. A group that follows this
+      path exactly scores 1.0 against the FSM.
+
+  scoring:
+    method: transition_compliance_ratio
+    formula: >
+      score(group) = valid_transitions_in_group / total_transitions_in_group
+      where a transition is valid if its state pair appears in valid_transitions.
+    threshold:
+      pass:  0.9123115578
+      fraction: "3631/3980"
+      label: "Linear A corpus governor ratio — derived from 90% coverage target"
+
+  sign_index_file: corpus/analysis/sign-index.json
