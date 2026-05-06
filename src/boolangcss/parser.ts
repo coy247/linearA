@@ -1,5 +1,5 @@
 import { type BlcssRule, type CSSDecl } from "./types.ts";
-import { parseBij6Color } from "./math/bij6_color.ts";
+import { parseBij6Color, bij6ColorToCSS } from "./math/bij6_color.ts";
 import { parseLightLengthSize } from "./math/light_length_size.ts";
 import { parsePGTier, pgTierToCSS } from "./math/pressure_gate_zindex.ts";
 import { parseFsmTransition } from "./math/fsm_transition_css.ts";
@@ -10,8 +10,7 @@ function resolveValue(property: string, raw: string): { resolvedCSS: string; val
   if (t.startsWith("bij6(")) {
     if (property === "color" || property === "background") {
       const c = parseBij6Color(t);
-      const digitToHex = (d: number) => Math.round((d - 1) / 5 * 255).toString(16).padStart(2, "0");
-      return { resolvedCSS: `#${digitToHex(c.r)}${digitToHex(c.g)}${digitToHex(c.b)}`, valueType: "bij6" };
+      return { resolvedCSS: bij6ColorToCSS(c), valueType: "bij6" };
     }
     // Numeric bij6: extract first digit as integer
     const m = t.match(/bij6\s*\(\s*(\d)\s*\)/);
