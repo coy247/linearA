@@ -1,6 +1,12 @@
 {
   "tasks": {
     "test": "deno test --allow-net src/",
-    "test:canonical": "deno test --allow-net src/canonical_octet_test.ts"
+    "test:canonical": "deno test --allow-net src/canonical_octet_test.ts",
+    "test:fsm": "deno test --allow-net spec/linear-a-fsm-validator-test.ts",
+    "corpus:fetch": "deno run --allow-net --allow-write scripts/fetch_corpus.ts",
+    "corpus:build": "deno run --allow-read --allow-write scripts/build_corpus.ts",
+    "corpus:analyze": "deno run --allow-read --allow-write scripts/analyze_signs.ts",
+    "corpus:fsm": "deno run --allow-read --allow-write scripts/derive_fsm.ts",
+    "corpus:health": "deno run --allow-read --allow-write spec/linear-a-corpus-health.ts"
   }
 }
