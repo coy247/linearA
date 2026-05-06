@@ -1,0 +1,1442 @@
+# Voynich Corpus Health — FSM Gate Scores
+# Generated: 2026-04-26
+# FSM threshold: 0.918339 (9109/9919)
+
+summary:
+  total_folios: 226
+  total_words: 36906
+  total_scored: 30773
+  overall_fsm_score: 0.222563
+  overall_passes_gate: false
+  folios_pass: 0
+  folios_fail: 226
+
+sections:
+  A:  # Astrological
+    folios: 8
+    words: 830
+    avg_fsm_score: 0.233940
+    passes_gate: false
+  B:  # Biological
+    folios: 20
+    words: 6862
+    avg_fsm_score: 0.280037
+    passes_gate: false
+  C:  # Cosmological
+    folios: 13
+    words: 2532
+    avg_fsm_score: 0.162777
+    passes_gate: false
+  H:  # Herbal
+    folios: 128
+    words: 10631
+    avg_fsm_score: 0.214638
+    passes_gate: false
+  P:  # Pharmaceutical
+    folios: 16
+    words: 2476
+    avg_fsm_score: 0.199141
+    passes_gate: false
+  S:  # Stars
+    folios: 24
+    words: 10671
+    avg_fsm_score: 0.283138
+    passes_gate: false
+  T:  # Text/Recipes
+    folios: 5
+    words: 1612
+    avg_fsm_score: 0.174992
+    passes_gate: false
+  Z:  # Zodiac
+    folios: 12
+    words: 1292
+    avg_fsm_score: 0.198395
+    passes_gate: false
+
+folios:
+  # ── Pharmaceutical ──
+  - folio: f100r
+    section: P
+    words: 110
+    scored: 102
+    fsm_score: 0.284314
+    passes_gate: false
+  - folio: f100v
+    section: P
+    words: 91
+    scored: 79
+    fsm_score: 0.240506
+    passes_gate: false
+  - folio: f101r
+    section: P
+    words: 204
+    scored: 165
+    fsm_score: 0.218182
+    passes_gate: false
+  - folio: f101v
+    section: P
+    words: 187
+    scored: 153
+    fsm_score: 0.176471
+    passes_gate: false
+  - folio: f102r1
+    section: P
+    words: 104
+    scored: 91
+    fsm_score: 0.263736
+    passes_gate: false
+  - folio: f102r2
+    section: P
+    words: 131
+    scored: 110
+    fsm_score: 0.172727
+    passes_gate: false
+  - folio: f102v1
+    section: P
+    words: 125
+    scored: 110
+    fsm_score: 0.209091
+    passes_gate: false
+  - folio: f102v2
+    section: P
+    words: 179
+    scored: 143
+    fsm_score: 0.132867
+    passes_gate: false
+  # ── Stars ──
+  - folio: f103r
+    section: S
+    words: 522
+    scored: 473
+    fsm_score: 0.264271
+    passes_gate: false
+  - folio: f103v
+    section: S
+    words: 449
+    scored: 387
+    fsm_score: 0.227390
+    passes_gate: false
+  - folio: f104r
+    section: S
+    words: 438
+    scored: 384
+    fsm_score: 0.302083
+    passes_gate: false
+  - folio: f104v
+    section: S
+    words: 458
+    scored: 405
+    fsm_score: 0.392593
+    passes_gate: false
+  - folio: f105r
+    section: S
+    words: 368
+    scored: 311
+    fsm_score: 0.250804
+    passes_gate: false
+  - folio: f105v
+    section: S
+    words: 390
+    scored: 326
+    fsm_score: 0.253067
+    passes_gate: false
+  - folio: f106r
+    section: S
+    words: 421
+    scored: 381
+    fsm_score: 0.325459
+    passes_gate: false
+  - folio: f106v
+    section: S
+    words: 449
+    scored: 390
+    fsm_score: 0.264103
+    passes_gate: false
+  - folio: f107r
+    section: S
+    words: 488
+    scored: 420
+    fsm_score: 0.261905
+    passes_gate: false
+  - folio: f107v
+    section: S
+    words: 455
+    scored: 404
+    fsm_score: 0.259901
+    passes_gate: false
+  - folio: f108r
+    section: S
+    words: 491
+    scored: 451
+    fsm_score: 0.279379
+    passes_gate: false
+  - folio: f108v
+    section: S
+    words: 570
+    scored: 504
+    fsm_score: 0.347222
+    passes_gate: false
+  # ── Herbal ──
+  - folio: f10r
+    section: H
+    words: 86
+    scored: 71
+    fsm_score: 0.267606
+    passes_gate: false
+  - folio: f10v
+    section: H
+    words: 53
+    scored: 50
+    fsm_score: 0.220000
+    passes_gate: false
+  # ── Stars ──
+  - folio: f111r
+    section: S
+    words: 614
+    scored: 535
+    fsm_score: 0.316822
+    passes_gate: false
+  - folio: f111v
+    section: S
+    words: 561
+    scored: 482
+    fsm_score: 0.273859
+    passes_gate: false
+  - folio: f112r
+    section: S
+    words: 394
+    scored: 326
+    fsm_score: 0.285276
+    passes_gate: false
+  - folio: f112v
+    section: S
+    words: 415
+    scored: 362
+    fsm_score: 0.359116
+    passes_gate: false
+  - folio: f113r
+    section: S
+    words: 518
+    scored: 466
+    fsm_score: 0.330472
+    passes_gate: false
+  - folio: f113v
+    section: S
+    words: 481
+    scored: 407
+    fsm_score: 0.312039
+    passes_gate: false
+  - folio: f114r
+    section: S
+    words: 447
+    scored: 400
+    fsm_score: 0.255000
+    passes_gate: false
+  - folio: f114v
+    section: S
+    words: 362
+    scored: 333
+    fsm_score: 0.382883
+    passes_gate: false
+  - folio: f115r
+    section: S
+    words: 444
+    scored: 385
+    fsm_score: 0.319481
+    passes_gate: false
+  - folio: f115v
+    section: S
+    words: 399
+    scored: 353
+    fsm_score: 0.354108
+    passes_gate: false
+  - folio: f116r
+    section: S
+    words: 537
+    scored: 438
+    fsm_score: 0.178082
+    passes_gate: false
+  - folio: f116v
+    section: S
+    words: 0
+    scored: 0
+    fsm_score: 0.000000
+    passes_gate: false
+  # ── Herbal ──
+  - folio: f11r
+    section: H
+    words: 57
+    scored: 45
+    fsm_score: 0.133333
+    passes_gate: false
+  - folio: f11v
+    section: H
+    words: 42
+    scored: 31
+    fsm_score: 0.193548
+    passes_gate: false
+  - folio: f13r
+    section: H
+    words: 75
+    scored: 61
+    fsm_score: 0.081967
+    passes_gate: false
+  - folio: f13v
+    section: H
+    words: 59
+    scored: 47
+    fsm_score: 0.106383
+    passes_gate: false
+  - folio: f14r
+    section: H
+    words: 73
+    scored: 58
+    fsm_score: 0.155172
+    passes_gate: false
+  - folio: f14v
+    section: H
+    words: 65
+    scored: 53
+    fsm_score: 0.132075
+    passes_gate: false
+  - folio: f15r
+    section: H
+    words: 75
+    scored: 63
+    fsm_score: 0.380952
+    passes_gate: false
+  - folio: f15v
+    section: H
+    words: 70
+    scored: 51
+    fsm_score: 0.156863
+    passes_gate: false
+  - folio: f16r
+    section: H
+    words: 75
+    scored: 63
+    fsm_score: 0.142857
+    passes_gate: false
+  - folio: f16v
+    section: H
+    words: 73
+    scored: 60
+    fsm_score: 0.200000
+    passes_gate: false
+  - folio: f17r
+    section: H
+    words: 69
+    scored: 58
+    fsm_score: 0.137931
+    passes_gate: false
+  - folio: f17v
+    section: H
+    words: 134
+    scored: 108
+    fsm_score: 0.175926
+    passes_gate: false
+  - folio: f18r
+    section: H
+    words: 79
+    scored: 66
+    fsm_score: 0.257576
+    passes_gate: false
+  - folio: f18v
+    section: H
+    words: 71
+    scored: 49
+    fsm_score: 0.183673
+    passes_gate: false
+  - folio: f19r
+    section: H
+    words: 76
+    scored: 57
+    fsm_score: 0.087719
+    passes_gate: false
+  - folio: f19v
+    section: H
+    words: 77
+    scored: 63
+    fsm_score: 0.142857
+    passes_gate: false
+  # ── Text/Recipes ──
+  - folio: f1r
+    section: T
+    words: 202
+    scored: 164
+    fsm_score: 0.115854
+    passes_gate: false
+  # ── Herbal ──
+  - folio: f1v
+    section: H
+    words: 80
+    scored: 62
+    fsm_score: 0.129032
+    passes_gate: false
+  - folio: f20r
+    section: H
+    words: 85
+    scored: 75
+    fsm_score: 0.440000
+    passes_gate: false
+  - folio: f20v
+    section: H
+    words: 88
+    scored: 62
+    fsm_score: 0.177419
+    passes_gate: false
+  - folio: f21r
+    section: H
+    words: 95
+    scored: 80
+    fsm_score: 0.275000
+    passes_gate: false
+  - folio: f21v
+    section: H
+    words: 56
+    scored: 47
+    fsm_score: 0.255319
+    passes_gate: false
+  - folio: f22r
+    section: H
+    words: 99
+    scored: 84
+    fsm_score: 0.166667
+    passes_gate: false
+  - folio: f22v
+    section: H
+    words: 69
+    scored: 59
+    fsm_score: 0.288136
+    passes_gate: false
+  - folio: f23r
+    section: H
+    words: 101
+    scored: 75
+    fsm_score: 0.133333
+    passes_gate: false
+  - folio: f23v
+    section: H
+    words: 80
+    scored: 61
+    fsm_score: 0.131148
+    passes_gate: false
+  - folio: f24r
+    section: H
+    words: 106
+    scored: 71
+    fsm_score: 0.112676
+    passes_gate: false
+  - folio: f24v
+    section: H
+    words: 80
+    scored: 67
+    fsm_score: 0.044776
+    passes_gate: false
+  - folio: f25r
+    section: H
+    words: 48
+    scored: 41
+    fsm_score: 0.268293
+    passes_gate: false
+  - folio: f25v
+    section: H
+    words: 55
+    scored: 46
+    fsm_score: 0.173913
+    passes_gate: false
+  - folio: f26r
+    section: H
+    words: 67
+    scored: 61
+    fsm_score: 0.381148
+    passes_gate: false
+  - folio: f26v
+    section: H
+    words: 89
+    scored: 75
+    fsm_score: 0.240000
+    passes_gate: false
+  - folio: f27r
+    section: H
+    words: 82
+    scored: 63
+    fsm_score: 0.190476
+    passes_gate: false
+  - folio: f27v
+    section: H
+    words: 51
+    scored: 41
+    fsm_score: 0.174797
+    passes_gate: false
+  - folio: f28r
+    section: H
+    words: 59
+    scored: 51
+    fsm_score: 0.274510
+    passes_gate: false
+  - folio: f28v
+    section: H
+    words: 63
+    scored: 52
+    fsm_score: 0.230769
+    passes_gate: false
+  - folio: f29r
+    section: H
+    words: 60
+    scored: 49
+    fsm_score: 0.306122
+    passes_gate: false
+  - folio: f29v
+    section: H
+    words: 74
+    scored: 61
+    fsm_score: 0.297814
+    passes_gate: false
+  - folio: f2r
+    section: H
+    words: 78
+    scored: 62
+    fsm_score: 0.177419
+    passes_gate: false
+  - folio: f2v
+    section: H
+    words: 55
+    scored: 47
+    fsm_score: 0.255319
+    passes_gate: false
+  - folio: f30r
+    section: H
+    words: 88
+    scored: 76
+    fsm_score: 0.217105
+    passes_gate: false
+  - folio: f30v
+    section: H
+    words: 63
+    scored: 52
+    fsm_score: 0.269231
+    passes_gate: false
+  - folio: f31r
+    section: H
+    words: 100
+    scored: 84
+    fsm_score: 0.261905
+    passes_gate: false
+  - folio: f31v
+    section: H
+    words: 108
+    scored: 90
+    fsm_score: 0.222222
+    passes_gate: false
+  - folio: f32r
+    section: H
+    words: 73
+    scored: 60
+    fsm_score: 0.200000
+    passes_gate: false
+  - folio: f32v
+    section: H
+    words: 75
+    scored: 61
+    fsm_score: 0.229508
+    passes_gate: false
+  - folio: f33r
+    section: H
+    words: 72
+    scored: 60
+    fsm_score: 0.250000
+    passes_gate: false
+  - folio: f33v
+    section: H
+    words: 88
+    scored: 65
+    fsm_score: 0.138462
+    passes_gate: false
+  - folio: f34r
+    section: H
+    words: 118
+    scored: 92
+    fsm_score: 0.315217
+    passes_gate: false
+  - folio: f34v
+    section: H
+    words: 115
+    scored: 101
+    fsm_score: 0.207921
+    passes_gate: false
+  - folio: f35r
+    section: H
+    words: 88
+    scored: 75
+    fsm_score: 0.333333
+    passes_gate: false
+  - folio: f35v
+    section: H
+    words: 87
+    scored: 66
+    fsm_score: 0.257576
+    passes_gate: false
+  - folio: f36r
+    section: H
+    words: 52
+    scored: 46
+    fsm_score: 0.152174
+    passes_gate: false
+  - folio: f36v
+    section: H
+    words: 69
+    scored: 53
+    fsm_score: 0.188679
+    passes_gate: false
+  - folio: f37r
+    section: H
+    words: 72
+    scored: 57
+    fsm_score: 0.298246
+    passes_gate: false
+  - folio: f37v
+    section: H
+    words: 88
+    scored: 76
+    fsm_score: 0.157895
+    passes_gate: false
+  - folio: f38r
+    section: H
+    words: 35
+    scored: 30
+    fsm_score: 0.333333
+    passes_gate: false
+  - folio: f38v
+    section: H
+    words: 58
+    scored: 44
+    fsm_score: 0.250000
+    passes_gate: false
+  - folio: f39r
+    section: H
+    words: 153
+    scored: 124
+    fsm_score: 0.177419
+    passes_gate: false
+  - folio: f39v
+    section: H
+    words: 135
+    scored: 94
+    fsm_score: 0.159574
+    passes_gate: false
+  - folio: f3r
+    section: H
+    words: 110
+    scored: 95
+    fsm_score: 0.168421
+    passes_gate: false
+  - folio: f3v
+    section: H
+    words: 83
+    scored: 65
+    fsm_score: 0.123077
+    passes_gate: false
+  - folio: f40r
+    section: H
+    words: 87
+    scored: 65
+    fsm_score: 0.169231
+    passes_gate: false
+  - folio: f40v
+    section: H
+    words: 100
+    scored: 82
+    fsm_score: 0.292683
+    passes_gate: false
+  - folio: f41r
+    section: H
+    words: 86
+    scored: 79
+    fsm_score: 0.310127
+    passes_gate: false
+  - folio: f41v
+    section: H
+    words: 62
+    scored: 54
+    fsm_score: 0.240741
+    passes_gate: false
+  - folio: f42r
+    section: H
+    words: 135
+    scored: 115
+    fsm_score: 0.173913
+    passes_gate: false
+  - folio: f42v
+    section: H
+    words: 97
+    scored: 79
+    fsm_score: 0.253165
+    passes_gate: false
+  - folio: f43r
+    section: H
+    words: 150
+    scored: 118
+    fsm_score: 0.203390
+    passes_gate: false
+  - folio: f43v
+    section: H
+    words: 153
+    scored: 129
+    fsm_score: 0.139535
+    passes_gate: false
+  - folio: f44r
+    section: H
+    words: 75
+    scored: 61
+    fsm_score: 0.098361
+    passes_gate: false
+  - folio: f44v
+    section: H
+    words: 95
+    scored: 80
+    fsm_score: 0.162500
+    passes_gate: false
+  - folio: f45r
+    section: H
+    words: 86
+    scored: 66
+    fsm_score: 0.106061
+    passes_gate: false
+  - folio: f45v
+    section: H
+    words: 77
+    scored: 59
+    fsm_score: 0.118644
+    passes_gate: false
+  - folio: f46r
+    section: H
+    words: 157
+    scored: 133
+    fsm_score: 0.135338
+    passes_gate: false
+  - folio: f46v
+    section: H
+    words: 109
+    scored: 91
+    fsm_score: 0.153846
+    passes_gate: false
+  - folio: f47r
+    section: H
+    words: 79
+    scored: 66
+    fsm_score: 0.136364
+    passes_gate: false
+  - folio: f47v
+    section: H
+    words: 74
+    scored: 57
+    fsm_score: 0.228070
+    passes_gate: false
+  - folio: f48r
+    section: H
+    words: 89
+    scored: 75
+    fsm_score: 0.226667
+    passes_gate: false
+  - folio: f48v
+    section: H
+    words: 112
+    scored: 91
+    fsm_score: 0.170330
+    passes_gate: false
+  - folio: f49r
+    section: H
+    words: 113
+    scored: 93
+    fsm_score: 0.204301
+    passes_gate: false
+  - folio: f49v
+    section: H
+    words: 151
+    scored: 111
+    fsm_score: 0.387387
+    passes_gate: false
+  - folio: f4r
+    section: H
+    words: 60
+    scored: 54
+    fsm_score: 0.222222
+    passes_gate: false
+  - folio: f4v
+    section: H
+    words: 78
+    scored: 65
+    fsm_score: 0.246154
+    passes_gate: false
+  - folio: f50r
+    section: H
+    words: 87
+    scored: 70
+    fsm_score: 0.271429
+    passes_gate: false
+  - folio: f50v
+    section: H
+    words: 96
+    scored: 81
+    fsm_score: 0.209877
+    passes_gate: false
+  - folio: f51r
+    section: H
+    words: 82
+    scored: 74
+    fsm_score: 0.270270
+    passes_gate: false
+  - folio: f51v
+    section: H
+    words: 72
+    scored: 66
+    fsm_score: 0.303030
+    passes_gate: false
+  - folio: f52r
+    section: H
+    words: 62
+    scored: 45
+    fsm_score: 0.222222
+    passes_gate: false
+  - folio: f52v
+    section: H
+    words: 74
+    scored: 63
+    fsm_score: 0.253968
+    passes_gate: false
+  - folio: f53r
+    section: H
+    words: 52
+    scored: 41
+    fsm_score: 0.219512
+    passes_gate: false
+  - folio: f53v
+    section: H
+    words: 74
+    scored: 65
+    fsm_score: 0.169231
+    passes_gate: false
+  - folio: f54r
+    section: H
+    words: 100
+    scored: 61
+    fsm_score: 0.180328
+    passes_gate: false
+  - folio: f54v
+    section: H
+    words: 90
+    scored: 67
+    fsm_score: 0.164179
+    passes_gate: false
+  - folio: f55r
+    section: H
+    words: 124
+    scored: 94
+    fsm_score: 0.127660
+    passes_gate: false
+  - folio: f55v
+    section: H
+    words: 93
+    scored: 77
+    fsm_score: 0.201299
+    passes_gate: false
+  - folio: f56r
+    section: H
+    words: 97
+    scored: 78
+    fsm_score: 0.256410
+    passes_gate: false
+  - folio: f56v
+    section: H
+    words: 86
+    scored: 77
+    fsm_score: 0.298701
+    passes_gate: false
+  - folio: f57r
+    section: H
+    words: 83
+    scored: 75
+    fsm_score: 0.373333
+    passes_gate: false
+  # ── Cosmological ──
+  - folio: f57v
+    section: C
+    words: 121
+    scored: 55
+    fsm_score: 0.054545
+    passes_gate: false
+  # ── Text/Recipes ──
+  - folio: f58r
+    section: T
+    words: 367
+    scored: 304
+    fsm_score: 0.115132
+    passes_gate: false
+  - folio: f58v
+    section: T
+    words: 365
+    scored: 309
+    fsm_score: 0.145631
+    passes_gate: false
+  # ── Herbal ──
+  - folio: f5r
+    section: H
+    words: 55
+    scored: 45
+    fsm_score: 0.155556
+    passes_gate: false
+  - folio: f5v
+    section: H
+    words: 45
+    scored: 41
+    fsm_score: 0.121951
+    passes_gate: false
+  - folio: f65r
+    section: H
+    words: 3
+    scored: 2
+    fsm_score: 0.000000
+    passes_gate: false
+  - folio: f65v
+    section: H
+    words: 38
+    scored: 33
+    fsm_score: 0.272727
+    passes_gate: false
+  # ── Text/Recipes ──
+  - folio: f66r
+    section: T
+    words: 345
+    scored: 271
+    fsm_score: 0.250923
+    passes_gate: false
+  # ── Herbal ──
+  - folio: f66v
+    section: H
+    words: 112
+    scored: 95
+    fsm_score: 0.157895
+    passes_gate: false
+  # ── Astrological ──
+  - folio: f67r1
+    section: A
+    words: 155
+    scored: 119
+    fsm_score: 0.201681
+    passes_gate: false
+  - folio: f67r2
+    section: A
+    words: 174
+    scored: 141
+    fsm_score: 0.106383
+    passes_gate: false
+  - folio: f67v1
+    section: A
+    words: 69
+    scored: 61
+    fsm_score: 0.262295
+    passes_gate: false
+  # ── Cosmological ──
+  - folio: f67v2
+    section: C
+    words: 58
+    scored: 43
+    fsm_score: 0.069767
+    passes_gate: false
+  # ── Astrological ──
+  - folio: f68r1
+    section: A
+    words: 63
+    scored: 60
+    fsm_score: 0.266667
+    passes_gate: false
+  - folio: f68r2
+    section: A
+    words: 79
+    scored: 74
+    fsm_score: 0.236486
+    passes_gate: false
+  - folio: f68r3
+    section: A
+    words: 100
+    scored: 86
+    fsm_score: 0.302326
+    passes_gate: false
+  - folio: f68v1
+    section: A
+    words: 96
+    scored: 75
+    fsm_score: 0.213333
+    passes_gate: false
+  - folio: f68v2
+    section: A
+    words: 94
+    scored: 85
+    fsm_score: 0.282353
+    passes_gate: false
+  # ── Cosmological ──
+  - folio: f68v3
+    section: C
+    words: 158
+    scored: 129
+    fsm_score: 0.193798
+    passes_gate: false
+  - folio: f69r
+    section: C
+    words: 164
+    scored: 105
+    fsm_score: 0.142857
+    passes_gate: false
+  - folio: f69v
+    section: C
+    words: 132
+    scored: 101
+    fsm_score: 0.099010
+    passes_gate: false
+  # ── Herbal ──
+  - folio: f6r
+    section: H
+    words: 79
+    scored: 59
+    fsm_score: 0.220339
+    passes_gate: false
+  - folio: f6v
+    section: H
+    words: 112
+    scored: 86
+    fsm_score: 0.104651
+    passes_gate: false
+  # ── Cosmological ──
+  - folio: f70r1
+    section: C
+    words: 109
+    scored: 80
+    fsm_score: 0.200000
+    passes_gate: false
+  - folio: f70r2
+    section: C
+    words: 246
+    scored: 169
+    fsm_score: 0.142012
+    passes_gate: false
+  # ── Zodiac ──
+  - folio: f70v1
+    section: Z
+    words: 86
+    scored: 74
+    fsm_score: 0.256757
+    passes_gate: false
+  - folio: f70v2
+    section: Z
+    words: 138
+    scored: 102
+    fsm_score: 0.176471
+    passes_gate: false
+  - folio: f71r
+    section: Z
+    words: 90
+    scored: 73
+    fsm_score: 0.246575
+    passes_gate: false
+  - folio: f71v
+    section: Z
+    words: 99
+    scored: 77
+    fsm_score: 0.188312
+    passes_gate: false
+  - folio: f72r1
+    section: Z
+    words: 104
+    scored: 86
+    fsm_score: 0.220930
+    passes_gate: false
+  - folio: f72r2
+    section: Z
+    words: 109
+    scored: 87
+    fsm_score: 0.183908
+    passes_gate: false
+  - folio: f72r3
+    section: Z
+    words: 161
+    scored: 137
+    fsm_score: 0.218978
+    passes_gate: false
+  - folio: f72v1
+    section: Z
+    words: 98
+    scored: 90
+    fsm_score: 0.111111
+    passes_gate: false
+  - folio: f72v2
+    section: Z
+    words: 105
+    scored: 93
+    fsm_score: 0.161290
+    passes_gate: false
+  - folio: f72v3
+    section: Z
+    words: 111
+    scored: 97
+    fsm_score: 0.154639
+    passes_gate: false
+  - folio: f73r
+    section: Z
+    words: 94
+    scored: 80
+    fsm_score: 0.250000
+    passes_gate: false
+  - folio: f73v
+    section: Z
+    words: 97
+    scored: 85
+    fsm_score: 0.211765
+    passes_gate: false
+  # ── Biological ──
+  - folio: f75r
+    section: B
+    words: 392
+    scored: 307
+    fsm_score: 0.328990
+    passes_gate: false
+  - folio: f75v
+    section: B
+    words: 347
+    scored: 262
+    fsm_score: 0.290076
+    passes_gate: false
+  - folio: f76r
+    section: B
+    words: 555
+    scored: 456
+    fsm_score: 0.197368
+    passes_gate: false
+  - folio: f76v
+    section: B
+    words: 400
+    scored: 343
+    fsm_score: 0.338192
+    passes_gate: false
+  - folio: f77r
+    section: B
+    words: 325
+    scored: 277
+    fsm_score: 0.425993
+    passes_gate: false
+  - folio: f77v
+    section: B
+    words: 335
+    scored: 283
+    fsm_score: 0.268551
+    passes_gate: false
+  - folio: f78r
+    section: B
+    words: 293
+    scored: 230
+    fsm_score: 0.295652
+    passes_gate: false
+  - folio: f78v
+    section: B
+    words: 292
+    scored: 202
+    fsm_score: 0.257426
+    passes_gate: false
+  - folio: f79r
+    section: B
+    words: 389
+    scored: 309
+    fsm_score: 0.223301
+    passes_gate: false
+  - folio: f79v
+    section: B
+    words: 354
+    scored: 288
+    fsm_score: 0.340278
+    passes_gate: false
+  # ── Herbal ──
+  - folio: f7r
+    section: H
+    words: 52
+    scored: 51
+    fsm_score: 0.411765
+    passes_gate: false
+  - folio: f7v
+    section: H
+    words: 70
+    scored: 57
+    fsm_score: 0.298246
+    passes_gate: false
+  # ── Biological ──
+  - folio: f80r
+    section: B
+    words: 440
+    scored: 364
+    fsm_score: 0.273352
+    passes_gate: false
+  - folio: f80v
+    section: B
+    words: 378
+    scored: 300
+    fsm_score: 0.223333
+    passes_gate: false
+  - folio: f81r
+    section: B
+    words: 207
+    scored: 158
+    fsm_score: 0.246835
+    passes_gate: false
+  - folio: f81v
+    section: B
+    words: 258
+    scored: 201
+    fsm_score: 0.159204
+    passes_gate: false
+  - folio: f82r
+    section: B
+    words: 285
+    scored: 255
+    fsm_score: 0.380392
+    passes_gate: false
+  - folio: f82v
+    section: B
+    words: 313
+    scored: 273
+    fsm_score: 0.260073
+    passes_gate: false
+  - folio: f83r
+    section: B
+    words: 340
+    scored: 300
+    fsm_score: 0.343333
+    passes_gate: false
+  - folio: f83v
+    section: B
+    words: 261
+    scored: 224
+    fsm_score: 0.303571
+    passes_gate: false
+  - folio: f84r
+    section: B
+    words: 361
+    scored: 287
+    fsm_score: 0.236934
+    passes_gate: false
+  - folio: f84v
+    section: B
+    words: 337
+    scored: 279
+    fsm_score: 0.207885
+    passes_gate: false
+  # ── Text/Recipes ──
+  - folio: f85r1
+    section: T
+    words: 333
+    scored: 291
+    fsm_score: 0.247423
+    passes_gate: false
+  # ── Cosmological ──
+  - folio: f85r2
+    section: C
+    words: 155
+    scored: 125
+    fsm_score: 0.208000
+    passes_gate: false
+  - folio: f86v3
+    section: C
+    words: 274
+    scored: 243
+    fsm_score: 0.300412
+    passes_gate: false
+  - folio: f86v4
+    section: C
+    words: 183
+    scored: 139
+    fsm_score: 0.215827
+    passes_gate: false
+  - folio: f86v5
+    section: C
+    words: 381
+    scored: 310
+    fsm_score: 0.135484
+    passes_gate: false
+  - folio: f86v6
+    section: C
+    words: 479
+    scored: 391
+    fsm_score: 0.195652
+    passes_gate: false
+  # ── Herbal ──
+  - folio: f87r
+    section: H
+    words: 98
+    scored: 86
+    fsm_score: 0.255814
+    passes_gate: false
+  - folio: f87v
+    section: H
+    words: 74
+    scored: 66
+    fsm_score: 0.323232
+    passes_gate: false
+  # ── Pharmaceutical ──
+  - folio: f88r
+    section: P
+    words: 149
+    scored: 120
+    fsm_score: 0.133333
+    passes_gate: false
+  - folio: f88v
+    section: P
+    words: 145
+    scored: 132
+    fsm_score: 0.280303
+    passes_gate: false
+  - folio: f89r1
+    section: P
+    words: 137
+    scored: 111
+    fsm_score: 0.234234
+    passes_gate: false
+  - folio: f89r2
+    section: P
+    words: 237
+    scored: 192
+    fsm_score: 0.171875
+    passes_gate: false
+  - folio: f89v1
+    section: P
+    words: 159
+    scored: 132
+    fsm_score: 0.151515
+    passes_gate: false
+  - folio: f89v2
+    section: P
+    words: 158
+    scored: 134
+    fsm_score: 0.149254
+    passes_gate: false
+  # ── Herbal ──
+  - folio: f8r
+    section: H
+    words: 129
+    scored: 110
+    fsm_score: 0.254545
+    passes_gate: false
+  - folio: f8v
+    section: H
+    words: 102
+    scored: 91
+    fsm_score: 0.201465
+    passes_gate: false
+  - folio: f90r1
+    section: H
+    words: 69
+    scored: 58
+    fsm_score: 0.189655
+    passes_gate: false
+  - folio: f90r2
+    section: H
+    words: 44
+    scored: 34
+    fsm_score: 0.205882
+    passes_gate: false
+  - folio: f90v1
+    section: H
+    words: 78
+    scored: 70
+    fsm_score: 0.314286
+    passes_gate: false
+  - folio: f90v2
+    section: H
+    words: 63
+    scored: 53
+    fsm_score: 0.226415
+    passes_gate: false
+  - folio: f93r
+    section: H
+    words: 148
+    scored: 115
+    fsm_score: 0.226087
+    passes_gate: false
+  - folio: f93v
+    section: H
+    words: 69
+    scored: 62
+    fsm_score: 0.451613
+    passes_gate: false
+  - folio: f94r
+    section: H
+    words: 80
+    scored: 61
+    fsm_score: 0.196721
+    passes_gate: false
+  - folio: f94v
+    section: H
+    words: 91
+    scored: 72
+    fsm_score: 0.263889
+    passes_gate: false
+  - folio: f95r1
+    section: H
+    words: 103
+    scored: 85
+    fsm_score: 0.258824
+    passes_gate: false
+  - folio: f95r2
+    section: H
+    words: 79
+    scored: 68
+    fsm_score: 0.073529
+    passes_gate: false
+  - folio: f95v1
+    section: H
+    words: 117
+    scored: 100
+    fsm_score: 0.210000
+    passes_gate: false
+  - folio: f95v2
+    section: H
+    words: 59
+    scored: 50
+    fsm_score: 0.180000
+    passes_gate: false
+  - folio: f96r
+    section: H
+    words: 77
+    scored: 66
+    fsm_score: 0.344697
+    passes_gate: false
+  - folio: f96v
+    section: H
+    words: 56
+    scored: 45
+    fsm_score: 0.200000
+    passes_gate: false
+  # ── Pharmaceutical ──
+  - folio: f99r
+    section: P
+    words: 197
+    scored: 163
+    fsm_score: 0.134969
+    passes_gate: false
+  - folio: f99v
+    section: P
+    words: 163
+    scored: 146
+    fsm_score: 0.232877
+    passes_gate: false
+  # ── Herbal ──
+  - folio: f9r
+    section: H
+    words: 73
+    scored: 65
+    fsm_score: 0.261538
+    passes_gate: false
+  # ── Cosmological ──
+  - folio: f9v
+    section: C
+    words: 72
+    scored: 63
+    fsm_score: 0.158730
+    passes_gate: false

@@ -1,0 +1,149 @@
+---
+# voynich-fsm.yaml — Canonical Voynich FSM Specification
+# Source: archive/design-docs/voynich notes.md + booLang Semantics.md
+# Authority: non-authoritative (derived from corpus analysis, not from original manuscript authority)
+# Referenced by: C006 (booLang Semantics), C007 (solving-voynich), health score gate
+# blid: BLID_spec_voynich_fsm_c006
+---
+
+fsm:
+  id: voynich_word_fsm
+  version: 1
+  authority: non-authoritative
+  description: >
+    Finite-state machine describing the morphological structure of Voynich words.
+    Derived from transition frequency analysis of the Voynich manuscript corpus.
+    A W32 token is FSM-valid if it can be produced by this machine starting from
+    STATE_PREFIX and terminating at STATE_PREFIX or STATE_CORE.
+
+  # ── Alphabet ────────────────────────────────────────────────────────────────
+  alphabet:
+    size: 18
+    # EVA (European Voynich Alphabet) subset covering ~95% of corpus tokens
+    chars: [o, e, h, y, a, c, d, i, k, l, q, s, t, r, n, f, ch, sh]
+    note: >
+      ch and sh are digraphs treated as single phoneme units.
+      Alphabet is closed — no token should require characters outside this set.
+
+  # ── States ──────────────────────────────────────────────────────────────────
+  states:
+    - id: STATE_PREFIX
+      label: prefix
+      numeric: 3
+      role: >
+        Word onset. Structural prefix syllable. High-frequency return state.
+        Also functions as PIVOT (word terminus) when the machine cycles back here.
+      motifs: [qok, che, she, cho, dai, ota]
+
+    - id: STATE_CORE
+      label: core
+      numeric: 4
+      role: >
+        Central word body. Highest-frequency state. Most transitions return here.
+        Carries the semantic load of the token.
+      motifs: [oke, hed, aii, tee, kai, lch]
+
+    - id: STATE_OPERATOR
+      label: operator
+      numeric: 5
+      role: >
+        Morphological operator / suffix bridge. Links core to its expansion.
+        Lower frequency than CORE but required for full word completion.
+      motifs: [edy, eey, eed, iin, ody]
+
+  # ── Transitions (from corpus frequency analysis) ────────────────────────────
+  transitions:
+    # Empirical counts from manuscript transition matrix
+    - from: STATE_CORE
+      to: STATE_PREFIX
+      count: 4669
+      weight: 0.347
+      label: core→pivot (word boundary / reset)
+
+    - from: STATE_PREFIX
+      to: STATE_PREFIX
+      count: 4161
+      weight: 0.310
+      label: prefix→prefix (onset chaining)
+
+    - from: STATE_PREFIX
+      to: STATE_CORE
+      count: 3864
+      weight: 0.288
+      label: prefix→core (standard onset→body)
+
+    - from: STATE_CORE
+      to: STATE_CORE
+      count: 2606
+      weight: 0.194
+      label: core→core (body extension)
+
+    - from: STATE_OPERATOR
+      to: STATE_CORE
+      count: 2529
+      weight: 0.188
+      label: operator→core (suffix→body return)
+
+    - from: STATE_CORE
+      to: STATE_OPERATOR
+      count: 2328
+      weight: 0.173
+      label: core→operator (body→suffix bridge)
+
+  # ── Canonical Word Shape ────────────────────────────────────────────────────
+  canonical_sequence:
+    pattern: STATE_PREFIX → STATE_CORE → STATE_OPERATOR → STATE_CORE → STATE_PREFIX
+    description: >
+      The minimal complete Voynich word. A token that follows this path exactly
+      scores 1.0 against the FSM. Partial matches score proportionally.
+    example_production:
+      prefix: "che"
+      core: "oke"
+      operator: "edy"
+      core_return: "tee"
+      pivot: "dai"
+      assembled: "cheokedyteedai"
+
+  # ── Scoring Rule ─────────────────────────────────────────────────────────────
+  scoring:
+    method: transition_compliance_ratio
+    formula: >
+      score(token) = (valid_transitions_in_token) / (total_transitions_in_token)
+      where a transition is valid if it appears in the transitions table above.
+    threshold:
+      pass: 0.9183
+      label: "9109/9919 governor ratio — canonical booLang health gate"
+    health_score: >
+      health(output) = mean(score(t) for t in output_tokens)
+      A compiled booLang program achieves ideal semantics when health ≥ 0.9183.
+
+  # ── Validator Contract ───────────────────────────────────────────────────────
+  validator:
+    input: string   # a single W32 / Voynich token
+    output: number  # [0.0 .. 1.0] compliance score
+    pure: true      # no side effects, no I/O
+    implementation_target: "spec/voynich-fsm-validator.ts"
+    fabric_pattern_target: "~/.config/fabric/my_patterns/voynich_translate/system.md"
+
+  # ── Motif Index (for Fabric pattern generation) ──────────────────────────────
+  motif_index:
+    PREFIX:
+      - qok
+      - che
+      - she
+      - cho
+      - dai
+      - ota
+    CORE:
+      - oke
+      - hed
+      - aii
+      - tee
+      - kai
+      - lch
+    OPERATOR:
+      - edy
+      - eey
+      - eed
+      - iin
+      - ody

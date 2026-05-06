@@ -1,0 +1,6 @@
+{
+  "tasks": {
+    "test": "deno test --allow-net src/",
+    "test:canonical": "deno test --allow-net src/canonical_octet_test.ts"
+  }
+}

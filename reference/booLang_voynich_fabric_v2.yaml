@@ -1,0 +1,552 @@
+version: 2.0
+
+system_name: booLang_voynich_prompt_genome_execution_fabric
+
+description: >
+  Unified booLang execution fabric for Voynich manuscript research using
+  structured prompts, ChatML serialization, LLM runtime execution, validation,
+  scoring, and prompt genome evolution. Prompts are treated as first-class
+  artifacts that can be mutated, benchmarked, and evolved to improve research
+  reasoning quality.
+
+execution_model: swarm_distributed
+
+design_goals:
+  - explicit_prompt_structure
+  - deterministic_serialization
+  - artifact_driven_prompt_execution
+  - evolvable_prompt_genomes
+  - hypothesis_driven_research
+  - benchmark_driven_selection
+  - disciplined_uncertainty_handling
+
+
+# ============================================================
+# LAYER 1 — ARTIFACT MODEL
+# ============================================================
+
+artifacts:
+
+  prompt:
+    description: >
+      Canonical structured prompt artifact before serialization.
+    fields:
+      artifact_id: string
+      artifact_type: string
+      system: string
+      user: string
+      metadata: map
+    constraints:
+      artifact_type:
+        equals: prompt
+      required:
+        - artifact_id
+        - artifact_type
+        - user
+
+  serialized_prompt:
+    description: >
+      Fully encoded prompt payload sent to an LLM runtime.
+    fields:
+      artifact_id: string
+      artifact_type: string
+      format: string
+      content: string
+      stop_tokens: list
+      metadata: map
+
+  response:
+    description: >
+      Runtime completion returned by a model node.
+    fields:
+      artifact_id: string
+      artifact_type: string
+      parent_prompt_id: string
+      assistant: string
+      metadata: map
+
+  prompt_genome:
+    description: >
+      Evolvable semantic representation of a research prompt.
+    fields:
+      artifact_id: string
+      artifact_type: string
+      genome_id: string
+      prompt_blueprint: map
+      mutation_history: list
+      lineage: map
+      fitness: map
+      metadata: map
+
+  benchmark_result:
+    description: >
+      Evaluation artifact linking genome, prompt, response, and scores.
+    fields:
+      artifact_id: string
+      artifact_type: string
+      genome_id: string
+      prompt_id: string
+      response_id: string
+      benchmark_suite: string
+      scores: map
+      metadata: map
+
+
+# ============================================================
+# LAYER 2 — PACKET FABRIC
+# ============================================================
+
+packet_fabric:
+
+  packet_identity: uuid
+
+  packet_types:
+    - artifact
+    - prompt
+    - serialized_prompt
+    - response
+    - genome
+    - benchmark
+    - telemetry
+
+  payload_formats:
+    - yaml
+    - json
+    - txt
+
+  routing_policy:
+    default_mode: directed_acyclic_pipeline
+    retry_policy: bounded_retry
+    max_retries: 2
+
+  routes:
+
+    research_prompt_execution:
+      path:
+        - prompt_encoder
+        - llm_runtime
+        - response_validator
+        - scoring_engine
+
+    genome_research_cycle:
+      path:
+        - genome_materializer
+        - prompt_encoder
+        - llm_runtime
+        - response_validator
+        - benchmark_engine
+        - scoring_engine
+        - selection_engine
+
+
+# ============================================================
+# PROMPT SERIALIZATION PROTOCOL
+# ============================================================
+
+prompt_protocol:
+
+  name: chatml
+
+  tokens:
+    start: "<|im_start|>"
+    end: "<|im_end|>"
+
+  roles:
+    system: system
+    user: user
+    assistant: assistant
+
+  assistant_start_token: "<|im_start|>assistant"
+
+  stop_tokens:
+    - "<|im_end|>"
+    - "<|im_start|>"
+
+
+# ============================================================
+# TEMPLATE LAYER
+# ============================================================
+
+prompt_template:
+
+  engine: go_template
+
+  template: |
+    {{ if .System }}<|im_start|>system
+    {{ .System }}<|im_end|>
+    {{ end }}{{ if .Prompt }}<|im_start|>user
+    {{ .Prompt }}<|im_end|>
+    {{ end }}<|im_start|>assistant
+
+
+# ============================================================
+# PROMPT GENOME MODEL
+# ============================================================
+
+prompt_genome_model:
+
+  blueprint_schema:
+
+    role_instruction:
+      type: string
+      description: >
+        Core identity instruction for the assistant.
+
+    task_framing:
+      type: string
+      description: >
+        Research task presented to the assistant.
+
+    reasoning_style:
+      type: enum
+      values:
+        - stepwise
+        - exploratory
+        - comparative
+        - hypothesis_driven
+        - analytical
+
+    domain_bias:
+      type: enum
+      values:
+        - linguistic
+        - symbolic
+        - historical
+        - cryptanalytic
+        - interdisciplinary
+
+    constraint_pack:
+      type: list
+      allowed_values:
+        - distinguish_evidence_from_inference
+        - preserve_uncertainty
+        - compare_multiple_hypotheses
+        - avoid_false_decoding_claims
+        - cite_observable_features
+        - maintain_symbol_consistency
+
+    output_contract:
+      type: string
+
+    tone:
+      type: enum
+      values:
+        - neutral
+        - analytical
+        - scholarly
+        - exploratory
+
+    verbosity:
+      type: integer
+      min: 1
+      max: 10
+
+    safety_posture:
+      type: enum
+      values:
+        - research
+        - conservative
+        - exploratory
+
+  materialization_rules:
+    compose_system_from:
+      - role_instruction
+      - reasoning_style
+      - domain_bias
+      - constraint_pack
+      - output_contract
+      - tone
+      - verbosity
+      - safety_posture
+    compose_user_from:
+      - task_framing
+
+
+# ============================================================
+# MUTATION MODEL
+# ============================================================
+
+mutation_model:
+
+  operators:
+
+    mutate_reasoning_style:
+      target: prompt_blueprint.reasoning_style
+      method: enum_switch
+
+    mutate_domain_bias:
+      target: prompt_blueprint.domain_bias
+      method: enum_switch
+
+    mutate_tone:
+      target: prompt_blueprint.tone
+      method: enum_switch
+
+    mutate_verbosity:
+      target: prompt_blueprint.verbosity
+      method: bounded_increment
+      min: 1
+      max: 10
+
+    add_constraint:
+      target: prompt_blueprint.constraint_pack
+      method: set_add
+
+    remove_constraint:
+      target: prompt_blueprint.constraint_pack
+      method: set_remove
+
+    rewrite_output_contract:
+      target: prompt_blueprint.output_contract
+      method: controlled_rewrite
+
+    refine_role_instruction:
+      target: prompt_blueprint.role_instruction
+      method: controlled_rewrite
+
+  safeguards:
+    preserve_task_intent: true
+    preserve_domain_alignment: true
+
+
+# ============================================================
+# FITNESS MODEL
+# ============================================================
+
+fitness_model:
+
+  description: >
+    Scores prompts based on research quality.
+
+  score_components:
+
+    evidence_discipline:
+      weight: 0.20
+
+    hypothesis_separation:
+      weight: 0.18
+
+    reasoning_clarity:
+      weight: 0.17
+
+    symbolic_consistency:
+      weight: 0.13
+
+    uncertainty_handling:
+      weight: 0.10
+
+    output_structure:
+      weight: 0.09
+
+    # C007-step2: FSM health score added post-C006. Measures fraction of W32
+    # output tokens that pass the Voynich FSM (STATE3→4→5→4→3).
+    # Validator: spec/voynich-fsm-validator.ts  threshold: 9109/9919 ≈ 0.9183
+    fsm_health_score:
+      weight: 0.13
+      validator: spec/voynich-fsm-validator.ts
+      threshold: 0.9183385421917532  # 9109/9919 — canonical governor ratio
+
+  aggregate_method: weighted_sum
+
+  # C007-step2 triage: old thresholds (0.65/0.78/0.90) had no FSM anchor.
+  # Replaced with 9109/9919-aligned thresholds. archive_candidate raised from
+  # 0.65 → 0.82 (below governor is a DEMOTE, not an archive candidate).
+  promotion_thresholds:
+    archive_candidate: 0.82   # below governor but not worthless
+    reusable_template: 0.9183 # == 9109/9919 — must clear the governor gate
+    elite_genome: 0.96
+
+
+# ============================================================
+# NODE DEFINITIONS
+# ============================================================
+
+nodes:
+
+  genome_materializer:
+
+    input_artifact: prompt_genome
+    output_artifact: prompt
+
+    process:
+      steps:
+        - validate_blueprint
+        - compose_system_text
+        - compose_user_text
+        - emit_prompt_artifact
+
+  prompt_encoder:
+
+    input_artifact: prompt
+    output_artifact: serialized_prompt
+
+    process:
+      steps:
+        - apply_template
+        - attach_protocol_metadata
+
+  llm_runtime:
+
+    input_artifact: serialized_prompt
+    output_artifact: response
+
+    execution:
+      inference:
+        temperature: 0.7
+        max_tokens: 2000
+        stop_tokens:
+          - "<|im_end|>"
+          - "<|im_start|>"
+
+  response_validator:
+
+    checks:
+      - not_empty
+      - valid_utf8
+      - no_unclosed_tokens
+      # C007-step2: FSM compliance check added post-C006
+      # Extracts W32/Voynich tokens from response, scores via FSM validator.
+      # Gate: fsm_health_score >= 9109/9919. Fails → logic_gate = 0 (halt).
+      - fsm_compliance
+
+  benchmark_engine:
+
+    benchmark_suites:
+      default:
+        - evidence_discipline
+        - hypothesis_separation
+        - reasoning_clarity
+        - symbolic_consistency
+        - uncertainty_handling
+        - output_structure
+
+  scoring_engine:
+
+    scoring:
+      model_ref: fitness_model
+
+  selection_engine:
+
+    process:
+      steps:
+        - evaluate_fitness
+        - promote_or_archive
+
+
+# ============================================================
+# EXAMPLE GENOME
+# ============================================================
+
+examples:
+
+  example_prompt_genome:
+
+    artifact_id: genome_voynich_001
+    artifact_type: prompt_genome
+    genome_id: voynich_genome_seed
+
+    prompt_blueprint:
+
+      role_instruction: >
+        You are a research assistant specializing in the Voynich manuscript,
+        historical linguistics, and symbolic manuscript analysis.
+
+      task_framing: >
+        Examine the repeating glyph clusters in Voynich manuscript line
+        transcriptions and propose multiple hypotheses for what structural
+        role they might serve.
+
+      reasoning_style: hypothesis_driven
+
+      domain_bias: linguistic
+
+      constraint_pack:
+        - distinguish_evidence_from_inference
+        - preserve_uncertainty
+        - compare_multiple_hypotheses
+        - avoid_false_decoding_claims
+
+      output_contract: >
+        Provide at least three competing hypotheses and clearly separate
+        evidence from speculation.
+
+      tone: scholarly
+
+      verbosity: 6
+
+      safety_posture: research
+
+    mutation_history: []
+
+    lineage:
+      parents: []
+      generation: 0
+
+    fitness:
+      composite: null
+
+    metadata:
+      dataset: voynich_transcription_samples
+
+
+# ============================================================
+# NOTES
+# ============================================================
+
+notes:
+
+  - >
+    Prompts are serialized using ChatML tokens:
+    <|im_start|>system ... <|im_end|>
+    <|im_start|>user ... <|im_end|>
+    <|im_start|>assistant
+
+  - >
+    The system treats prompts as evolvable genomes rather than static text.
+
+
+# ============================================================
+# C007 RULE TRIAGE (2026-04-26)
+# Applied post-C006 FSM spec. Decision rule: rules with no FSM
+# justification are DEMOTE; rules that produce FSM-valid output KEEP.
+# ============================================================
+
+c007_triage:
+
+  verdict_date: "2026-04-26"
+  unblocked_by: "C006 — spec/voynich-fsm.yaml + spec/voynich-fsm-validator.ts"
+
+  decisions:
+
+    fitness_model.promotion_thresholds:
+      old: { archive_candidate: 0.65, reusable_template: 0.78, elite_genome: 0.90 }
+      verdict: REPLACED
+      reason: >
+        Old thresholds had no FSM anchor. 0.65 is below the 9109/9919 governor —
+        a sub-governor genome should not be an archive_candidate; it is a DEMOTE.
+        Replaced with 9109/9919-aligned values (0.82 / 0.9183 / 0.96).
+
+    response_validator.checks:
+      old: [not_empty, valid_utf8, no_unclosed_tokens]
+      verdict: EXTENDED
+      reason: >
+        Keyword-only validation cannot score novel W32 tokens. FSM compliance
+        check added as fourth gate. logic_gate = 0 on FSM fail (halt semantics).
+
+    fitness_model.score_components.fsm_health_score:
+      verdict: ADDED
+      reason: >
+        FSM compliance is the primary measure of Voynich IR quality. Weight 0.13
+        (equal to symbolic_consistency). Raises reusable_template threshold to 0.9183.
+
+    mutation_model.operators:
+      verdict: KEEP
+      reason: >
+        All 8 mutation operators (reasoning_style, domain_bias, tone, verbosity,
+        add_constraint, remove_constraint, rewrite_output_contract,
+        refine_role_instruction) produce research output that can be FSM-scored.
+        No operator is intrinsically anti-FSM. Keep all.
+
+    genome_materializer / prompt_encoder / llm_runtime:
+      verdict: KEEP
+      reason: Pipeline nodes are domain-neutral; FSM gate is applied at response_validator.

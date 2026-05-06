@@ -1,0 +1,14 @@
+{
+  "generated": "2026-05-05T16:11:32.111Z",
+  "standalone": false,
+  "masterBLID": "3b14c5aa62afe6a455b8c06c0e8a539849046589cc847f8b899622d4c8bdd68c",
+  "masterHash12": "3b14c5aa62af",
+  "invariantsFP": "f664750e57da0fffb7e78d6525795413a109c1d01e315ee6b100384f9043ac42",
+  "cicFP": "eaeca11b55b53629be2d8f9ab1e80a833bc5d766b88c349c2a07d423646fb28d",
+  "voynich": {
+    "masterBLID": "cho.lch.che.dai.edy.ota.kai.kai.oke.she.kai.iin.eed.oke.kai.dai.ota.ota.lch.aii.edy.qok.oke.edy.qok.eed.aii.kai.ota.cho.tee.aii.dai.tee.qok.dai.oke.ota.aii.tee.edy.edy.aii.dai.hed.iin.aii.lch.aii.tee.tee.oke.she.she.eey.dai.edy.aii.lch.eey.eey.oke.aii.edy",
+    "invariantsFP": "iin.oke.oke.dai.hed.ota.qok.eed.ota.hed.eey.kai.qok.iin.iin.iin.lch.hed.eed.hed.aii.eey.oke.ota.she.ota.hed.tee.ota.dai.che.cho.kai.che.qok.tee.edy.che.eey.qok.che.eed.cho.che.ota.eed.eed.oke.lch.che.qok.qok.cho.aii.dai.iin.tee.qok.dai.cho.kai.edy.dai.she",
+    "cicFP": "eed.kai.eed.edy.kai.che.che.lch.ota.ota.lch.ota.cho.oke.she.tee.lch.eed.she.eey.aii.iin.tee.kai.lch.che.eed.aii.qok.kai.aii.cho.cho.lch.edy.ota.eey.hed.oke.oke.lch.aii.aii.edy.cho.dai.tee.edy.she.kai.qok.hed.eey.dai.she.cho.oke.dai.oke.iin.lch.she.aii.eey"
+  },
+  "genesisHash": "714f1df7578526d08ec9a5c4934d5e3fccd8ba727771444c41023412a86db23b"
+}

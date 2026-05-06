@@ -1,0 +1,1403 @@
+# Voynich Manuscript — Folio Index
+# Generated: 2026-04-26
+# Source: Takahashi EVA transcription (IVTFF format)
+# Total folios: 226
+# Total words:  36906
+
+sections:
+  A: { name: "Astrological", folios: 8 }
+  B: { name: "Biological", folios: 20 }
+  C: { name: "Cosmological", folios: 13 }
+  H: { name: "Herbal", folios: 128 }
+  P: { name: "Pharmaceutical", folios: 16 }
+  S: { name: "Stars", folios: 24 }
+  T: { name: "Text/Recipes", folios: 5 }
+  Z: { name: "Zodiac", folios: 12 }
+
+folios:
+  # ── Pharmaceutical ─────────────────────────────────────────────
+  - folio: f100r
+    section: P
+    quire: S
+    page: C
+    words: 110
+    file: folios/f100r.voynich
+  - folio: f100v
+    section: P
+    quire: S
+    page: D
+    words: 91
+    file: folios/f100v.voynich
+  - folio: f101r
+    section: P
+    quire: S
+    page: E
+    words: 204
+    file: folios/f101r.voynich
+  - folio: f101v
+    section: P
+    quire: S
+    page: H
+    words: 187
+    file: folios/f101v.voynich
+  - folio: f102r1
+    section: P
+    quire: S
+    page: L
+    words: 104
+    file: folios/f102r1.voynich
+  - folio: f102r2
+    section: P
+    quire: S
+    page: M
+    words: 131
+    file: folios/f102r2.voynich
+  - folio: f102v1
+    section: P
+    quire: S
+    page: P
+    words: 125
+    file: folios/f102v1.voynich
+  - folio: f102v2
+    section: P
+    quire: S
+    page: O
+    words: 179
+    file: folios/f102v2.voynich
+  # ── Stars ─────────────────────────────────────────────
+  - folio: f103r
+    section: S
+    quire: T
+    page: A
+    words: 522
+    file: folios/f103r.voynich
+  - folio: f103v
+    section: S
+    quire: T
+    page: B
+    words: 449
+    file: folios/f103v.voynich
+  - folio: f104r
+    section: S
+    quire: T
+    page: C
+    words: 438
+    file: folios/f104r.voynich
+  - folio: f104v
+    section: S
+    quire: T
+    page: D
+    words: 458
+    file: folios/f104v.voynich
+  - folio: f105r
+    section: S
+    quire: T
+    page: E
+    words: 368
+    file: folios/f105r.voynich
+  - folio: f105v
+    section: S
+    quire: T
+    page: F
+    words: 390
+    file: folios/f105v.voynich
+  - folio: f106r
+    section: S
+    quire: T
+    page: G
+    words: 421
+    file: folios/f106r.voynich
+  - folio: f106v
+    section: S
+    quire: T
+    page: H
+    words: 449
+    file: folios/f106v.voynich
+  - folio: f107r
+    section: S
+    quire: T
+    page: I
+    words: 488
+    file: folios/f107r.voynich
+  - folio: f107v
+    section: S
+    quire: T
+    page: J
+    words: 455
+    file: folios/f107v.voynich
+  - folio: f108r
+    section: S
+    quire: T
+    page: K
+    words: 491
+    file: folios/f108r.voynich
+  - folio: f108v
+    section: S
+    quire: T
+    page: L
+    words: 570
+    file: folios/f108v.voynich
+  # ── Herbal ─────────────────────────────────────────────
+  - folio: f10r
+    section: H
+    quire: B
+    page: C
+    words: 86
+    file: folios/f10r.voynich
+  - folio: f10v
+    section: H
+    quire: B
+    page: D
+    words: 53
+    file: folios/f10v.voynich
+  # ── Stars ─────────────────────────────────────────────
+  - folio: f111r
+    section: S
+    quire: T
+    page: M
+    words: 614
+    file: folios/f111r.voynich
+  - folio: f111v
+    section: S
+    quire: T
+    page: N
+    words: 561
+    file: folios/f111v.voynich
+  - folio: f112r
+    section: S
+    quire: T
+    page: O
+    words: 394
+    file: folios/f112r.voynich
+  - folio: f112v
+    section: S
+    quire: T
+    page: P
+    words: 415
+    file: folios/f112v.voynich
+  - folio: f113r
+    section: S
+    quire: T
+    page: Q
+    words: 518
+    file: folios/f113r.voynich
+  - folio: f113v
+    section: S
+    quire: T
+    page: R
+    words: 481
+    file: folios/f113v.voynich
+  - folio: f114r
+    section: S
+    quire: T
+    page: S
+    words: 447
+    file: folios/f114r.voynich
+  - folio: f114v
+    section: S
+    quire: T
+    page: T
+    words: 362
+    file: folios/f114v.voynich
+  - folio: f115r
+    section: S
+    quire: T
+    page: U
+    words: 444
+    file: folios/f115r.voynich
+  - folio: f115v
+    section: S
+    quire: T
+    page: V
+    words: 399
+    file: folios/f115v.voynich
+  - folio: f116r
+    section: S
+    quire: T
+    page: W
+    words: 537
+    file: folios/f116r.voynich
+  - folio: f116v
+    section: S
+    quire: T
+    page: X
+    words: 0
+    file: folios/f116v.voynich
+  # ── Herbal ─────────────────────────────────────────────
+  - folio: f11r
+    section: H
+    quire: B
+    page: E
+    words: 57
+    file: folios/f11r.voynich
+  - folio: f11v
+    section: H
+    quire: B
+    page: F
+    words: 42
+    file: folios/f11v.voynich
+  - folio: f13r
+    section: H
+    quire: B
+    page: G
+    words: 75
+    file: folios/f13r.voynich
+  - folio: f13v
+    section: H
+    quire: B
+    page: H
+    words: 59
+    file: folios/f13v.voynich
+  - folio: f14r
+    section: H
+    quire: B
+    page: I
+    words: 73
+    file: folios/f14r.voynich
+  - folio: f14v
+    section: H
+    quire: B
+    page: J
+    words: 65
+    file: folios/f14v.voynich
+  - folio: f15r
+    section: H
+    quire: B
+    page: K
+    words: 75
+    file: folios/f15r.voynich
+  - folio: f15v
+    section: H
+    quire: B
+    page: L
+    words: 70
+    file: folios/f15v.voynich
+  - folio: f16r
+    section: H
+    quire: B
+    page: M
+    words: 75
+    file: folios/f16r.voynich
+  - folio: f16v
+    section: H
+    quire: B
+    page: N
+    words: 73
+    file: folios/f16v.voynich
+  - folio: f17r
+    section: H
+    quire: C
+    page: A
+    words: 69
+    file: folios/f17r.voynich
+  - folio: f17v
+    section: H
+    quire: C
+    page: B
+    words: 134
+    file: folios/f17v.voynich
+  - folio: f18r
+    section: H
+    quire: C
+    page: C
+    words: 79
+    file: folios/f18r.voynich
+  - folio: f18v
+    section: H
+    quire: C
+    page: D
+    words: 71
+    file: folios/f18v.voynich
+  - folio: f19r
+    section: H
+    quire: C
+    page: E
+    words: 76
+    file: folios/f19r.voynich
+  - folio: f19v
+    section: H
+    quire: C
+    page: F
+    words: 77
+    file: folios/f19v.voynich
+  # ── Text/Recipes ─────────────────────────────────────────────
+  - folio: f1r
+    section: T
+    quire: A
+    page: A
+    words: 202
+    file: folios/f1r.voynich
+  # ── Herbal ─────────────────────────────────────────────
+  - folio: f1v
+    section: H
+    quire: A
+    page: B
+    words: 80
+    file: folios/f1v.voynich
+  - folio: f20r
+    section: H
+    quire: C
+    page: G
+    words: 85
+    file: folios/f20r.voynich
+  - folio: f20v
+    section: H
+    quire: C
+    page: H
+    words: 88
+    file: folios/f20v.voynich
+  - folio: f21r
+    section: H
+    quire: C
+    page: I
+    words: 95
+    file: folios/f21r.voynich
+  - folio: f21v
+    section: H
+    quire: C
+    page: J
+    words: 56
+    file: folios/f21v.voynich
+  - folio: f22r
+    section: H
+    quire: C
+    page: K
+    words: 99
+    file: folios/f22r.voynich
+  - folio: f22v
+    section: H
+    quire: C
+    page: L
+    words: 69
+    file: folios/f22v.voynich
+  - folio: f23r
+    section: H
+    quire: C
+    page: M
+    words: 101
+    file: folios/f23r.voynich
+  - folio: f23v
+    section: H
+    quire: C
+    page: N
+    words: 80
+    file: folios/f23v.voynich
+  - folio: f24r
+    section: H
+    quire: C
+    page: O
+    words: 106
+    file: folios/f24r.voynich
+  - folio: f24v
+    section: H
+    quire: C
+    page: P
+    words: 80
+    file: folios/f24v.voynich
+  - folio: f25r
+    section: H
+    quire: D
+    page: A
+    words: 48
+    file: folios/f25r.voynich
+  - folio: f25v
+    section: H
+    quire: D
+    page: B
+    words: 55
+    file: folios/f25v.voynich
+  - folio: f26r
+    section: H
+    quire: D
+    page: C
+    words: 67
+    file: folios/f26r.voynich
+  - folio: f26v
+    section: H
+    quire: D
+    page: D
+    words: 89
+    file: folios/f26v.voynich
+  - folio: f27r
+    section: H
+    quire: D
+    page: E
+    words: 82
+    file: folios/f27r.voynich
+  - folio: f27v
+    section: H
+    quire: D
+    page: F
+    words: 51
+    file: folios/f27v.voynich
+  - folio: f28r
+    section: H
+    quire: D
+    page: G
+    words: 59
+    file: folios/f28r.voynich
+  - folio: f28v
+    section: H
+    quire: D
+    page: H
+    words: 63
+    file: folios/f28v.voynich
+  - folio: f29r
+    section: H
+    quire: D
+    page: I
+    words: 60
+    file: folios/f29r.voynich
+  - folio: f29v
+    section: H
+    quire: D
+    page: J
+    words: 74
+    file: folios/f29v.voynich
+  - folio: f2r
+    section: H
+    quire: A
+    page: C
+    words: 78
+    file: folios/f2r.voynich
+  - folio: f2v
+    section: H
+    quire: A
+    page: D
+    words: 55
+    file: folios/f2v.voynich
+  - folio: f30r
+    section: H
+    quire: D
+    page: K
+    words: 88
+    file: folios/f30r.voynich
+  - folio: f30v
+    section: H
+    quire: D
+    page: L
+    words: 63
+    file: folios/f30v.voynich
+  - folio: f31r
+    section: H
+    quire: D
+    page: M
+    words: 100
+    file: folios/f31r.voynich
+  - folio: f31v
+    section: H
+    quire: D
+    page: N
+    words: 108
+    file: folios/f31v.voynich
+  - folio: f32r
+    section: H
+    quire: D
+    page: O
+    words: 73
+    file: folios/f32r.voynich
+  - folio: f32v
+    section: H
+    quire: D
+    page: P
+    words: 75
+    file: folios/f32v.voynich
+  - folio: f33r
+    section: H
+    quire: E
+    page: A
+    words: 72
+    file: folios/f33r.voynich
+  - folio: f33v
+    section: H
+    quire: E
+    page: B
+    words: 88
+    file: folios/f33v.voynich
+  - folio: f34r
+    section: H
+    quire: E
+    page: C
+    words: 118
+    file: folios/f34r.voynich
+  - folio: f34v
+    section: H
+    quire: E
+    page: D
+    words: 115
+    file: folios/f34v.voynich
+  - folio: f35r
+    section: H
+    quire: E
+    page: E
+    words: 88
+    file: folios/f35r.voynich
+  - folio: f35v
+    section: H
+    quire: E
+    page: F
+    words: 87
+    file: folios/f35v.voynich
+  - folio: f36r
+    section: H
+    quire: E
+    page: G
+    words: 52
+    file: folios/f36r.voynich
+  - folio: f36v
+    section: H
+    quire: E
+    page: H
+    words: 69
+    file: folios/f36v.voynich
+  - folio: f37r
+    section: H
+    quire: E
+    page: I
+    words: 72
+    file: folios/f37r.voynich
+  - folio: f37v
+    section: H
+    quire: E
+    page: J
+    words: 88
+    file: folios/f37v.voynich
+  - folio: f38r
+    section: H
+    quire: E
+    page: K
+    words: 35
+    file: folios/f38r.voynich
+  - folio: f38v
+    section: H
+    quire: E
+    page: L
+    words: 58
+    file: folios/f38v.voynich
+  - folio: f39r
+    section: H
+    quire: E
+    page: M
+    words: 153
+    file: folios/f39r.voynich
+  - folio: f39v
+    section: H
+    quire: E
+    page: N
+    words: 135
+    file: folios/f39v.voynich
+  - folio: f3r
+    section: H
+    quire: A
+    page: E
+    words: 110
+    file: folios/f3r.voynich
+  - folio: f3v
+    section: H
+    quire: A
+    page: F
+    words: 83
+    file: folios/f3v.voynich
+  - folio: f40r
+    section: H
+    quire: E
+    page: O
+    words: 87
+    file: folios/f40r.voynich
+  - folio: f40v
+    section: H
+    quire: E
+    page: P
+    words: 100
+    file: folios/f40v.voynich
+  - folio: f41r
+    section: H
+    quire: F
+    page: A
+    words: 86
+    file: folios/f41r.voynich
+  - folio: f41v
+    section: H
+    quire: F
+    page: B
+    words: 62
+    file: folios/f41v.voynich
+  - folio: f42r
+    section: H
+    quire: F
+    page: C
+    words: 135
+    file: folios/f42r.voynich
+  - folio: f42v
+    section: H
+    quire: F
+    page: D
+    words: 97
+    file: folios/f42v.voynich
+  - folio: f43r
+    section: H
+    quire: F
+    page: E
+    words: 150
+    file: folios/f43r.voynich
+  - folio: f43v
+    section: H
+    quire: F
+    page: F
+    words: 153
+    file: folios/f43v.voynich
+  - folio: f44r
+    section: H
+    quire: F
+    page: G
+    words: 75
+    file: folios/f44r.voynich
+  - folio: f44v
+    section: H
+    quire: F
+    page: H
+    words: 95
+    file: folios/f44v.voynich
+  - folio: f45r
+    section: H
+    quire: F
+    page: I
+    words: 86
+    file: folios/f45r.voynich
+  - folio: f45v
+    section: H
+    quire: F
+    page: J
+    words: 77
+    file: folios/f45v.voynich
+  - folio: f46r
+    section: H
+    quire: F
+    page: K
+    words: 157
+    file: folios/f46r.voynich
+  - folio: f46v
+    section: H
+    quire: F
+    page: L
+    words: 109
+    file: folios/f46v.voynich
+  - folio: f47r
+    section: H
+    quire: F
+    page: M
+    words: 79
+    file: folios/f47r.voynich
+  - folio: f47v
+    section: H
+    quire: F
+    page: N
+    words: 74
+    file: folios/f47v.voynich
+  - folio: f48r
+    section: H
+    quire: F
+    page: O
+    words: 89
+    file: folios/f48r.voynich
+  - folio: f48v
+    section: H
+    quire: F
+    page: P
+    words: 112
+    file: folios/f48v.voynich
+  - folio: f49r
+    section: H
+    quire: G
+    page: A
+    words: 113
+    file: folios/f49r.voynich
+  - folio: f49v
+    section: H
+    quire: G
+    page: B
+    words: 151
+    file: folios/f49v.voynich
+  - folio: f4r
+    section: H
+    quire: A
+    page: G
+    words: 60
+    file: folios/f4r.voynich
+  - folio: f4v
+    section: H
+    quire: A
+    page: H
+    words: 78
+    file: folios/f4v.voynich
+  - folio: f50r
+    section: H
+    quire: G
+    page: C
+    words: 87
+    file: folios/f50r.voynich
+  - folio: f50v
+    section: H
+    quire: G
+    page: D
+    words: 96
+    file: folios/f50v.voynich
+  - folio: f51r
+    section: H
+    quire: G
+    page: E
+    words: 82
+    file: folios/f51r.voynich
+  - folio: f51v
+    section: H
+    quire: G
+    page: F
+    words: 72
+    file: folios/f51v.voynich
+  - folio: f52r
+    section: H
+    quire: G
+    page: G
+    words: 62
+    file: folios/f52r.voynich
+  - folio: f52v
+    section: H
+    quire: G
+    page: H
+    words: 74
+    file: folios/f52v.voynich
+  - folio: f53r
+    section: H
+    quire: G
+    page: I
+    words: 52
+    file: folios/f53r.voynich
+  - folio: f53v
+    section: H
+    quire: G
+    page: J
+    words: 74
+    file: folios/f53v.voynich
+  - folio: f54r
+    section: H
+    quire: G
+    page: K
+    words: 100
+    file: folios/f54r.voynich
+  - folio: f54v
+    section: H
+    quire: G
+    page: L
+    words: 90
+    file: folios/f54v.voynich
+  - folio: f55r
+    section: H
+    quire: G
+    page: M
+    words: 124
+    file: folios/f55r.voynich
+  - folio: f55v
+    section: H
+    quire: G
+    page: N
+    words: 93
+    file: folios/f55v.voynich
+  - folio: f56r
+    section: H
+    quire: G
+    page: O
+    words: 97
+    file: folios/f56r.voynich
+  - folio: f56v
+    section: H
+    quire: G
+    page: P
+    words: 86
+    file: folios/f56v.voynich
+  - folio: f57r
+    section: H
+    quire: H
+    page: A
+    words: 83
+    file: folios/f57r.voynich
+  # ── Cosmological ─────────────────────────────────────────────
+  - folio: f57v
+    section: C
+    quire: H
+    page: B
+    words: 121
+    file: folios/f57v.voynich
+  # ── Text/Recipes ─────────────────────────────────────────────
+  - folio: f58r
+    section: T
+    quire: H
+    page: C
+    words: 367
+    file: folios/f58r.voynich
+  - folio: f58v
+    section: T
+    quire: H
+    page: D
+    words: 365
+    file: folios/f58v.voynich
+  # ── Herbal ─────────────────────────────────────────────
+  - folio: f5r
+    section: H
+    quire: A
+    page: I
+    words: 55
+    file: folios/f5r.voynich
+  - folio: f5v
+    section: H
+    quire: A
+    page: J
+    words: 45
+    file: folios/f5v.voynich
+  - folio: f65r
+    section: H
+    quire: H
+    page: E
+    words: 3
+    file: folios/f65r.voynich
+  - folio: f65v
+    section: H
+    quire: H
+    page: F
+    words: 38
+    file: folios/f65v.voynich
+  # ── Text/Recipes ─────────────────────────────────────────────
+  - folio: f66r
+    section: T
+    quire: H
+    page: G
+    words: 345
+    file: folios/f66r.voynich
+  # ── Herbal ─────────────────────────────────────────────
+  - folio: f66v
+    section: H
+    quire: H
+    page: H
+    words: 112
+    file: folios/f66v.voynich
+  # ── Astrological ─────────────────────────────────────────────
+  - folio: f67r1
+    section: A
+    quire: I
+    page: B
+    words: 155
+    file: folios/f67r1.voynich
+  - folio: f67r2
+    section: A
+    quire: I
+    page: C
+    words: 174
+    file: folios/f67r2.voynich
+  - folio: f67v1
+    section: A
+    quire: I
+    page: F
+    words: 69
+    file: folios/f67v1.voynich
+  # ── Cosmological ─────────────────────────────────────────────
+  - folio: f67v2
+    section: C
+    quire: I
+    page: E
+    words: 58
+    file: folios/f67v2.voynich
+  # ── Astrological ─────────────────────────────────────────────
+  - folio: f68r1
+    section: A
+    quire: I
+    page: H
+    words: 63
+    file: folios/f68r1.voynich
+  - folio: f68r2
+    section: A
+    quire: I
+    page: I
+    words: 79
+    file: folios/f68r2.voynich
+  - folio: f68r3
+    section: A
+    quire: I
+    page: J
+    words: 100
+    file: folios/f68r3.voynich
+  - folio: f68v1
+    section: A
+    quire: I
+    page: N
+    words: 96
+    file: folios/f68v1.voynich
+  - folio: f68v2
+    section: A
+    quire: I
+    page: M
+    words: 94
+    file: folios/f68v2.voynich
+  # ── Cosmological ─────────────────────────────────────────────
+  - folio: f68v3
+    section: C
+    quire: I
+    page: L
+    words: 158
+    file: folios/f68v3.voynich
+  - folio: f69r
+    section: C
+    quire: J
+    page: A
+    words: 164
+    file: folios/f69r.voynich
+  - folio: f69v
+    section: C
+    quire: J
+    page: B
+    words: 132
+    file: folios/f69v.voynich
+  # ── Herbal ─────────────────────────────────────────────
+  - folio: f6r
+    section: H
+    quire: A
+    page: K
+    words: 79
+    file: folios/f6r.voynich
+  - folio: f6v
+    section: H
+    quire: A
+    page: L
+    words: 112
+    file: folios/f6v.voynich
+  # ── Cosmological ─────────────────────────────────────────────
+  - folio: f70r1
+    section: C
+    quire: J
+    page: D
+    words: 109
+    file: folios/f70r1.voynich
+  - folio: f70r2
+    section: C
+    quire: J
+    page: E
+    words: 246
+    file: folios/f70r2.voynich
+  # ── Zodiac ─────────────────────────────────────────────
+  - folio: f70v1
+    section: Z
+    quire: J
+    page: H
+    words: 86
+    file: folios/f70v1.voynich
+  - folio: f70v2
+    section: Z
+    quire: J
+    page: G
+    words: 138
+    file: folios/f70v2.voynich
+  - folio: f71r
+    section: Z
+    quire: K
+    page: A
+    words: 90
+    file: folios/f71r.voynich
+  - folio: f71v
+    section: Z
+    quire: K
+    page: B
+    words: 99
+    file: folios/f71v.voynich
+  - folio: f72r1
+    section: Z
+    quire: K
+    page: D
+    words: 104
+    file: folios/f72r1.voynich
+  - folio: f72r2
+    section: Z
+    quire: K
+    page: E
+    words: 109
+    file: folios/f72r2.voynich
+  - folio: f72r3
+    section: Z
+    quire: K
+    page: F
+    words: 161
+    file: folios/f72r3.voynich
+  - folio: f72v1
+    section: Z
+    quire: K
+    page: J
+    words: 98
+    file: folios/f72v1.voynich
+  - folio: f72v2
+    section: Z
+    quire: K
+    page: I
+    words: 105
+    file: folios/f72v2.voynich
+  - folio: f72v3
+    section: Z
+    quire: K
+    page: H
+    words: 111
+    file: folios/f72v3.voynich
+  - folio: f73r
+    section: Z
+    quire: L
+    page: A
+    words: 94
+    file: folios/f73r.voynich
+  - folio: f73v
+    section: Z
+    quire: L
+    page: B
+    words: 97
+    file: folios/f73v.voynich
+  # ── Biological ─────────────────────────────────────────────
+  - folio: f75r
+    section: B
+    quire: M
+    page: A
+    words: 392
+    file: folios/f75r.voynich
+  - folio: f75v
+    section: B
+    quire: M
+    page: B
+    words: 347
+    file: folios/f75v.voynich
+  - folio: f76r
+    section: B
+    quire: M
+    page: C
+    words: 555
+    file: folios/f76r.voynich
+  - folio: f76v
+    section: B
+    quire: M
+    page: D
+    words: 400
+    file: folios/f76v.voynich
+  - folio: f77r
+    section: B
+    quire: M
+    page: E
+    words: 325
+    file: folios/f77r.voynich
+  - folio: f77v
+    section: B
+    quire: M
+    page: F
+    words: 335
+    file: folios/f77v.voynich
+  - folio: f78r
+    section: B
+    quire: M
+    page: G
+    words: 293
+    file: folios/f78r.voynich
+  - folio: f78v
+    section: B
+    quire: M
+    page: H
+    words: 292
+    file: folios/f78v.voynich
+  - folio: f79r
+    section: B
+    quire: M
+    page: I
+    words: 389
+    file: folios/f79r.voynich
+  - folio: f79v
+    section: B
+    quire: M
+    page: J
+    words: 354
+    file: folios/f79v.voynich
+  # ── Herbal ─────────────────────────────────────────────
+  - folio: f7r
+    section: H
+    quire: A
+    page: M
+    words: 52
+    file: folios/f7r.voynich
+  - folio: f7v
+    section: H
+    quire: A
+    page: N
+    words: 70
+    file: folios/f7v.voynich
+  # ── Biological ─────────────────────────────────────────────
+  - folio: f80r
+    section: B
+    quire: M
+    page: K
+    words: 440
+    file: folios/f80r.voynich
+  - folio: f80v
+    section: B
+    quire: M
+    page: L
+    words: 378
+    file: folios/f80v.voynich
+  - folio: f81r
+    section: B
+    quire: M
+    page: M
+    words: 207
+    file: folios/f81r.voynich
+  - folio: f81v
+    section: B
+    quire: M
+    page: N
+    words: 258
+    file: folios/f81v.voynich
+  - folio: f82r
+    section: B
+    quire: M
+    page: O
+    words: 285
+    file: folios/f82r.voynich
+  - folio: f82v
+    section: B
+    quire: M
+    page: P
+    words: 313
+    file: folios/f82v.voynich
+  - folio: f83r
+    section: B
+    quire: M
+    page: Q
+    words: 340
+    file: folios/f83r.voynich
+  - folio: f83v
+    section: B
+    quire: M
+    page: R
+    words: 261
+    file: folios/f83v.voynich
+  - folio: f84r
+    section: B
+    quire: M
+    page: S
+    words: 361
+    file: folios/f84r.voynich
+  - folio: f84v
+    section: B
+    quire: M
+    page: T
+    words: 337
+    file: folios/f84v.voynich
+  # ── Text/Recipes ─────────────────────────────────────────────
+  - folio: f85r1
+    section: T
+    quire: N
+    page: B
+    words: 333
+    file: folios/f85r1.voynich
+  # ── Cosmological ─────────────────────────────────────────────
+  - folio: f85r2
+    section: C
+    quire: N
+    page: C
+    words: 155
+    file: folios/f85r2.voynich
+  - folio: f86v3
+    section: C
+    quire: N
+    page: Q
+    words: 274
+    file: folios/f86v3.voynich
+  - folio: f86v4
+    section: C
+    quire: N
+    page: N
+    words: 183
+    file: folios/f86v4.voynich
+  - folio: f86v5
+    section: C
+    quire: N
+    page: P
+    words: 381
+    file: folios/f86v5.voynich
+  - folio: f86v6
+    section: C
+    quire: N
+    page: O
+    words: 479
+    file: folios/f86v6.voynich
+  # ── Herbal ─────────────────────────────────────────────
+  - folio: f87r
+    section: H
+    quire: O
+    page: A
+    words: 98
+    file: folios/f87r.voynich
+  - folio: f87v
+    section: H
+    quire: O
+    page: B
+    words: 74
+    file: folios/f87v.voynich
+  # ── Pharmaceutical ─────────────────────────────────────────────
+  - folio: f88r
+    section: P
+    quire: O
+    page: C
+    words: 149
+    file: folios/f88r.voynich
+  - folio: f88v
+    section: P
+    quire: O
+    page: D
+    words: 145
+    file: folios/f88v.voynich
+  - folio: f89r1
+    section: P
+    quire: O
+    page: F
+    words: 137
+    file: folios/f89r1.voynich
+  - folio: f89r2
+    section: P
+    quire: O
+    page: G
+    words: 237
+    file: folios/f89r2.voynich
+  - folio: f89v1
+    section: P
+    quire: O
+    page: J
+    words: 159
+    file: folios/f89v1.voynich
+  - folio: f89v2
+    section: P
+    quire: O
+    page: I
+    words: 158
+    file: folios/f89v2.voynich
+  # ── Herbal ─────────────────────────────────────────────
+  - folio: f8r
+    section: H
+    quire: A
+    page: O
+    words: 129
+    file: folios/f8r.voynich
+  - folio: f8v
+    section: H
+    quire: A
+    page: P
+    words: 102
+    file: folios/f8v.voynich
+  - folio: f90r1
+    section: H
+    quire: O
+    page: L
+    words: 69
+    file: folios/f90r1.voynich
+  - folio: f90r2
+    section: H
+    quire: O
+    page: M
+    words: 44
+    file: folios/f90r2.voynich
+  - folio: f90v1
+    section: H
+    quire: O
+    page: P
+    words: 78
+    file: folios/f90v1.voynich
+  - folio: f90v2
+    section: H
+    quire: O
+    page: O
+    words: 63
+    file: folios/f90v2.voynich
+  - folio: f93r
+    section: H
+    quire: Q
+    page: A
+    words: 148
+    file: folios/f93r.voynich
+  - folio: f93v
+    section: H
+    quire: Q
+    page: B
+    words: 69
+    file: folios/f93v.voynich
+  - folio: f94r
+    section: H
+    quire: Q
+    page: C
+    words: 80
+    file: folios/f94r.voynich
+  - folio: f94v
+    section: H
+    quire: Q
+    page: D
+    words: 91
+    file: folios/f94v.voynich
+  - folio: f95r1
+    section: H
+    quire: Q
+    page: F
+    words: 103
+    file: folios/f95r1.voynich
+  - folio: f95r2
+    section: H
+    quire: Q
+    page: G
+    words: 79
+    file: folios/f95r2.voynich
+  - folio: f95v1
+    section: H
+    quire: Q
+    page: J
+    words: 117
+    file: folios/f95v1.voynich
+  - folio: f95v2
+    section: H
+    quire: Q
+    page: I
+    words: 59
+    file: folios/f95v2.voynich
+  - folio: f96r
+    section: H
+    quire: Q
+    page: K
+    words: 77
+    file: folios/f96r.voynich
+  - folio: f96v
+    section: H
+    quire: Q
+    page: L
+    words: 56
+    file: folios/f96v.voynich
+  # ── Pharmaceutical ─────────────────────────────────────────────
+  - folio: f99r
+    section: P
+    quire: S
+    page: A
+    words: 197
+    file: folios/f99r.voynich
+  - folio: f99v
+    section: P
+    quire: S
+    page: B
+    words: 163
+    file: folios/f99v.voynich
+  # ── Herbal ─────────────────────────────────────────────
+  - folio: f9r
+    section: H
+    quire: B
+    page: A
+    words: 73
+    file: folios/f9r.voynich
+  # ── Cosmological ─────────────────────────────────────────────
+  - folio: f9v
+    section: C
+    quire: N
+    page: D
+    words: 72
+    file: folios/f9v.voynich
