@@ -1,0 +1,1607 @@
+{
+  "𐝫": {
+    "compactIndex": 1,
+    "canonicalByte": 1,
+    "state": "ONSET"
+  },
+  "𐙂": {
+    "compactIndex": 2,
+    "canonicalByte": 2,
+    "state": "ONSET"
+  },
+  "𐘾": {
+    "compactIndex": 3,
+    "canonicalByte": 3,
+    "state": "ONSET"
+  },
+  "𐙕": {
+    "compactIndex": 4,
+    "canonicalByte": 4,
+    "state": "ONSET"
+  },
+  "𐘤": {
+    "compactIndex": 5,
+    "canonicalByte": 5,
+    "state": "ONSET"
+  },
+  "𐘇": {
+    "compactIndex": 6,
+    "canonicalByte": 6,
+    "state": "ONSET"
+  },
+  "𐘚": {
+    "compactIndex": 7,
+    "canonicalByte": 7,
+    "state": "ONSET"
+  },
+  "𐘁": {
+    "compactIndex": 8,
+    "canonicalByte": 8,
+    "state": "ONSET"
+  },
+  "𐘱": {
+    "compactIndex": 9,
+    "canonicalByte": 9,
+    "state": "MIXED"
+  },
+  "𐘳": {
+    "compactIndex": 10,
+    "canonicalByte": 10,
+    "state": "BODY"
+  },
+  "𐘅": {
+    "compactIndex": 11,
+    "canonicalByte": 11,
+    "state": "BODY"
+  },
+  "𐘃": {
+    "compactIndex": 12,
+    "canonicalByte": 12,
+    "state": "MIXED"
+  },
+  "𐘞": {
+    "compactIndex": 13,
+    "canonicalByte": 13,
+    "state": "BODY"
+  },
+  "𐘀": {
+    "compactIndex": 14,
+    "canonicalByte": 14,
+    "state": "BODY"
+  },
+  "𐝆": {
+    "compactIndex": 15,
+    "canonicalByte": 15,
+    "state": "ONSET"
+  },
+  "𐘝": {
+    "compactIndex": 16,
+    "canonicalByte": 8,
+    "state": "MIXED"
+  },
+  "𐘸": {
+    "compactIndex": 17,
+    "canonicalByte": 17,
+    "state": "BODY"
+  },
+  "𐘙": {
+    "compactIndex": 18,
+    "canonicalByte": 18,
+    "state": "BODY"
+  },
+  "𐙁": {
+    "compactIndex": 19,
+    "canonicalByte": 19,
+    "state": "BODY"
+  },
+  "𐘴": {
+    "compactIndex": 20,
+    "canonicalByte": 20,
+    "state": "BODY"
+  },
+  "𐘠": {
+    "compactIndex": 21,
+    "canonicalByte": 21,
+    "state": "MIXED"
+  },
+  "𐘆": {
+    "compactIndex": 22,
+    "canonicalByte": 22,
+    "state": "BODY"
+  },
+  "𐘂": {
+    "compactIndex": 23,
+    "canonicalByte": 23,
+    "state": "MIXED"
+  },
+  "𐘻": {
+    "compactIndex": 24,
+    "canonicalByte": 24,
+    "state": "BODY"
+  },
+  "𐘘": {
+    "compactIndex": 25,
+    "canonicalByte": 25,
+    "state": "BODY"
+  },
+  "𐘬": {
+    "compactIndex": 26,
+    "canonicalByte": 26,
+    "state": "BODY"
+  },
+  "𐘭": {
+    "compactIndex": 27,
+    "canonicalByte": 27,
+    "state": "BODY"
+  },
+  "𐝃": {
+    "compactIndex": 28,
+    "canonicalByte": 28,
+    "state": "ONSET"
+  },
+  "𐘹": {
+    "compactIndex": 29,
+    "canonicalByte": 29,
+    "state": "BODY"
+  },
+  "𐘉": {
+    "compactIndex": 30,
+    "canonicalByte": 30,
+    "state": "ONSET"
+  },
+  "𐘈": {
+    "compactIndex": 31,
+    "canonicalByte": 31,
+    "state": "BODY"
+  },
+  "𐙉": {
+    "compactIndex": 32,
+    "canonicalByte": 4,
+    "state": "ONSET"
+  },
+  "𐙍": {
+    "compactIndex": 33,
+    "canonicalByte": 33,
+    "state": "ONSET"
+  },
+  "𐘯": {
+    "compactIndex": 34,
+    "canonicalByte": 34,
+    "state": "BODY"
+  },
+  "𐘢": {
+    "compactIndex": 35,
+    "canonicalByte": 35,
+    "state": "BODY"
+  },
+  "𐘗": {
+    "compactIndex": 36,
+    "canonicalByte": 36,
+    "state": "BODY"
+  },
+  "𐙗": {
+    "compactIndex": 37,
+    "canonicalByte": 37,
+    "state": "ONSET"
+  },
+  "𐘲": {
+    "compactIndex": 38,
+    "canonicalByte": 38,
+    "state": "BODY"
+  },
+  "𐘽": {
+    "compactIndex": 39,
+    "canonicalByte": 39,
+    "state": "CODA"
+  },
+  "𐘮": {
+    "compactIndex": 40,
+    "canonicalByte": 20,
+    "state": "BODY"
+  },
+  "𐘼": {
+    "compactIndex": 41,
+    "canonicalByte": 41,
+    "state": "ONSET"
+  },
+  "𐘰": {
+    "compactIndex": 42,
+    "canonicalByte": 42,
+    "state": "BODY"
+  },
+  "𐘿": {
+    "compactIndex": 43,
+    "canonicalByte": 43,
+    "state": "MIXED"
+  },
+  "𐘌": {
+    "compactIndex": 44,
+    "canonicalByte": 44,
+    "state": "ONSET"
+  },
+  "𐘋": {
+    "compactIndex": 45,
+    "canonicalByte": 45,
+    "state": "CODA"
+  },
+  "𐝂": {
+    "compactIndex": 46,
+    "canonicalByte": 46,
+    "state": "ONSET"
+  },
+  "𐝁": {
+    "compactIndex": 47,
+    "canonicalByte": 47,
+    "state": "ONSET"
+  },
+  "𐘍": {
+    "compactIndex": 48,
+    "canonicalByte": 12,
+    "state": "CODA"
+  },
+  "𐙇": {
+    "compactIndex": 49,
+    "canonicalByte": 49,
+    "state": "ONSET"
+  },
+  "𐘶": {
+    "compactIndex": 50,
+    "canonicalByte": 50,
+    "state": "MIXED"
+  },
+  "𐘦": {
+    "compactIndex": 51,
+    "canonicalByte": 51,
+    "state": "BODY"
+  },
+  "𐝇": {
+    "compactIndex": 52,
+    "canonicalByte": 44,
+    "state": "ONSET"
+  },
+  "𐙀": {
+    "compactIndex": 53,
+    "canonicalByte": 53,
+    "state": "BODY"
+  },
+  "𐝕": {
+    "compactIndex": 54,
+    "canonicalByte": 54,
+    "state": "ONSET"
+  },
+  "𐘡": {
+    "compactIndex": 55,
+    "canonicalByte": 55,
+    "state": "MIXED"
+  },
+  "𐝉": {
+    "compactIndex": 56,
+    "canonicalByte": 28,
+    "state": "MIXED"
+  },
+  "𐘵": {
+    "compactIndex": 57,
+    "canonicalByte": 57,
+    "state": "ONSET"
+  },
+  "𐙘": {
+    "compactIndex": 58,
+    "canonicalByte": 58,
+    "state": "ONSET"
+  },
+  "𐙋": {
+    "compactIndex": 59,
+    "canonicalByte": 59,
+    "state": "ONSET"
+  },
+  "𐙈": {
+    "compactIndex": 60,
+    "canonicalByte": 60,
+    "state": "CODA"
+  },
+  "𐙖": {
+    "compactIndex": 61,
+    "canonicalByte": 61,
+    "state": "ONSET"
+  },
+  "𐘫": {
+    "compactIndex": 62,
+    "canonicalByte": 62,
+    "state": "MIXED"
+  },
+  "𐘣": {
+    "compactIndex": 63,
+    "canonicalByte": 63,
+    "state": "MIXED"
+  },
+  "𐜙": {
+    "compactIndex": 64,
+    "canonicalByte": 2,
+    "state": "ONSET"
+  },
+  "𐘐": {
+    "compactIndex": 65,
+    "canonicalByte": 65,
+    "state": "ONSET"
+  },
+  "𐙚": {
+    "compactIndex": 66,
+    "canonicalByte": 66,
+    "state": "ONSET"
+  },
+  "𐜋": {
+    "compactIndex": 67,
+    "canonicalByte": 67,
+    "state": "ONSET"
+  },
+  "𐛭": {
+    "compactIndex": 68,
+    "canonicalByte": 34,
+    "state": "ONSET"
+  },
+  "𐙙": {
+    "compactIndex": 69,
+    "canonicalByte": 69,
+    "state": "ONSET"
+  },
+  "𐜗": {
+    "compactIndex": 70,
+    "canonicalByte": 70,
+    "state": "ONSET"
+  },
+  "𐜓": {
+    "compactIndex": 71,
+    "canonicalByte": 71,
+    "state": "ONSET"
+  },
+  "𐝄": {
+    "compactIndex": 72,
+    "canonicalByte": 18,
+    "state": "ONSET"
+  },
+  "𐝀": {
+    "compactIndex": 73,
+    "canonicalByte": 73,
+    "state": "ONSET"
+  },
+  "𐘄": {
+    "compactIndex": 74,
+    "canonicalByte": 74,
+    "state": "BODY"
+  },
+  "𐘷": {
+    "compactIndex": 75,
+    "canonicalByte": 75,
+    "state": "CODA"
+  },
+  "𐙓": {
+    "compactIndex": 76,
+    "canonicalByte": 50,
+    "state": "ONSET"
+  },
+  "𐘧": {
+    "compactIndex": 77,
+    "canonicalByte": 77,
+    "state": "MIXED"
+  },
+  "𐘥": {
+    "compactIndex": 78,
+    "canonicalByte": 78,
+    "state": "BODY"
+  },
+  "𐝅": {
+    "compactIndex": 79,
+    "canonicalByte": 79,
+    "state": "ONSET"
+  },
+  "𐘓": {
+    "compactIndex": 80,
+    "canonicalByte": 10,
+    "state": "ONSET"
+  },
+  "𐘕": {
+    "compactIndex": 81,
+    "canonicalByte": 81,
+    "state": "MIXED"
+  },
+  "𐘺": {
+    "compactIndex": 82,
+    "canonicalByte": 74,
+    "state": "BODY"
+  },
+  "𐙐": {
+    "compactIndex": 83,
+    "canonicalByte": 83,
+    "state": "ONSET"
+  },
+  "𐚫": {
+    "compactIndex": 84,
+    "canonicalByte": 42,
+    "state": "ONSET"
+  },
+  "𐙜": {
+    "compactIndex": 85,
+    "canonicalByte": 85,
+    "state": "ONSET"
+  },
+  "𐜚": {
+    "compactIndex": 86,
+    "canonicalByte": 86,
+    "state": "ONSET"
+  },
+  "𐘜": {
+    "compactIndex": 87,
+    "canonicalByte": 87,
+    "state": "BODY"
+  },
+  "𐙅": {
+    "compactIndex": 88,
+    "canonicalByte": 26,
+    "state": "ONSET"
+  },
+  "𐜉": {
+    "compactIndex": 89,
+    "canonicalByte": 89,
+    "state": "ONSET"
+  },
+  "𐙒": {
+    "compactIndex": 90,
+    "canonicalByte": 90,
+    "state": "MIXED"
+  },
+  "𐜈": {
+    "compactIndex": 91,
+    "canonicalByte": 91,
+    "state": "ONSET"
+  },
+  "𐛧": {
+    "compactIndex": 92,
+    "canonicalByte": 58,
+    "state": "ONSET"
+  },
+  "𐛀": {
+    "compactIndex": 93,
+    "canonicalByte": 93,
+    "state": "ONSET"
+  },
+  "𐙠": {
+    "compactIndex": 94,
+    "canonicalByte": 94,
+    "state": "BODY"
+  },
+  "𐝈": {
+    "compactIndex": 95,
+    "canonicalByte": 95,
+    "state": "ONSET"
+  },
+  "𐘨": {
+    "compactIndex": 96,
+    "canonicalByte": 6,
+    "state": "BODY"
+  },
+  "𐜝": {
+    "compactIndex": 97,
+    "canonicalByte": 97,
+    "state": "ONSET"
+  },
+  "𐙢": {
+    "compactIndex": 98,
+    "canonicalByte": 70,
+    "state": "ONSET"
+  },
+  "𐘟": {
+    "compactIndex": 99,
+    "canonicalByte": 99,
+    "state": "BODY"
+  },
+  "𐘊": {
+    "compactIndex": 100,
+    "canonicalByte": 38,
+    "state": "BODY"
+  },
+  "𐙄": {
+    "compactIndex": 101,
+    "canonicalByte": 101,
+    "state": "ONSET"
+  },
+  "𐚻": {
+    "compactIndex": 102,
+    "canonicalByte": 102,
+    "state": "ONSET"
+  },
+  "𐙛": {
+    "compactIndex": 103,
+    "canonicalByte": 103,
+    "state": "ONSET"
+  },
+  "𐙌": {
+    "compactIndex": 104,
+    "canonicalByte": 22,
+    "state": "CODA"
+  },
+  "𐘑": {
+    "compactIndex": 105,
+    "canonicalByte": 105,
+    "state": "ONSET"
+  },
+  "𐛚": {
+    "compactIndex": 106,
+    "canonicalByte": 86,
+    "state": "ONSET"
+  },
+  "𐜐": {
+    "compactIndex": 107,
+    "canonicalByte": 107,
+    "state": "ONSET"
+  },
+  "𐜩": {
+    "compactIndex": 108,
+    "canonicalByte": 54,
+    "state": "MIXED"
+  },
+  "𐛦": {
+    "compactIndex": 109,
+    "canonicalByte": 109,
+    "state": "ONSET"
+  },
+  "𐘖": {
+    "compactIndex": 110,
+    "canonicalByte": 110,
+    "state": "ONSET"
+  },
+  "𐛲": {
+    "compactIndex": 111,
+    "canonicalByte": 111,
+    "state": "ONSET"
+  },
+  "𐙦": {
+    "compactIndex": 112,
+    "canonicalByte": 14,
+    "state": "BODY"
+  },
+  "𐙫": {
+    "compactIndex": 113,
+    "canonicalByte": 113,
+    "state": "ONSET"
+  },
+  "𐚹": {
+    "compactIndex": 114,
+    "canonicalByte": 78,
+    "state": "ONSET"
+  },
+  "𐝓": {
+    "compactIndex": 115,
+    "canonicalByte": 115,
+    "state": "ONSET"
+  },
+  "𐝍": {
+    "compactIndex": 116,
+    "canonicalByte": 46,
+    "state": "ONSET"
+  },
+  "𐙏": {
+    "compactIndex": 117,
+    "canonicalByte": 117,
+    "state": "CODA"
+  },
+  "𐙝": {
+    "compactIndex": 118,
+    "canonicalByte": 110,
+    "state": "ONSET"
+  },
+  "𐜍": {
+    "compactIndex": 119,
+    "canonicalByte": 119,
+    "state": "ONSET"
+  },
+  "𐛱": {
+    "compactIndex": 120,
+    "canonicalByte": 30,
+    "state": "ONSET"
+  },
+  "𐙱": {
+    "compactIndex": 121,
+    "canonicalByte": 121,
+    "state": "BODY"
+  },
+  "𐛉": {
+    "compactIndex": 122,
+    "canonicalByte": 94,
+    "state": "ONSET"
+  },
+  "𐙯": {
+    "compactIndex": 123,
+    "canonicalByte": 123,
+    "state": "ONSET"
+  },
+  "𐘒": {
+    "compactIndex": 124,
+    "canonicalByte": 62,
+    "state": "ONSET"
+  },
+  "𐘛": {
+    "compactIndex": 125,
+    "canonicalByte": 125,
+    "state": "ONSET"
+  },
+  "𐜪": {
+    "compactIndex": 126,
+    "canonicalByte": 126,
+    "state": "ONSET"
+  },
+  "𐚩": {
+    "compactIndex": 127,
+    "canonicalByte": 127,
+    "state": "ONSET"
+  },
+  "𐙎": {
+    "compactIndex": 128,
+    "canonicalByte": 1,
+    "state": "ONSET"
+  },
+  "𐙩": {
+    "compactIndex": 129,
+    "canonicalByte": 129,
+    "state": "ONSET"
+  },
+  "𐙮": {
+    "compactIndex": 130,
+    "canonicalByte": 65,
+    "state": "ONSET"
+  },
+  "𐛢": {
+    "compactIndex": 131,
+    "canonicalByte": 131,
+    "state": "MIXED"
+  },
+  "𐘪": {
+    "compactIndex": 132,
+    "canonicalByte": 33,
+    "state": "CODA"
+  },
+  "𐝎": {
+    "compactIndex": 133,
+    "canonicalByte": 133,
+    "state": "ONSET"
+  },
+  "𐛵": {
+    "compactIndex": 134,
+    "canonicalByte": 97,
+    "state": "ONSET"
+  },
+  "𐙪": {
+    "compactIndex": 135,
+    "canonicalByte": 135,
+    "state": "ONSET"
+  },
+  "𐜎": {
+    "compactIndex": 136,
+    "canonicalByte": 17,
+    "state": "ONSET"
+  },
+  "𐜏": {
+    "compactIndex": 137,
+    "canonicalByte": 137,
+    "state": "MIXED"
+  },
+  "𐚺": {
+    "compactIndex": 138,
+    "canonicalByte": 81,
+    "state": "ONSET"
+  },
+  "𐚢": {
+    "compactIndex": 139,
+    "canonicalByte": 139,
+    "state": "ONSET"
+  },
+  "𐝋": {
+    "compactIndex": 140,
+    "canonicalByte": 49,
+    "state": "MIXED"
+  },
+  "𐙭": {
+    "compactIndex": 141,
+    "canonicalByte": 141,
+    "state": "CODA"
+  },
+  "𐛪": {
+    "compactIndex": 142,
+    "canonicalByte": 113,
+    "state": "ONSET"
+  },
+  "𐝥": {
+    "compactIndex": 143,
+    "canonicalByte": 143,
+    "state": "ONSET"
+  },
+  "𐙨": {
+    "compactIndex": 144,
+    "canonicalByte": 9,
+    "state": "MIXED"
+  },
+  "𐚨": {
+    "compactIndex": 145,
+    "canonicalByte": 137,
+    "state": "ONSET"
+  },
+  "𐘔": {
+    "compactIndex": 146,
+    "canonicalByte": 73,
+    "state": "ONSET"
+  },
+  "𐝏": {
+    "compactIndex": 147,
+    "canonicalByte": 147,
+    "state": "BODY"
+  },
+  "𐙞": {
+    "compactIndex": 148,
+    "canonicalByte": 41,
+    "state": "ONSET"
+  },
+  "𐛿": {
+    "compactIndex": 149,
+    "canonicalByte": 149,
+    "state": "ONSET"
+  },
+  "𐛺": {
+    "compactIndex": 150,
+    "canonicalByte": 105,
+    "state": "ONSET"
+  },
+  "𐙳": {
+    "compactIndex": 151,
+    "canonicalByte": 151,
+    "state": "ONSET"
+  },
+  "𐛷": {
+    "compactIndex": 152,
+    "canonicalByte": 25,
+    "state": "ONSET"
+  },
+  "𐙰": {
+    "compactIndex": 153,
+    "canonicalByte": 153,
+    "state": "ONSET"
+  },
+  "𐛖": {
+    "compactIndex": 154,
+    "canonicalByte": 89,
+    "state": "ONSET"
+  },
+  "𐙲": {
+    "compactIndex": 155,
+    "canonicalByte": 155,
+    "state": "ONSET"
+  },
+  "𐜖": {
+    "compactIndex": 156,
+    "canonicalByte": 57,
+    "state": "ONSET"
+  },
+  "𐜫": {
+    "compactIndex": 157,
+    "canonicalByte": 157,
+    "state": "ONSET"
+  },
+  "𐛛": {
+    "compactIndex": 158,
+    "canonicalByte": 121,
+    "state": "ONSET"
+  },
+  "𐜠": {
+    "compactIndex": 159,
+    "canonicalByte": 159,
+    "state": "ONSET"
+  },
+  "𐜜": {
+    "compactIndex": 160,
+    "canonicalByte": 5,
+    "state": "ONSET"
+  },
+  "𐛥": {
+    "compactIndex": 161,
+    "canonicalByte": 133,
+    "state": "ONSET"
+  },
+  "𐙹": {
+    "compactIndex": 162,
+    "canonicalByte": 69,
+    "state": "ONSET"
+  },
+  "𐛨": {
+    "compactIndex": 163,
+    "canonicalByte": 163,
+    "state": "ONSET"
+  },
+  "𐜨": {
+    "compactIndex": 164,
+    "canonicalByte": 37,
+    "state": "CODA"
+  },
+  "𐙃": {
+    "compactIndex": 165,
+    "canonicalByte": 165,
+    "state": "ONSET"
+  },
+  "𐘏": {
+    "compactIndex": 166,
+    "canonicalByte": 101,
+    "state": "ONSET"
+  },
+  "𐜶": {
+    "compactIndex": 167,
+    "canonicalByte": 167,
+    "state": "ONSET"
+  },
+  "𐜰": {
+    "compactIndex": 168,
+    "canonicalByte": 21,
+    "state": "ONSET"
+  },
+  "𐜅": {
+    "compactIndex": 169,
+    "canonicalByte": 149,
+    "state": "CODA"
+  },
+  "𐙴": {
+    "compactIndex": 170,
+    "canonicalByte": 85,
+    "state": "ONSET"
+  },
+  "𐚽": {
+    "compactIndex": 171,
+    "canonicalByte": 171,
+    "state": "ONSET"
+  },
+  "𐛃": {
+    "compactIndex": 172,
+    "canonicalByte": 53,
+    "state": "ONSET"
+  },
+  "𐛩": {
+    "compactIndex": 173,
+    "canonicalByte": 173,
+    "state": "ONSET"
+  },
+  "𐛳": {
+    "compactIndex": 174,
+    "canonicalByte": 117,
+    "state": "ONSET"
+  },
+  "𐙆": {
+    "compactIndex": 175,
+    "canonicalByte": 175,
+    "state": "BODY"
+  },
+  "𐙵": {
+    "compactIndex": 176,
+    "canonicalByte": 13,
+    "state": "CODA"
+  },
+  "𐜇": {
+    "compactIndex": 177,
+    "canonicalByte": 141,
+    "state": "ONSET"
+  },
+  "𐜊": {
+    "compactIndex": 178,
+    "canonicalByte": 77,
+    "state": "CODA"
+  },
+  "𐜮": {
+    "compactIndex": 179,
+    "canonicalByte": 179,
+    "state": "ONSET"
+  },
+  "𐚪": {
+    "compactIndex": 180,
+    "canonicalByte": 45,
+    "state": "ONSET"
+  },
+  "𐛆": {
+    "compactIndex": 181,
+    "canonicalByte": 173,
+    "state": "ONSET"
+  },
+  "𐛜": {
+    "compactIndex": 182,
+    "canonicalByte": 109,
+    "state": "ONSET"
+  },
+  "𐙷": {
+    "compactIndex": 183,
+    "canonicalByte": 183,
+    "state": "BODY"
+  },
+  "𐚞": {
+    "compactIndex": 184,
+    "canonicalByte": 29,
+    "state": "ONSET"
+  },
+  "𐛁": {
+    "compactIndex": 185,
+    "canonicalByte": 157,
+    "state": "ONSET"
+  },
+  "𐚌": {
+    "compactIndex": 186,
+    "canonicalByte": 93,
+    "state": "BODY"
+  },
+  "𐙻": {
+    "compactIndex": 187,
+    "canonicalByte": 187,
+    "state": "BODY"
+  },
+  "𐙼": {
+    "compactIndex": 188,
+    "canonicalByte": 61,
+    "state": "BODY"
+  },
+  "𐘎": {
+    "compactIndex": 189,
+    "canonicalByte": 189,
+    "state": "MIXED"
+  },
+  "𐙺": {
+    "compactIndex": 190,
+    "canonicalByte": 125,
+    "state": "ONSET"
+  },
+  "𐝌": {
+    "compactIndex": 191,
+    "canonicalByte": 191,
+    "state": "CODA"
+  },
+  "𐜡": {
+    "compactIndex": 192,
+    "canonicalByte": 3,
+    "state": "ONSET"
+  },
+  "𐚳": {
+    "compactIndex": 193,
+    "canonicalByte": 131,
+    "state": "ONSET"
+  },
+  "𐚱": {
+    "compactIndex": 194,
+    "canonicalByte": 67,
+    "state": "ONSET"
+  },
+  "𐜥": {
+    "compactIndex": 195,
+    "canonicalByte": 195,
+    "state": "ONSET"
+  },
+  "𐛝": {
+    "compactIndex": 196,
+    "canonicalByte": 35,
+    "state": "ONSET"
+  },
+  "𐙾": {
+    "compactIndex": 197,
+    "canonicalByte": 163,
+    "state": "ONSET"
+  },
+  "𐝊": {
+    "compactIndex": 198,
+    "canonicalByte": 99,
+    "state": "ONSET"
+  },
+  "𐛻": {
+    "compactIndex": 199,
+    "canonicalByte": 199,
+    "state": "MIXED"
+  },
+  "𐛴": {
+    "compactIndex": 200,
+    "canonicalByte": 19,
+    "state": "ONSET"
+  },
+  "𐜱": {
+    "compactIndex": 201,
+    "canonicalByte": 147,
+    "state": "ONSET"
+  },
+  "𐚾": {
+    "compactIndex": 202,
+    "canonicalByte": 83,
+    "state": "ONSET"
+  },
+  "𐙿": {
+    "compactIndex": 203,
+    "canonicalByte": 203,
+    "state": "BODY"
+  },
+  "𐙑": {
+    "compactIndex": 204,
+    "canonicalByte": 51,
+    "state": "ONSET"
+  },
+  "𐙟": {
+    "compactIndex": 205,
+    "canonicalByte": 179,
+    "state": "ONSET"
+  },
+  "𐜌": {
+    "compactIndex": 206,
+    "canonicalByte": 115,
+    "state": "ONSET"
+  },
+  "𐚗": {
+    "compactIndex": 207,
+    "canonicalByte": 207,
+    "state": "MIXED"
+  },
+  "𐝬": {
+    "compactIndex": 208,
+    "canonicalByte": 11,
+    "state": "ONSET"
+  },
+  "𐚸": {
+    "compactIndex": 209,
+    "canonicalByte": 139,
+    "state": "ONSET"
+  },
+  "𐚷": {
+    "compactIndex": 210,
+    "canonicalByte": 75,
+    "state": "ONSET"
+  },
+  "𐙸": {
+    "compactIndex": 211,
+    "canonicalByte": 203,
+    "state": "ONSET"
+  },
+  "𐛶": {
+    "compactIndex": 212,
+    "canonicalByte": 43,
+    "state": "ONSET"
+  },
+  "𐜧": {
+    "compactIndex": 213,
+    "canonicalByte": 171,
+    "state": "ONSET"
+  },
+  "𐛯": {
+    "compactIndex": 214,
+    "canonicalByte": 107,
+    "state": "ONSET"
+  },
+  "𐜞": {
+    "compactIndex": 215,
+    "canonicalByte": 215,
+    "state": "ONSET"
+  },
+  "𐚅": {
+    "compactIndex": 216,
+    "canonicalByte": 27,
+    "state": "CODA"
+  },
+  "𐚼": {
+    "compactIndex": 217,
+    "canonicalByte": 155,
+    "state": "ONSET"
+  },
+  "𐜘": {
+    "compactIndex": 218,
+    "canonicalByte": 91,
+    "state": "ONSET"
+  },
+  "𐚆": {
+    "compactIndex": 219,
+    "canonicalByte": 219,
+    "state": "ONSET"
+  },
+  "𐛫": {
+    "compactIndex": 220,
+    "canonicalByte": 59,
+    "state": "ONSET"
+  },
+  "𐛼": {
+    "compactIndex": 221,
+    "canonicalByte": 187,
+    "state": "ONSET"
+  },
+  "𐛬": {
+    "compactIndex": 222,
+    "canonicalByte": 123,
+    "state": "ONSET"
+  },
+  "𐛹": {
+    "compactIndex": 223,
+    "canonicalByte": 223,
+    "state": "ONSET"
+  },
+  "𐛸": {
+    "compactIndex": 224,
+    "canonicalByte": 7,
+    "state": "ONSET"
+  },
+  "𐜣": {
+    "compactIndex": 225,
+    "canonicalByte": 135,
+    "state": "ONSET"
+  },
+  "𐛊": {
+    "compactIndex": 226,
+    "canonicalByte": 71,
+    "state": "ONSET"
+  },
+  "𐛋": {
+    "compactIndex": 227,
+    "canonicalByte": 199,
+    "state": "ONSET"
+  },
+  "𐛒": {
+    "compactIndex": 228,
+    "canonicalByte": 39,
+    "state": "ONSET"
+  },
+  "𐛾": {
+    "compactIndex": 229,
+    "canonicalByte": 167,
+    "state": "ONSET"
+  },
+  "𐛽": {
+    "compactIndex": 230,
+    "canonicalByte": 103,
+    "state": "ONSET"
+  },
+  "𐚯": {
+    "compactIndex": 231,
+    "canonicalByte": 231,
+    "state": "ONSET"
+  },
+  "𐚰": {
+    "compactIndex": 232,
+    "canonicalByte": 23,
+    "state": "BODY"
+  },
+  "𐜦": {
+    "compactIndex": 233,
+    "canonicalByte": 151,
+    "state": "ONSET"
+  },
+  "𐛐": {
+    "compactIndex": 234,
+    "canonicalByte": 87,
+    "state": "ONSET"
+  },
+  "𐛅": {
+    "compactIndex": 235,
+    "canonicalByte": 215,
+    "state": "CODA"
+  },
+  "𐛂": {
+    "compactIndex": 236,
+    "canonicalByte": 55,
+    "state": "ONSET"
+  },
+  "𐚣": {
+    "compactIndex": 237,
+    "canonicalByte": 183,
+    "state": "ONSET"
+  },
+  "𐛞": {
+    "compactIndex": 238,
+    "canonicalByte": 119,
+    "state": "ONSET"
+  },
+  "𐛎": {
+    "compactIndex": 239,
+    "canonicalByte": 239,
+    "state": "ONSET"
+  },
+  "𐛏": {
+    "compactIndex": 240,
+    "canonicalByte": 15,
+    "state": "ONSET"
+  },
+  "𐜯": {
+    "compactIndex": 241,
+    "canonicalByte": 143,
+    "state": "ONSET"
+  },
+  "𐛤": {
+    "compactIndex": 242,
+    "canonicalByte": 79,
+    "state": "CODA"
+  },
+  "𐛍": {
+    "compactIndex": 243,
+    "canonicalByte": 207,
+    "state": "ONSET"
+  },
+  "𐚂": {
+    "compactIndex": 244,
+    "canonicalByte": 47,
+    "state": "BODY"
+  },
+  "𐜒": {
+    "compactIndex": 245,
+    "canonicalByte": 175,
+    "state": "ONSET"
+  },
+  "𐜑": {
+    "compactIndex": 246,
+    "canonicalByte": 111,
+    "state": "ONSET"
+  },
+  "𐛗": {
+    "compactIndex": 247,
+    "canonicalByte": 239,
+    "state": "CODA"
+  },
+  "𐛙": {
+    "compactIndex": 248,
+    "canonicalByte": 31,
+    "state": "ONSET"
+  },
+  "𐜤": {
+    "compactIndex": 249,
+    "canonicalByte": 159,
+    "state": "ONSET"
+  },
+  "𐛑": {
+    "compactIndex": 250,
+    "canonicalByte": 95,
+    "state": "ONSET"
+  },
+  "𐛮": {
+    "compactIndex": 251,
+    "canonicalByte": 223,
+    "state": "CODA"
+  },
+  "𐛕": {
+    "compactIndex": 252,
+    "canonicalByte": 63,
+    "state": "ONSET"
+  },
+  "𐚿": {
+    "compactIndex": 253,
+    "canonicalByte": 191,
+    "state": "ONSET"
+  },
+  "𐚴": {
+    "compactIndex": 254,
+    "canonicalByte": 127,
+    "state": "ONSET"
+  },
+  "𐚦": {
+    "compactIndex": 255,
+    "canonicalByte": 255,
+    "state": "ONSET"
+  },
+  "𐚃": {
+    "compactIndex": 256,
+    "canonicalByte": 0,
+    "state": "ONSET"
+  },
+  "𐚄": {
+    "compactIndex": 257,
+    "canonicalByte": 1,
+    "state": "CODA"
+  },
+  "𐛔": {
+    "compactIndex": 258,
+    "canonicalByte": 2,
+    "state": "CODA"
+  },
+  "𐚙": {
+    "compactIndex": 259,
+    "canonicalByte": 3,
+    "state": "ONSET"
+  },
+  "𐚚": {
+    "compactIndex": 260,
+    "canonicalByte": 4,
+    "state": "ONSET"
+  },
+  "𐚛": {
+    "compactIndex": 261,
+    "canonicalByte": 5,
+    "state": "ONSET"
+  },
+  "𐚜": {
+    "compactIndex": 262,
+    "canonicalByte": 6,
+    "state": "ONSET"
+  },
+  "𐚝": {
+    "compactIndex": 263,
+    "canonicalByte": 7,
+    "state": "ONSET"
+  },
+  "𐜀": {
+    "compactIndex": 264,
+    "canonicalByte": 8,
+    "state": "ONSET"
+  },
+  "𐚈": {
+    "compactIndex": 265,
+    "canonicalByte": 9,
+    "state": "ONSET"
+  },
+  "𐚉": {
+    "compactIndex": 266,
+    "canonicalByte": 10,
+    "state": "BODY"
+  },
+  "𐚊": {
+    "compactIndex": 267,
+    "canonicalByte": 11,
+    "state": "CODA"
+  },
+  "𐚵": {
+    "compactIndex": 268,
+    "canonicalByte": 12,
+    "state": "CODA"
+  },
+  "𐚶": {
+    "compactIndex": 269,
+    "canonicalByte": 13,
+    "state": "ONSET"
+  },
+  "𐜟": {
+    "compactIndex": 270,
+    "canonicalByte": 14,
+    "state": "BODY"
+  },
+  "𐛇": {
+    "compactIndex": 271,
+    "canonicalByte": 15,
+    "state": "ONSET"
+  },
+  "𐜂": {
+    "compactIndex": 272,
+    "canonicalByte": 8,
+    "state": "ONSET"
+  },
+  "𐚇": {
+    "compactIndex": 273,
+    "canonicalByte": 17,
+    "state": "ONSET"
+  },
+  "𐜛": {
+    "compactIndex": 274,
+    "canonicalByte": 18,
+    "state": "ONSET"
+  },
+  "𐙧": {
+    "compactIndex": 275,
+    "canonicalByte": 19,
+    "state": "CODA"
+  },
+  "𐛌": {
+    "compactIndex": 276,
+    "canonicalByte": 20,
+    "state": "ONSET"
+  },
+  "𐚟": {
+    "compactIndex": 277,
+    "canonicalByte": 21,
+    "state": "ONSET"
+  },
+  "𐙔": {
+    "compactIndex": 278,
+    "canonicalByte": 22,
+    "state": "ONSET"
+  },
+  "𐚋": {
+    "compactIndex": 279,
+    "canonicalByte": 23,
+    "state": "CODA"
+  },
+  "𐝭": {
+    "compactIndex": 280,
+    "canonicalByte": 24,
+    "state": "ONSET"
+  },
+  "𐛓": {
+    "compactIndex": 281,
+    "canonicalByte": 25,
+    "state": "ONSET"
+  },
+  "𐛈": {
+    "compactIndex": 282,
+    "canonicalByte": 26,
+    "state": "ONSET"
+  },
+  "𐜲": {
+    "compactIndex": 283,
+    "canonicalByte": 27,
+    "state": "ONSET"
+  },
+  "𐜭": {
+    "compactIndex": 284,
+    "canonicalByte": 28,
+    "state": "ONSET"
+  },
+  "𐜬": {
+    "compactIndex": 285,
+    "canonicalByte": 29,
+    "state": "ONSET"
+  },
+  "𐛄": {
+    "compactIndex": 286,
+    "canonicalByte": 30,
+    "state": "ONSET"
+  },
+  "𐚤": {
+    "compactIndex": 287,
+    "canonicalByte": 31,
+    "state": "ONSET"
+  },
+  "𐜴": {
+    "compactIndex": 288,
+    "canonicalByte": 4,
+    "state": "CODA"
+  },
+  "𐜳": {
+    "compactIndex": 289,
+    "canonicalByte": 33,
+    "state": "ONSET"
+  },
+  "𐜆": {
+    "compactIndex": 290,
+    "canonicalByte": 34,
+    "state": "ONSET"
+  },
+  "𐜄": {
+    "compactIndex": 291,
+    "canonicalByte": 35,
+    "state": "ONSET"
+  },
+  "𐜃": {
+    "compactIndex": 292,
+    "canonicalByte": 36,
+    "state": "ONSET"
+  },
+  "𐚥": {
+    "compactIndex": 293,
+    "canonicalByte": 37,
+    "state": "ONSET"
+  },
+  "𐚏": {
+    "compactIndex": 294,
+    "canonicalByte": 38,
+    "state": "ONSET"
+  },
+  "𐚎": {
+    "compactIndex": 295,
+    "canonicalByte": 39,
+    "state": "CODA"
+  },
+  "𐚐": {
+    "compactIndex": 296,
+    "canonicalByte": 20,
+    "state": "CODA"
+  },
+  "𐚑": {
+    "compactIndex": 297,
+    "canonicalByte": 41,
+    "state": "CODA"
+  },
+  "𐚒": {
+    "compactIndex": 298,
+    "canonicalByte": 42,
+    "state": "BODY"
+  },
+  "𐚓": {
+    "compactIndex": 299,
+    "canonicalByte": 43,
+    "state": "BODY"
+  },
+  "𐚔": {
+    "compactIndex": 300,
+    "canonicalByte": 44,
+    "state": "BODY"
+  },
+  "𐝮": {
+    "compactIndex": 301,
+    "canonicalByte": 45,
+    "state": "ONSET"
+  },
+  "𐛠": {
+    "compactIndex": 302,
+    "canonicalByte": 46,
+    "state": "CODA"
+  },
+  "𐛡": {
+    "compactIndex": 303,
+    "canonicalByte": 47,
+    "state": "CODA"
+  },
+  "𐛣": {
+    "compactIndex": 304,
+    "canonicalByte": 12,
+    "state": "ONSET"
+  },
+  "𐛘": {
+    "compactIndex": 305,
+    "canonicalByte": 49,
+    "state": "CODA"
+  },
+  "𐜵": {
+    "compactIndex": 306,
+    "canonicalByte": 50,
+    "state": "CODA"
+  },
+  "𐜢": {
+    "compactIndex": 307,
+    "canonicalByte": 51,
+    "state": "ONSET"
+  },
+  "𐚍": {
+    "compactIndex": 308,
+    "canonicalByte": 44,
+    "state": "CODA"
+  },
+  "𐚬": {
+    "compactIndex": 309,
+    "canonicalByte": 53,
+    "state": "BODY"
+  },
+  "𐙬": {
+    "compactIndex": 310,
+    "canonicalByte": 54,
+    "state": "ONSET"
+  },
+  "𐝢": {
+    "compactIndex": 311,
+    "canonicalByte": 55,
+    "state": "BODY"
+  },
+  "𐝦": {
+    "compactIndex": 312,
+    "canonicalByte": 28,
+    "state": "ONSET"
+  },
+  "𐝠": {
+    "compactIndex": 313,
+    "canonicalByte": 57,
+    "state": "ONSET"
+  },
+  "𐘩": {
+    "compactIndex": 314,
+    "canonicalByte": 58,
+    "state": "BODY"
+  },
+  "𐝡": {
+    "compactIndex": 315,
+    "canonicalByte": 59,
+    "state": "CODA"
+  },
+  "𐜔": {
+    "compactIndex": 316,
+    "canonicalByte": 60,
+    "state": "ONSET"
+  },
+  "𐜕": {
+    "compactIndex": 317,
+    "canonicalByte": 61,
+    "state": "ONSET"
+  },
+  "𐚕": {
+    "compactIndex": 318,
+    "canonicalByte": 62,
+    "state": "BODY"
+  },
+  "𐚖": {
+    "compactIndex": 319,
+    "canonicalByte": 63,
+    "state": "CODA"
+  },
+  "𐛟": {
+    "compactIndex": 320,
+    "canonicalByte": 2,
+    "state": "ONSET"
+  },
+  "𐜁": {
+    "compactIndex": 321,
+    "canonicalByte": 65,
+    "state": "ONSET"
+  }
+}

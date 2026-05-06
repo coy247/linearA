@@ -1,0 +1,3212 @@
+[
+  {
+    "sign": "𐝫",
+    "compactIndex": 1,
+    "canonicalByte": 1,
+    "freqTotal": 2171,
+    "freqInitial": 1497,
+    "freqMedial": 33,
+    "freqFinal": 641,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐙂",
+    "compactIndex": 2,
+    "canonicalByte": 2,
+    "freqTotal": 308,
+    "freqInitial": 239,
+    "freqMedial": 53,
+    "freqFinal": 16,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐘾",
+    "compactIndex": 3,
+    "canonicalByte": 3,
+    "freqTotal": 285,
+    "freqInitial": 205,
+    "freqMedial": 47,
+    "freqFinal": 33,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐙕",
+    "compactIndex": 4,
+    "canonicalByte": 4,
+    "freqTotal": 274,
+    "freqInitial": 240,
+    "freqMedial": 26,
+    "freqFinal": 8,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐘤",
+    "compactIndex": 5,
+    "canonicalByte": 5,
+    "freqTotal": 240,
+    "freqInitial": 145,
+    "freqMedial": 60,
+    "freqFinal": 35,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐘇",
+    "compactIndex": 6,
+    "canonicalByte": 6,
+    "freqTotal": 202,
+    "freqInitial": 160,
+    "freqMedial": 33,
+    "freqFinal": 9,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐘚",
+    "compactIndex": 7,
+    "canonicalByte": 7,
+    "freqTotal": 193,
+    "freqInitial": 101,
+    "freqMedial": 70,
+    "freqFinal": 22,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐘁",
+    "compactIndex": 8,
+    "canonicalByte": 8,
+    "freqTotal": 187,
+    "freqInitial": 96,
+    "freqMedial": 15,
+    "freqFinal": 76,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐘱",
+    "compactIndex": 9,
+    "canonicalByte": 9,
+    "freqTotal": 169,
+    "freqInitial": 53,
+    "freqMedial": 63,
+    "freqFinal": 53,
+    "positionBias": "MIXED"
+  },
+  {
+    "sign": "𐘳",
+    "compactIndex": 10,
+    "canonicalByte": 10,
+    "freqTotal": 165,
+    "freqInitial": 46,
+    "freqMedial": 81,
+    "freqFinal": 38,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐘅",
+    "compactIndex": 11,
+    "canonicalByte": 11,
+    "freqTotal": 158,
+    "freqInitial": 9,
+    "freqMedial": 102,
+    "freqFinal": 47,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐘃",
+    "compactIndex": 12,
+    "canonicalByte": 12,
+    "freqTotal": 156,
+    "freqInitial": 64,
+    "freqMedial": 36,
+    "freqFinal": 56,
+    "positionBias": "MIXED"
+  },
+  {
+    "sign": "𐘞",
+    "compactIndex": 13,
+    "canonicalByte": 13,
+    "freqTotal": 139,
+    "freqInitial": 59,
+    "freqMedial": 67,
+    "freqFinal": 13,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐘀",
+    "compactIndex": 14,
+    "canonicalByte": 14,
+    "freqTotal": 139,
+    "freqInitial": 65,
+    "freqMedial": 59,
+    "freqFinal": 15,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐝆",
+    "compactIndex": 15,
+    "canonicalByte": 15,
+    "freqTotal": 137,
+    "freqInitial": 127,
+    "freqMedial": 2,
+    "freqFinal": 8,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐘝",
+    "compactIndex": 16,
+    "canonicalByte": 8,
+    "freqTotal": 135,
+    "freqInitial": 61,
+    "freqMedial": 39,
+    "freqFinal": 35,
+    "positionBias": "MIXED"
+  },
+  {
+    "sign": "𐘸",
+    "compactIndex": 17,
+    "canonicalByte": 17,
+    "freqTotal": 128,
+    "freqInitial": 52,
+    "freqMedial": 58,
+    "freqFinal": 18,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐘙",
+    "compactIndex": 18,
+    "canonicalByte": 18,
+    "freqTotal": 125,
+    "freqInitial": 16,
+    "freqMedial": 57,
+    "freqFinal": 52,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐙁",
+    "compactIndex": 19,
+    "canonicalByte": 19,
+    "freqTotal": 119,
+    "freqInitial": 30,
+    "freqMedial": 60,
+    "freqFinal": 29,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐘴",
+    "compactIndex": 20,
+    "canonicalByte": 20,
+    "freqTotal": 117,
+    "freqInitial": 11,
+    "freqMedial": 62,
+    "freqFinal": 44,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐘠",
+    "compactIndex": 21,
+    "canonicalByte": 21,
+    "freqTotal": 111,
+    "freqInitial": 20,
+    "freqMedial": 43,
+    "freqFinal": 48,
+    "positionBias": "MIXED"
+  },
+  {
+    "sign": "𐘆",
+    "compactIndex": 22,
+    "canonicalByte": 22,
+    "freqTotal": 109,
+    "freqInitial": 36,
+    "freqMedial": 48,
+    "freqFinal": 25,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐘂",
+    "compactIndex": 23,
+    "canonicalByte": 23,
+    "freqTotal": 103,
+    "freqInitial": 46,
+    "freqMedial": 39,
+    "freqFinal": 18,
+    "positionBias": "MIXED"
+  },
+  {
+    "sign": "𐘻",
+    "compactIndex": 24,
+    "canonicalByte": 24,
+    "freqTotal": 96,
+    "freqInitial": 15,
+    "freqMedial": 57,
+    "freqFinal": 24,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐘘",
+    "compactIndex": 25,
+    "canonicalByte": 25,
+    "freqTotal": 93,
+    "freqInitial": 17,
+    "freqMedial": 40,
+    "freqFinal": 36,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐘬",
+    "compactIndex": 26,
+    "canonicalByte": 26,
+    "freqTotal": 79,
+    "freqInitial": 17,
+    "freqMedial": 40,
+    "freqFinal": 22,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐘭",
+    "compactIndex": 27,
+    "canonicalByte": 27,
+    "freqTotal": 77,
+    "freqInitial": 10,
+    "freqMedial": 51,
+    "freqFinal": 16,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐝃",
+    "compactIndex": 28,
+    "canonicalByte": 28,
+    "freqTotal": 77,
+    "freqInitial": 69,
+    "freqMedial": 5,
+    "freqFinal": 3,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐘹",
+    "compactIndex": 29,
+    "canonicalByte": 29,
+    "freqTotal": 73,
+    "freqInitial": 18,
+    "freqMedial": 30,
+    "freqFinal": 25,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐘉",
+    "compactIndex": 30,
+    "canonicalByte": 30,
+    "freqTotal": 68,
+    "freqInitial": 36,
+    "freqMedial": 22,
+    "freqFinal": 10,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐘈",
+    "compactIndex": 31,
+    "canonicalByte": 31,
+    "freqTotal": 67,
+    "freqInitial": 12,
+    "freqMedial": 28,
+    "freqFinal": 27,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐙉",
+    "compactIndex": 32,
+    "canonicalByte": 4,
+    "freqTotal": 66,
+    "freqInitial": 60,
+    "freqMedial": 4,
+    "freqFinal": 2,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐙍",
+    "compactIndex": 33,
+    "canonicalByte": 33,
+    "freqTotal": 65,
+    "freqInitial": 50,
+    "freqMedial": 0,
+    "freqFinal": 15,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐘯",
+    "compactIndex": 34,
+    "canonicalByte": 34,
+    "freqTotal": 60,
+    "freqInitial": 5,
+    "freqMedial": 33,
+    "freqFinal": 22,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐘢",
+    "compactIndex": 35,
+    "canonicalByte": 35,
+    "freqTotal": 58,
+    "freqInitial": 16,
+    "freqMedial": 33,
+    "freqFinal": 9,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐘗",
+    "compactIndex": 36,
+    "canonicalByte": 36,
+    "freqTotal": 58,
+    "freqInitial": 4,
+    "freqMedial": 27,
+    "freqFinal": 27,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐙗",
+    "compactIndex": 37,
+    "canonicalByte": 37,
+    "freqTotal": 57,
+    "freqInitial": 33,
+    "freqMedial": 15,
+    "freqFinal": 9,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐘲",
+    "compactIndex": 38,
+    "canonicalByte": 38,
+    "freqTotal": 55,
+    "freqInitial": 12,
+    "freqMedial": 27,
+    "freqFinal": 16,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐘽",
+    "compactIndex": 39,
+    "canonicalByte": 39,
+    "freqTotal": 52,
+    "freqInitial": 2,
+    "freqMedial": 13,
+    "freqFinal": 37,
+    "positionBias": "CODA"
+  },
+  {
+    "sign": "𐘮",
+    "compactIndex": 40,
+    "canonicalByte": 20,
+    "freqTotal": 48,
+    "freqInitial": 16,
+    "freqMedial": 26,
+    "freqFinal": 6,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐘼",
+    "compactIndex": 41,
+    "canonicalByte": 41,
+    "freqTotal": 47,
+    "freqInitial": 47,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐘰",
+    "compactIndex": 42,
+    "canonicalByte": 42,
+    "freqTotal": 46,
+    "freqInitial": 14,
+    "freqMedial": 25,
+    "freqFinal": 7,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐘿",
+    "compactIndex": 43,
+    "canonicalByte": 43,
+    "freqTotal": 46,
+    "freqInitial": 22,
+    "freqMedial": 14,
+    "freqFinal": 10,
+    "positionBias": "MIXED"
+  },
+  {
+    "sign": "𐘌",
+    "compactIndex": 44,
+    "canonicalByte": 44,
+    "freqTotal": 45,
+    "freqInitial": 25,
+    "freqMedial": 15,
+    "freqFinal": 5,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐘋",
+    "compactIndex": 45,
+    "canonicalByte": 45,
+    "freqTotal": 43,
+    "freqInitial": 6,
+    "freqMedial": 13,
+    "freqFinal": 24,
+    "positionBias": "CODA"
+  },
+  {
+    "sign": "𐝂",
+    "compactIndex": 46,
+    "canonicalByte": 46,
+    "freqTotal": 42,
+    "freqInitial": 26,
+    "freqMedial": 2,
+    "freqFinal": 14,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐝁",
+    "compactIndex": 47,
+    "canonicalByte": 47,
+    "freqTotal": 41,
+    "freqInitial": 23,
+    "freqMedial": 2,
+    "freqFinal": 16,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐘍",
+    "compactIndex": 48,
+    "canonicalByte": 12,
+    "freqTotal": 40,
+    "freqInitial": 3,
+    "freqMedial": 16,
+    "freqFinal": 21,
+    "positionBias": "CODA"
+  },
+  {
+    "sign": "𐙇",
+    "compactIndex": 49,
+    "canonicalByte": 49,
+    "freqTotal": 38,
+    "freqInitial": 29,
+    "freqMedial": 3,
+    "freqFinal": 6,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐘶",
+    "compactIndex": 50,
+    "canonicalByte": 50,
+    "freqTotal": 36,
+    "freqInitial": 4,
+    "freqMedial": 14,
+    "freqFinal": 18,
+    "positionBias": "MIXED"
+  },
+  {
+    "sign": "𐘦",
+    "compactIndex": 51,
+    "canonicalByte": 51,
+    "freqTotal": 35,
+    "freqInitial": 5,
+    "freqMedial": 21,
+    "freqFinal": 9,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐝇",
+    "compactIndex": 52,
+    "canonicalByte": 44,
+    "freqTotal": 35,
+    "freqInitial": 27,
+    "freqMedial": 0,
+    "freqFinal": 8,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐙀",
+    "compactIndex": 53,
+    "canonicalByte": 53,
+    "freqTotal": 32,
+    "freqInitial": 10,
+    "freqMedial": 15,
+    "freqFinal": 7,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐝕",
+    "compactIndex": 54,
+    "canonicalByte": 54,
+    "freqTotal": 32,
+    "freqInitial": 28,
+    "freqMedial": 2,
+    "freqFinal": 2,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐘡",
+    "compactIndex": 55,
+    "canonicalByte": 55,
+    "freqTotal": 31,
+    "freqInitial": 15,
+    "freqMedial": 6,
+    "freqFinal": 10,
+    "positionBias": "MIXED"
+  },
+  {
+    "sign": "𐝉",
+    "compactIndex": 56,
+    "canonicalByte": 28,
+    "freqTotal": 30,
+    "freqInitial": 10,
+    "freqMedial": 7,
+    "freqFinal": 13,
+    "positionBias": "MIXED"
+  },
+  {
+    "sign": "𐘵",
+    "compactIndex": 57,
+    "canonicalByte": 57,
+    "freqTotal": 29,
+    "freqInitial": 25,
+    "freqMedial": 3,
+    "freqFinal": 1,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐙘",
+    "compactIndex": 58,
+    "canonicalByte": 58,
+    "freqTotal": 28,
+    "freqInitial": 24,
+    "freqMedial": 1,
+    "freqFinal": 3,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐙋",
+    "compactIndex": 59,
+    "canonicalByte": 59,
+    "freqTotal": 27,
+    "freqInitial": 18,
+    "freqMedial": 2,
+    "freqFinal": 7,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐙈",
+    "compactIndex": 60,
+    "canonicalByte": 60,
+    "freqTotal": 26,
+    "freqInitial": 2,
+    "freqMedial": 6,
+    "freqFinal": 18,
+    "positionBias": "CODA"
+  },
+  {
+    "sign": "𐙖",
+    "compactIndex": 61,
+    "canonicalByte": 61,
+    "freqTotal": 26,
+    "freqInitial": 17,
+    "freqMedial": 5,
+    "freqFinal": 4,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐘫",
+    "compactIndex": 62,
+    "canonicalByte": 62,
+    "freqTotal": 24,
+    "freqInitial": 10,
+    "freqMedial": 7,
+    "freqFinal": 7,
+    "positionBias": "MIXED"
+  },
+  {
+    "sign": "𐘣",
+    "compactIndex": 63,
+    "canonicalByte": 63,
+    "freqTotal": 23,
+    "freqInitial": 11,
+    "freqMedial": 7,
+    "freqFinal": 5,
+    "positionBias": "MIXED"
+  },
+  {
+    "sign": "𐜙",
+    "compactIndex": 64,
+    "canonicalByte": 2,
+    "freqTotal": 23,
+    "freqInitial": 17,
+    "freqMedial": 1,
+    "freqFinal": 5,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐘐",
+    "compactIndex": 65,
+    "canonicalByte": 65,
+    "freqTotal": 22,
+    "freqInitial": 13,
+    "freqMedial": 5,
+    "freqFinal": 4,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐙚",
+    "compactIndex": 66,
+    "canonicalByte": 66,
+    "freqTotal": 22,
+    "freqInitial": 15,
+    "freqMedial": 4,
+    "freqFinal": 3,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜋",
+    "compactIndex": 67,
+    "canonicalByte": 67,
+    "freqTotal": 22,
+    "freqInitial": 21,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛭",
+    "compactIndex": 68,
+    "canonicalByte": 34,
+    "freqTotal": 22,
+    "freqInitial": 17,
+    "freqMedial": 0,
+    "freqFinal": 5,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐙙",
+    "compactIndex": 69,
+    "canonicalByte": 69,
+    "freqTotal": 20,
+    "freqInitial": 12,
+    "freqMedial": 3,
+    "freqFinal": 5,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜗",
+    "compactIndex": 70,
+    "canonicalByte": 70,
+    "freqTotal": 20,
+    "freqInitial": 18,
+    "freqMedial": 1,
+    "freqFinal": 1,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜓",
+    "compactIndex": 71,
+    "canonicalByte": 71,
+    "freqTotal": 20,
+    "freqInitial": 18,
+    "freqMedial": 0,
+    "freqFinal": 2,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐝄",
+    "compactIndex": 72,
+    "canonicalByte": 18,
+    "freqTotal": 19,
+    "freqInitial": 11,
+    "freqMedial": 2,
+    "freqFinal": 6,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐝀",
+    "compactIndex": 73,
+    "canonicalByte": 73,
+    "freqTotal": 18,
+    "freqInitial": 14,
+    "freqMedial": 1,
+    "freqFinal": 3,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐘄",
+    "compactIndex": 74,
+    "canonicalByte": 74,
+    "freqTotal": 17,
+    "freqInitial": 3,
+    "freqMedial": 10,
+    "freqFinal": 4,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐘷",
+    "compactIndex": 75,
+    "canonicalByte": 75,
+    "freqTotal": 17,
+    "freqInitial": 5,
+    "freqMedial": 1,
+    "freqFinal": 11,
+    "positionBias": "CODA"
+  },
+  {
+    "sign": "𐙓",
+    "compactIndex": 76,
+    "canonicalByte": 50,
+    "freqTotal": 17,
+    "freqInitial": 14,
+    "freqMedial": 1,
+    "freqFinal": 2,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐘧",
+    "compactIndex": 77,
+    "canonicalByte": 77,
+    "freqTotal": 16,
+    "freqInitial": 6,
+    "freqMedial": 2,
+    "freqFinal": 8,
+    "positionBias": "MIXED"
+  },
+  {
+    "sign": "𐘥",
+    "compactIndex": 78,
+    "canonicalByte": 78,
+    "freqTotal": 16,
+    "freqInitial": 2,
+    "freqMedial": 7,
+    "freqFinal": 7,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐝅",
+    "compactIndex": 79,
+    "canonicalByte": 79,
+    "freqTotal": 16,
+    "freqInitial": 15,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐘓",
+    "compactIndex": 80,
+    "canonicalByte": 10,
+    "freqTotal": 15,
+    "freqInitial": 8,
+    "freqMedial": 2,
+    "freqFinal": 5,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐘕",
+    "compactIndex": 81,
+    "canonicalByte": 81,
+    "freqTotal": 15,
+    "freqInitial": 3,
+    "freqMedial": 6,
+    "freqFinal": 6,
+    "positionBias": "MIXED"
+  },
+  {
+    "sign": "𐘺",
+    "compactIndex": 82,
+    "canonicalByte": 74,
+    "freqTotal": 15,
+    "freqInitial": 5,
+    "freqMedial": 8,
+    "freqFinal": 2,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐙐",
+    "compactIndex": 83,
+    "canonicalByte": 83,
+    "freqTotal": 15,
+    "freqInitial": 14,
+    "freqMedial": 1,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐚫",
+    "compactIndex": 84,
+    "canonicalByte": 42,
+    "freqTotal": 15,
+    "freqInitial": 15,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐙜",
+    "compactIndex": 85,
+    "canonicalByte": 85,
+    "freqTotal": 14,
+    "freqInitial": 12,
+    "freqMedial": 0,
+    "freqFinal": 2,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜚",
+    "compactIndex": 86,
+    "canonicalByte": 86,
+    "freqTotal": 14,
+    "freqInitial": 9,
+    "freqMedial": 1,
+    "freqFinal": 4,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐘜",
+    "compactIndex": 87,
+    "canonicalByte": 87,
+    "freqTotal": 14,
+    "freqInitial": 1,
+    "freqMedial": 10,
+    "freqFinal": 3,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐙅",
+    "compactIndex": 88,
+    "canonicalByte": 26,
+    "freqTotal": 13,
+    "freqInitial": 10,
+    "freqMedial": 0,
+    "freqFinal": 3,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜉",
+    "compactIndex": 89,
+    "canonicalByte": 89,
+    "freqTotal": 12,
+    "freqInitial": 11,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐙒",
+    "compactIndex": 90,
+    "canonicalByte": 90,
+    "freqTotal": 11,
+    "freqInitial": 5,
+    "freqMedial": 3,
+    "freqFinal": 3,
+    "positionBias": "MIXED"
+  },
+  {
+    "sign": "𐜈",
+    "compactIndex": 91,
+    "canonicalByte": 91,
+    "freqTotal": 10,
+    "freqInitial": 10,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛧",
+    "compactIndex": 92,
+    "canonicalByte": 58,
+    "freqTotal": 10,
+    "freqInitial": 8,
+    "freqMedial": 0,
+    "freqFinal": 2,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛀",
+    "compactIndex": 93,
+    "canonicalByte": 93,
+    "freqTotal": 10,
+    "freqInitial": 9,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐙠",
+    "compactIndex": 94,
+    "canonicalByte": 94,
+    "freqTotal": 10,
+    "freqInitial": 0,
+    "freqMedial": 7,
+    "freqFinal": 3,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐝈",
+    "compactIndex": 95,
+    "canonicalByte": 95,
+    "freqTotal": 10,
+    "freqInitial": 7,
+    "freqMedial": 1,
+    "freqFinal": 2,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐘨",
+    "compactIndex": 96,
+    "canonicalByte": 6,
+    "freqTotal": 9,
+    "freqInitial": 4,
+    "freqMedial": 4,
+    "freqFinal": 1,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐜝",
+    "compactIndex": 97,
+    "canonicalByte": 97,
+    "freqTotal": 9,
+    "freqInitial": 7,
+    "freqMedial": 1,
+    "freqFinal": 1,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐙢",
+    "compactIndex": 98,
+    "canonicalByte": 70,
+    "freqTotal": 8,
+    "freqInitial": 7,
+    "freqMedial": 1,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐘟",
+    "compactIndex": 99,
+    "canonicalByte": 99,
+    "freqTotal": 8,
+    "freqInitial": 2,
+    "freqMedial": 6,
+    "freqFinal": 0,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐘊",
+    "compactIndex": 100,
+    "canonicalByte": 38,
+    "freqTotal": 8,
+    "freqInitial": 3,
+    "freqMedial": 4,
+    "freqFinal": 1,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐙄",
+    "compactIndex": 101,
+    "canonicalByte": 101,
+    "freqTotal": 8,
+    "freqInitial": 6,
+    "freqMedial": 2,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐚻",
+    "compactIndex": 102,
+    "canonicalByte": 102,
+    "freqTotal": 8,
+    "freqInitial": 7,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐙛",
+    "compactIndex": 103,
+    "canonicalByte": 103,
+    "freqTotal": 8,
+    "freqInitial": 5,
+    "freqMedial": 2,
+    "freqFinal": 1,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐙌",
+    "compactIndex": 104,
+    "canonicalByte": 22,
+    "freqTotal": 8,
+    "freqInitial": 0,
+    "freqMedial": 2,
+    "freqFinal": 6,
+    "positionBias": "CODA"
+  },
+  {
+    "sign": "𐘑",
+    "compactIndex": 105,
+    "canonicalByte": 105,
+    "freqTotal": 8,
+    "freqInitial": 7,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛚",
+    "compactIndex": 106,
+    "canonicalByte": 86,
+    "freqTotal": 8,
+    "freqInitial": 8,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜐",
+    "compactIndex": 107,
+    "canonicalByte": 107,
+    "freqTotal": 8,
+    "freqInitial": 6,
+    "freqMedial": 1,
+    "freqFinal": 1,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜩",
+    "compactIndex": 108,
+    "canonicalByte": 54,
+    "freqTotal": 8,
+    "freqInitial": 4,
+    "freqMedial": 0,
+    "freqFinal": 4,
+    "positionBias": "MIXED"
+  },
+  {
+    "sign": "𐛦",
+    "compactIndex": 109,
+    "canonicalByte": 109,
+    "freqTotal": 8,
+    "freqInitial": 8,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐘖",
+    "compactIndex": 110,
+    "canonicalByte": 110,
+    "freqTotal": 7,
+    "freqInitial": 7,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛲",
+    "compactIndex": 111,
+    "canonicalByte": 111,
+    "freqTotal": 7,
+    "freqInitial": 7,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐙦",
+    "compactIndex": 112,
+    "canonicalByte": 14,
+    "freqTotal": 6,
+    "freqInitial": 1,
+    "freqMedial": 3,
+    "freqFinal": 2,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐙫",
+    "compactIndex": 113,
+    "canonicalByte": 113,
+    "freqTotal": 6,
+    "freqInitial": 5,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐚹",
+    "compactIndex": 114,
+    "canonicalByte": 78,
+    "freqTotal": 6,
+    "freqInitial": 6,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐝓",
+    "compactIndex": 115,
+    "canonicalByte": 115,
+    "freqTotal": 6,
+    "freqInitial": 6,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐝍",
+    "compactIndex": 116,
+    "canonicalByte": 46,
+    "freqTotal": 6,
+    "freqInitial": 6,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐙏",
+    "compactIndex": 117,
+    "canonicalByte": 117,
+    "freqTotal": 6,
+    "freqInitial": 2,
+    "freqMedial": 0,
+    "freqFinal": 4,
+    "positionBias": "CODA"
+  },
+  {
+    "sign": "𐙝",
+    "compactIndex": 118,
+    "canonicalByte": 110,
+    "freqTotal": 6,
+    "freqInitial": 6,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜍",
+    "compactIndex": 119,
+    "canonicalByte": 119,
+    "freqTotal": 5,
+    "freqInitial": 4,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛱",
+    "compactIndex": 120,
+    "canonicalByte": 30,
+    "freqTotal": 5,
+    "freqInitial": 4,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐙱",
+    "compactIndex": 121,
+    "canonicalByte": 121,
+    "freqTotal": 5,
+    "freqInitial": 0,
+    "freqMedial": 4,
+    "freqFinal": 1,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐛉",
+    "compactIndex": 122,
+    "canonicalByte": 94,
+    "freqTotal": 5,
+    "freqInitial": 5,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐙯",
+    "compactIndex": 123,
+    "canonicalByte": 123,
+    "freqTotal": 5,
+    "freqInitial": 3,
+    "freqMedial": 2,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐘒",
+    "compactIndex": 124,
+    "canonicalByte": 62,
+    "freqTotal": 5,
+    "freqInitial": 3,
+    "freqMedial": 0,
+    "freqFinal": 2,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐘛",
+    "compactIndex": 125,
+    "canonicalByte": 125,
+    "freqTotal": 5,
+    "freqInitial": 4,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜪",
+    "compactIndex": 126,
+    "canonicalByte": 126,
+    "freqTotal": 5,
+    "freqInitial": 5,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐚩",
+    "compactIndex": 127,
+    "canonicalByte": 127,
+    "freqTotal": 5,
+    "freqInitial": 5,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐙎",
+    "compactIndex": 128,
+    "canonicalByte": 1,
+    "freqTotal": 4,
+    "freqInitial": 4,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐙩",
+    "compactIndex": 129,
+    "canonicalByte": 129,
+    "freqTotal": 4,
+    "freqInitial": 3,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐙮",
+    "compactIndex": 130,
+    "canonicalByte": 65,
+    "freqTotal": 4,
+    "freqInitial": 4,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛢",
+    "compactIndex": 131,
+    "canonicalByte": 131,
+    "freqTotal": 4,
+    "freqInitial": 2,
+    "freqMedial": 1,
+    "freqFinal": 1,
+    "positionBias": "MIXED"
+  },
+  {
+    "sign": "𐘪",
+    "compactIndex": 132,
+    "canonicalByte": 33,
+    "freqTotal": 4,
+    "freqInitial": 0,
+    "freqMedial": 1,
+    "freqFinal": 3,
+    "positionBias": "CODA"
+  },
+  {
+    "sign": "𐝎",
+    "compactIndex": 133,
+    "canonicalByte": 133,
+    "freqTotal": 4,
+    "freqInitial": 3,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛵",
+    "compactIndex": 134,
+    "canonicalByte": 97,
+    "freqTotal": 4,
+    "freqInitial": 3,
+    "freqMedial": 1,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐙪",
+    "compactIndex": 135,
+    "canonicalByte": 135,
+    "freqTotal": 4,
+    "freqInitial": 3,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜎",
+    "compactIndex": 136,
+    "canonicalByte": 17,
+    "freqTotal": 4,
+    "freqInitial": 3,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜏",
+    "compactIndex": 137,
+    "canonicalByte": 137,
+    "freqTotal": 4,
+    "freqInitial": 2,
+    "freqMedial": 0,
+    "freqFinal": 2,
+    "positionBias": "MIXED"
+  },
+  {
+    "sign": "𐚺",
+    "compactIndex": 138,
+    "canonicalByte": 81,
+    "freqTotal": 4,
+    "freqInitial": 4,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐚢",
+    "compactIndex": 139,
+    "canonicalByte": 139,
+    "freqTotal": 4,
+    "freqInitial": 4,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐝋",
+    "compactIndex": 140,
+    "canonicalByte": 49,
+    "freqTotal": 4,
+    "freqInitial": 1,
+    "freqMedial": 1,
+    "freqFinal": 2,
+    "positionBias": "MIXED"
+  },
+  {
+    "sign": "𐙭",
+    "compactIndex": 141,
+    "canonicalByte": 141,
+    "freqTotal": 4,
+    "freqInitial": 0,
+    "freqMedial": 1,
+    "freqFinal": 3,
+    "positionBias": "CODA"
+  },
+  {
+    "sign": "𐛪",
+    "compactIndex": 142,
+    "canonicalByte": 113,
+    "freqTotal": 4,
+    "freqInitial": 4,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐝥",
+    "compactIndex": 143,
+    "canonicalByte": 143,
+    "freqTotal": 4,
+    "freqInitial": 3,
+    "freqMedial": 1,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐙨",
+    "compactIndex": 144,
+    "canonicalByte": 9,
+    "freqTotal": 4,
+    "freqInitial": 2,
+    "freqMedial": 0,
+    "freqFinal": 2,
+    "positionBias": "MIXED"
+  },
+  {
+    "sign": "𐚨",
+    "compactIndex": 145,
+    "canonicalByte": 137,
+    "freqTotal": 4,
+    "freqInitial": 4,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐘔",
+    "compactIndex": 146,
+    "canonicalByte": 73,
+    "freqTotal": 4,
+    "freqInitial": 3,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐝏",
+    "compactIndex": 147,
+    "canonicalByte": 147,
+    "freqTotal": 4,
+    "freqInitial": 1,
+    "freqMedial": 3,
+    "freqFinal": 0,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐙞",
+    "compactIndex": 148,
+    "canonicalByte": 41,
+    "freqTotal": 4,
+    "freqInitial": 3,
+    "freqMedial": 1,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛿",
+    "compactIndex": 149,
+    "canonicalByte": 149,
+    "freqTotal": 3,
+    "freqInitial": 3,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛺",
+    "compactIndex": 150,
+    "canonicalByte": 105,
+    "freqTotal": 3,
+    "freqInitial": 3,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐙳",
+    "compactIndex": 151,
+    "canonicalByte": 151,
+    "freqTotal": 3,
+    "freqInitial": 3,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛷",
+    "compactIndex": 152,
+    "canonicalByte": 25,
+    "freqTotal": 3,
+    "freqInitial": 3,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐙰",
+    "compactIndex": 153,
+    "canonicalByte": 153,
+    "freqTotal": 3,
+    "freqInitial": 3,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛖",
+    "compactIndex": 154,
+    "canonicalByte": 89,
+    "freqTotal": 3,
+    "freqInitial": 3,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐙲",
+    "compactIndex": 155,
+    "canonicalByte": 155,
+    "freqTotal": 3,
+    "freqInitial": 3,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜖",
+    "compactIndex": 156,
+    "canonicalByte": 57,
+    "freqTotal": 3,
+    "freqInitial": 3,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜫",
+    "compactIndex": 157,
+    "canonicalByte": 157,
+    "freqTotal": 3,
+    "freqInitial": 3,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛛",
+    "compactIndex": 158,
+    "canonicalByte": 121,
+    "freqTotal": 3,
+    "freqInitial": 3,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜠",
+    "compactIndex": 159,
+    "canonicalByte": 159,
+    "freqTotal": 3,
+    "freqInitial": 3,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜜",
+    "compactIndex": 160,
+    "canonicalByte": 5,
+    "freqTotal": 3,
+    "freqInitial": 3,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛥",
+    "compactIndex": 161,
+    "canonicalByte": 133,
+    "freqTotal": 3,
+    "freqInitial": 3,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐙹",
+    "compactIndex": 162,
+    "canonicalByte": 69,
+    "freqTotal": 3,
+    "freqInitial": 3,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛨",
+    "compactIndex": 163,
+    "canonicalByte": 163,
+    "freqTotal": 3,
+    "freqInitial": 2,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜨",
+    "compactIndex": 164,
+    "canonicalByte": 37,
+    "freqTotal": 3,
+    "freqInitial": 0,
+    "freqMedial": 0,
+    "freqFinal": 3,
+    "positionBias": "CODA"
+  },
+  {
+    "sign": "𐙃",
+    "compactIndex": 165,
+    "canonicalByte": 165,
+    "freqTotal": 3,
+    "freqInitial": 2,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐘏",
+    "compactIndex": 166,
+    "canonicalByte": 101,
+    "freqTotal": 3,
+    "freqInitial": 3,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜶",
+    "compactIndex": 167,
+    "canonicalByte": 167,
+    "freqTotal": 3,
+    "freqInitial": 3,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜰",
+    "compactIndex": 168,
+    "canonicalByte": 21,
+    "freqTotal": 3,
+    "freqInitial": 2,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜅",
+    "compactIndex": 169,
+    "canonicalByte": 149,
+    "freqTotal": 3,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 2,
+    "positionBias": "CODA"
+  },
+  {
+    "sign": "𐙴",
+    "compactIndex": 170,
+    "canonicalByte": 85,
+    "freqTotal": 3,
+    "freqInitial": 2,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐚽",
+    "compactIndex": 171,
+    "canonicalByte": 171,
+    "freqTotal": 3,
+    "freqInitial": 3,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛃",
+    "compactIndex": 172,
+    "canonicalByte": 53,
+    "freqTotal": 2,
+    "freqInitial": 2,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛩",
+    "compactIndex": 173,
+    "canonicalByte": 173,
+    "freqTotal": 2,
+    "freqInitial": 2,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛳",
+    "compactIndex": 174,
+    "canonicalByte": 117,
+    "freqTotal": 2,
+    "freqInitial": 2,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐙆",
+    "compactIndex": 175,
+    "canonicalByte": 175,
+    "freqTotal": 2,
+    "freqInitial": 1,
+    "freqMedial": 1,
+    "freqFinal": 0,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐙵",
+    "compactIndex": 176,
+    "canonicalByte": 13,
+    "freqTotal": 2,
+    "freqInitial": 0,
+    "freqMedial": 0,
+    "freqFinal": 2,
+    "positionBias": "CODA"
+  },
+  {
+    "sign": "𐜇",
+    "compactIndex": 177,
+    "canonicalByte": 141,
+    "freqTotal": 2,
+    "freqInitial": 2,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜊",
+    "compactIndex": 178,
+    "canonicalByte": 77,
+    "freqTotal": 2,
+    "freqInitial": 0,
+    "freqMedial": 0,
+    "freqFinal": 2,
+    "positionBias": "CODA"
+  },
+  {
+    "sign": "𐜮",
+    "compactIndex": 179,
+    "canonicalByte": 179,
+    "freqTotal": 2,
+    "freqInitial": 2,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐚪",
+    "compactIndex": 180,
+    "canonicalByte": 45,
+    "freqTotal": 2,
+    "freqInitial": 2,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛆",
+    "compactIndex": 181,
+    "canonicalByte": 173,
+    "freqTotal": 2,
+    "freqInitial": 2,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛜",
+    "compactIndex": 182,
+    "canonicalByte": 109,
+    "freqTotal": 2,
+    "freqInitial": 2,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐙷",
+    "compactIndex": 183,
+    "canonicalByte": 183,
+    "freqTotal": 2,
+    "freqInitial": 0,
+    "freqMedial": 1,
+    "freqFinal": 1,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐚞",
+    "compactIndex": 184,
+    "canonicalByte": 29,
+    "freqTotal": 2,
+    "freqInitial": 2,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛁",
+    "compactIndex": 185,
+    "canonicalByte": 157,
+    "freqTotal": 2,
+    "freqInitial": 2,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐚌",
+    "compactIndex": 186,
+    "canonicalByte": 93,
+    "freqTotal": 2,
+    "freqInitial": 1,
+    "freqMedial": 1,
+    "freqFinal": 0,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐙻",
+    "compactIndex": 187,
+    "canonicalByte": 187,
+    "freqTotal": 2,
+    "freqInitial": 1,
+    "freqMedial": 1,
+    "freqFinal": 0,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐙼",
+    "compactIndex": 188,
+    "canonicalByte": 61,
+    "freqTotal": 2,
+    "freqInitial": 1,
+    "freqMedial": 1,
+    "freqFinal": 0,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐘎",
+    "compactIndex": 189,
+    "canonicalByte": 189,
+    "freqTotal": 2,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "MIXED"
+  },
+  {
+    "sign": "𐙺",
+    "compactIndex": 190,
+    "canonicalByte": 125,
+    "freqTotal": 2,
+    "freqInitial": 2,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐝌",
+    "compactIndex": 191,
+    "canonicalByte": 191,
+    "freqTotal": 2,
+    "freqInitial": 0,
+    "freqMedial": 0,
+    "freqFinal": 2,
+    "positionBias": "CODA"
+  },
+  {
+    "sign": "𐜡",
+    "compactIndex": 192,
+    "canonicalByte": 3,
+    "freqTotal": 2,
+    "freqInitial": 2,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐚳",
+    "compactIndex": 193,
+    "canonicalByte": 131,
+    "freqTotal": 2,
+    "freqInitial": 2,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐚱",
+    "compactIndex": 194,
+    "canonicalByte": 67,
+    "freqTotal": 2,
+    "freqInitial": 2,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜥",
+    "compactIndex": 195,
+    "canonicalByte": 195,
+    "freqTotal": 2,
+    "freqInitial": 2,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛝",
+    "compactIndex": 196,
+    "canonicalByte": 35,
+    "freqTotal": 2,
+    "freqInitial": 2,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐙾",
+    "compactIndex": 197,
+    "canonicalByte": 163,
+    "freqTotal": 2,
+    "freqInitial": 2,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐝊",
+    "compactIndex": 198,
+    "canonicalByte": 99,
+    "freqTotal": 2,
+    "freqInitial": 2,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛻",
+    "compactIndex": 199,
+    "canonicalByte": 199,
+    "freqTotal": 2,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "MIXED"
+  },
+  {
+    "sign": "𐛴",
+    "compactIndex": 200,
+    "canonicalByte": 19,
+    "freqTotal": 2,
+    "freqInitial": 2,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜱",
+    "compactIndex": 201,
+    "canonicalByte": 147,
+    "freqTotal": 2,
+    "freqInitial": 2,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐚾",
+    "compactIndex": 202,
+    "canonicalByte": 83,
+    "freqTotal": 2,
+    "freqInitial": 2,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐙿",
+    "compactIndex": 203,
+    "canonicalByte": 203,
+    "freqTotal": 2,
+    "freqInitial": 1,
+    "freqMedial": 1,
+    "freqFinal": 0,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐙑",
+    "compactIndex": 204,
+    "canonicalByte": 51,
+    "freqTotal": 2,
+    "freqInitial": 2,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐙟",
+    "compactIndex": 205,
+    "canonicalByte": 179,
+    "freqTotal": 2,
+    "freqInitial": 2,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜌",
+    "compactIndex": 206,
+    "canonicalByte": 115,
+    "freqTotal": 2,
+    "freqInitial": 2,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐚗",
+    "compactIndex": 207,
+    "canonicalByte": 207,
+    "freqTotal": 2,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "MIXED"
+  },
+  {
+    "sign": "𐝬",
+    "compactIndex": 208,
+    "canonicalByte": 11,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐚸",
+    "compactIndex": 209,
+    "canonicalByte": 139,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐚷",
+    "compactIndex": 210,
+    "canonicalByte": 75,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐙸",
+    "compactIndex": 211,
+    "canonicalByte": 203,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛶",
+    "compactIndex": 212,
+    "canonicalByte": 43,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜧",
+    "compactIndex": 213,
+    "canonicalByte": 171,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛯",
+    "compactIndex": 214,
+    "canonicalByte": 107,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜞",
+    "compactIndex": 215,
+    "canonicalByte": 215,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐚅",
+    "compactIndex": 216,
+    "canonicalByte": 27,
+    "freqTotal": 1,
+    "freqInitial": 0,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "CODA"
+  },
+  {
+    "sign": "𐚼",
+    "compactIndex": 217,
+    "canonicalByte": 155,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜘",
+    "compactIndex": 218,
+    "canonicalByte": 91,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐚆",
+    "compactIndex": 219,
+    "canonicalByte": 219,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛫",
+    "compactIndex": 220,
+    "canonicalByte": 59,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛼",
+    "compactIndex": 221,
+    "canonicalByte": 187,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛬",
+    "compactIndex": 222,
+    "canonicalByte": 123,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛹",
+    "compactIndex": 223,
+    "canonicalByte": 223,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛸",
+    "compactIndex": 224,
+    "canonicalByte": 7,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜣",
+    "compactIndex": 225,
+    "canonicalByte": 135,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛊",
+    "compactIndex": 226,
+    "canonicalByte": 71,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛋",
+    "compactIndex": 227,
+    "canonicalByte": 199,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛒",
+    "compactIndex": 228,
+    "canonicalByte": 39,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛾",
+    "compactIndex": 229,
+    "canonicalByte": 167,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛽",
+    "compactIndex": 230,
+    "canonicalByte": 103,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐚯",
+    "compactIndex": 231,
+    "canonicalByte": 231,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐚰",
+    "compactIndex": 232,
+    "canonicalByte": 23,
+    "freqTotal": 1,
+    "freqInitial": 0,
+    "freqMedial": 1,
+    "freqFinal": 0,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐜦",
+    "compactIndex": 233,
+    "canonicalByte": 151,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛐",
+    "compactIndex": 234,
+    "canonicalByte": 87,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛅",
+    "compactIndex": 235,
+    "canonicalByte": 215,
+    "freqTotal": 1,
+    "freqInitial": 0,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "CODA"
+  },
+  {
+    "sign": "𐛂",
+    "compactIndex": 236,
+    "canonicalByte": 55,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐚣",
+    "compactIndex": 237,
+    "canonicalByte": 183,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛞",
+    "compactIndex": 238,
+    "canonicalByte": 119,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛎",
+    "compactIndex": 239,
+    "canonicalByte": 239,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛏",
+    "compactIndex": 240,
+    "canonicalByte": 15,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜯",
+    "compactIndex": 241,
+    "canonicalByte": 143,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛤",
+    "compactIndex": 242,
+    "canonicalByte": 79,
+    "freqTotal": 1,
+    "freqInitial": 0,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "CODA"
+  },
+  {
+    "sign": "𐛍",
+    "compactIndex": 243,
+    "canonicalByte": 207,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐚂",
+    "compactIndex": 244,
+    "canonicalByte": 47,
+    "freqTotal": 1,
+    "freqInitial": 0,
+    "freqMedial": 1,
+    "freqFinal": 0,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐜒",
+    "compactIndex": 245,
+    "canonicalByte": 175,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜑",
+    "compactIndex": 246,
+    "canonicalByte": 111,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛗",
+    "compactIndex": 247,
+    "canonicalByte": 239,
+    "freqTotal": 1,
+    "freqInitial": 0,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "CODA"
+  },
+  {
+    "sign": "𐛙",
+    "compactIndex": 248,
+    "canonicalByte": 31,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜤",
+    "compactIndex": 249,
+    "canonicalByte": 159,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛑",
+    "compactIndex": 250,
+    "canonicalByte": 95,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛮",
+    "compactIndex": 251,
+    "canonicalByte": 223,
+    "freqTotal": 1,
+    "freqInitial": 0,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "CODA"
+  },
+  {
+    "sign": "𐛕",
+    "compactIndex": 252,
+    "canonicalByte": 63,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐚿",
+    "compactIndex": 253,
+    "canonicalByte": 191,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐚴",
+    "compactIndex": 254,
+    "canonicalByte": 127,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐚦",
+    "compactIndex": 255,
+    "canonicalByte": 255,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐚃",
+    "compactIndex": 256,
+    "canonicalByte": 0,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐚄",
+    "compactIndex": 257,
+    "canonicalByte": 1,
+    "freqTotal": 1,
+    "freqInitial": 0,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "CODA"
+  },
+  {
+    "sign": "𐛔",
+    "compactIndex": 258,
+    "canonicalByte": 2,
+    "freqTotal": 1,
+    "freqInitial": 0,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "CODA"
+  },
+  {
+    "sign": "𐚙",
+    "compactIndex": 259,
+    "canonicalByte": 3,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐚚",
+    "compactIndex": 260,
+    "canonicalByte": 4,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐚛",
+    "compactIndex": 261,
+    "canonicalByte": 5,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐚜",
+    "compactIndex": 262,
+    "canonicalByte": 6,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐚝",
+    "compactIndex": 263,
+    "canonicalByte": 7,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜀",
+    "compactIndex": 264,
+    "canonicalByte": 8,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐚈",
+    "compactIndex": 265,
+    "canonicalByte": 9,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐚉",
+    "compactIndex": 266,
+    "canonicalByte": 10,
+    "freqTotal": 1,
+    "freqInitial": 0,
+    "freqMedial": 1,
+    "freqFinal": 0,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐚊",
+    "compactIndex": 267,
+    "canonicalByte": 11,
+    "freqTotal": 1,
+    "freqInitial": 0,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "CODA"
+  },
+  {
+    "sign": "𐚵",
+    "compactIndex": 268,
+    "canonicalByte": 12,
+    "freqTotal": 1,
+    "freqInitial": 0,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "CODA"
+  },
+  {
+    "sign": "𐚶",
+    "compactIndex": 269,
+    "canonicalByte": 13,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜟",
+    "compactIndex": 270,
+    "canonicalByte": 14,
+    "freqTotal": 1,
+    "freqInitial": 0,
+    "freqMedial": 1,
+    "freqFinal": 0,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐛇",
+    "compactIndex": 271,
+    "canonicalByte": 15,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜂",
+    "compactIndex": 272,
+    "canonicalByte": 8,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐚇",
+    "compactIndex": 273,
+    "canonicalByte": 17,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜛",
+    "compactIndex": 274,
+    "canonicalByte": 18,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐙧",
+    "compactIndex": 275,
+    "canonicalByte": 19,
+    "freqTotal": 1,
+    "freqInitial": 0,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "CODA"
+  },
+  {
+    "sign": "𐛌",
+    "compactIndex": 276,
+    "canonicalByte": 20,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐚟",
+    "compactIndex": 277,
+    "canonicalByte": 21,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐙔",
+    "compactIndex": 278,
+    "canonicalByte": 22,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐚋",
+    "compactIndex": 279,
+    "canonicalByte": 23,
+    "freqTotal": 1,
+    "freqInitial": 0,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "CODA"
+  },
+  {
+    "sign": "𐝭",
+    "compactIndex": 280,
+    "canonicalByte": 24,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛓",
+    "compactIndex": 281,
+    "canonicalByte": 25,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛈",
+    "compactIndex": 282,
+    "canonicalByte": 26,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜲",
+    "compactIndex": 283,
+    "canonicalByte": 27,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜭",
+    "compactIndex": 284,
+    "canonicalByte": 28,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜬",
+    "compactIndex": 285,
+    "canonicalByte": 29,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛄",
+    "compactIndex": 286,
+    "canonicalByte": 30,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐚤",
+    "compactIndex": 287,
+    "canonicalByte": 31,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜴",
+    "compactIndex": 288,
+    "canonicalByte": 4,
+    "freqTotal": 1,
+    "freqInitial": 0,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "CODA"
+  },
+  {
+    "sign": "𐜳",
+    "compactIndex": 289,
+    "canonicalByte": 33,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜆",
+    "compactIndex": 290,
+    "canonicalByte": 34,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜄",
+    "compactIndex": 291,
+    "canonicalByte": 35,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜃",
+    "compactIndex": 292,
+    "canonicalByte": 36,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐚥",
+    "compactIndex": 293,
+    "canonicalByte": 37,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐚏",
+    "compactIndex": 294,
+    "canonicalByte": 38,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐚎",
+    "compactIndex": 295,
+    "canonicalByte": 39,
+    "freqTotal": 1,
+    "freqInitial": 0,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "CODA"
+  },
+  {
+    "sign": "𐚐",
+    "compactIndex": 296,
+    "canonicalByte": 20,
+    "freqTotal": 1,
+    "freqInitial": 0,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "CODA"
+  },
+  {
+    "sign": "𐚑",
+    "compactIndex": 297,
+    "canonicalByte": 41,
+    "freqTotal": 1,
+    "freqInitial": 0,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "CODA"
+  },
+  {
+    "sign": "𐚒",
+    "compactIndex": 298,
+    "canonicalByte": 42,
+    "freqTotal": 1,
+    "freqInitial": 0,
+    "freqMedial": 1,
+    "freqFinal": 0,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐚓",
+    "compactIndex": 299,
+    "canonicalByte": 43,
+    "freqTotal": 1,
+    "freqInitial": 0,
+    "freqMedial": 1,
+    "freqFinal": 0,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐚔",
+    "compactIndex": 300,
+    "canonicalByte": 44,
+    "freqTotal": 1,
+    "freqInitial": 0,
+    "freqMedial": 1,
+    "freqFinal": 0,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐝮",
+    "compactIndex": 301,
+    "canonicalByte": 45,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛠",
+    "compactIndex": 302,
+    "canonicalByte": 46,
+    "freqTotal": 1,
+    "freqInitial": 0,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "CODA"
+  },
+  {
+    "sign": "𐛡",
+    "compactIndex": 303,
+    "canonicalByte": 47,
+    "freqTotal": 1,
+    "freqInitial": 0,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "CODA"
+  },
+  {
+    "sign": "𐛣",
+    "compactIndex": 304,
+    "canonicalByte": 12,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐛘",
+    "compactIndex": 305,
+    "canonicalByte": 49,
+    "freqTotal": 1,
+    "freqInitial": 0,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "CODA"
+  },
+  {
+    "sign": "𐜵",
+    "compactIndex": 306,
+    "canonicalByte": 50,
+    "freqTotal": 1,
+    "freqInitial": 0,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "CODA"
+  },
+  {
+    "sign": "𐜢",
+    "compactIndex": 307,
+    "canonicalByte": 51,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐚍",
+    "compactIndex": 308,
+    "canonicalByte": 44,
+    "freqTotal": 1,
+    "freqInitial": 0,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "CODA"
+  },
+  {
+    "sign": "𐚬",
+    "compactIndex": 309,
+    "canonicalByte": 53,
+    "freqTotal": 1,
+    "freqInitial": 0,
+    "freqMedial": 1,
+    "freqFinal": 0,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐙬",
+    "compactIndex": 310,
+    "canonicalByte": 54,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐝢",
+    "compactIndex": 311,
+    "canonicalByte": 55,
+    "freqTotal": 1,
+    "freqInitial": 0,
+    "freqMedial": 1,
+    "freqFinal": 0,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐝦",
+    "compactIndex": 312,
+    "canonicalByte": 28,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐝠",
+    "compactIndex": 313,
+    "canonicalByte": 57,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐘩",
+    "compactIndex": 314,
+    "canonicalByte": 58,
+    "freqTotal": 1,
+    "freqInitial": 0,
+    "freqMedial": 1,
+    "freqFinal": 0,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐝡",
+    "compactIndex": 315,
+    "canonicalByte": 59,
+    "freqTotal": 1,
+    "freqInitial": 0,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "CODA"
+  },
+  {
+    "sign": "𐜔",
+    "compactIndex": 316,
+    "canonicalByte": 60,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜕",
+    "compactIndex": 317,
+    "canonicalByte": 61,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐚕",
+    "compactIndex": 318,
+    "canonicalByte": 62,
+    "freqTotal": 1,
+    "freqInitial": 0,
+    "freqMedial": 1,
+    "freqFinal": 0,
+    "positionBias": "BODY"
+  },
+  {
+    "sign": "𐚖",
+    "compactIndex": 319,
+    "canonicalByte": 63,
+    "freqTotal": 1,
+    "freqInitial": 0,
+    "freqMedial": 0,
+    "freqFinal": 1,
+    "positionBias": "CODA"
+  },
+  {
+    "sign": "𐛟",
+    "compactIndex": 320,
+    "canonicalByte": 2,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  },
+  {
+    "sign": "𐜁",
+    "compactIndex": 321,
+    "canonicalByte": 65,
+    "freqTotal": 1,
+    "freqInitial": 1,
+    "freqMedial": 0,
+    "freqFinal": 0,
+    "positionBias": "ONSET"
+  }
+]
