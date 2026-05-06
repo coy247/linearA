@@ -1,7 +1,8 @@
 {
   "tasks": {
-    "test": "deno test --allow-net src/",
+    "test": "deno test --allow-net --allow-read src/ scripts/analyze_signs_test.ts spec/linear-a-fsm-validator-test.ts",
     "test:canonical": "deno test --allow-net src/canonical_octet_test.ts",
+    "test:analyze": "deno test --allow-read scripts/analyze_signs_test.ts",
     "test:fsm": "deno test --allow-net --allow-read spec/linear-a-fsm-validator-test.ts",
     "corpus:fetch": "deno run --allow-net --allow-write scripts/fetch_corpus.ts",
     "corpus:build": "deno run --allow-read --allow-write scripts/build_corpus.ts",

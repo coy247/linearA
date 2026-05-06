@@ -93,3 +93,19 @@ Deno.test("FSM_THRESHOLD: equals 3631/3980 (empirically derived)", () => {
   const expected = 3631 / 3980;
   assert(Math.abs(FSM_THRESHOLD - expected) < 1e-10, `Expected ${expected}, got ${FSM_THRESHOLD}`);
 });
+
+// ── passesHealthGate ──────────────────────────────────────────────────────────
+
+Deno.test("passesHealthGate: all-valid transitions passes gate", () => {
+  // 𐝫 is ONSET, 𐘳 is BODY — ONSET→BODY is valid; two such groups score 1.0 mean
+  assert(passesHealthGate(["𐝫.𐘳", "𐙂.𐘅"]), "All-valid groups should pass gate");
+});
+
+Deno.test("passesHealthGate: all-unknown signs fails gate", () => {
+  // Unknown signs → MIXED; MIXED→MIXED is not valid → score 0 → fails gate
+  assert(!passesHealthGate(["UNKNOWN_X.UNKNOWN_Y", "UNKNOWN_A.UNKNOWN_B"]), "Unknown signs should fail gate");
+});
+
+Deno.test("passesHealthGate: empty array fails gate", () => {
+  assert(!passesHealthGate([]), "Empty output should fail gate");
+});
