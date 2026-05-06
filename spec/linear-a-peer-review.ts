@@ -215,4 +215,73 @@ export function runProof2(): ProofResult {
   };
 }
 
-export function runProof3(): ProofResult { throw new Error("not implemented"); }
+interface SignFreqEntry {
+  sign: string;
+  compactIndex: number;
+  canonicalByte: number | null;
+  positionBias: string;
+}
+
+function loadSignFrequency(): SignFreqEntry[] {
+  const raw = Deno.readTextFileSync(`${REPO_ROOT}corpus/analysis/sign-frequency.json`);
+  return JSON.parse(raw) as SignFreqEntry[];
+}
+
+function cohenD(a: number[], b: number[]): number {
+  if (a.length === 0 || b.length === 0) return 0;
+  const meanA = a.reduce((s, x) => s + x, 0) / a.length;
+  const meanB = b.reduce((s, x) => s + x, 0) / b.length;
+  const varA  = a.reduce((s, x) => s + (x - meanA) ** 2, 0) / a.length;
+  const varB  = b.reduce((s, x) => s + (x - meanB) ** 2, 0) / b.length;
+  const pooledSd = Math.sqrt((varA + varB) / 2);
+  return pooledSd === 0 ? 0 : Math.abs(meanA - meanB) / pooledSd;
+}
+
+export function runProof3(): ProofResult {
+  const signs = loadSignFrequency();
+
+  // Filter to signs with a non-null, positive canonicalByte
+  const withByte = signs.filter(s => s.canonicalByte !== null && s.canonicalByte > 0);
+
+  const byState: Record<string, number[]> = { ONSET: [], BODY: [], CODA: [], MIXED: [] };
+  for (const s of withByte) {
+    if (byState[s.positionBias]) byState[s.positionBias].push(s.canonicalByte as number);
+  }
+
+  const centroid = (xs: number[]) =>
+    xs.length > 0 ? xs.reduce((s, x) => s + x, 0) / xs.length : 0;
+
+  const centroidONSET = centroid(byState["ONSET"]);
+  const centroidBODY  = centroid(byState["BODY"]);
+  const centroidCODA  = centroid(byState["CODA"]);
+
+  // BODY (iterating tier) clusters at lower canonical byte values than ONSET and CODA.
+  // This is the empirical structure: iterating signs occupy a distinct low-byte band.
+  const bodyIsLow = centroidBODY < centroidONSET && centroidBODY < centroidCODA;
+
+  const dOB = cohenD(byState["ONSET"], byState["BODY"]);
+  const dBC = cohenD(byState["BODY"],  byState["CODA"]);
+
+  const passed = bodyIsLow && dOB > 0.5 && dBC > 0.5;
+
+  return {
+    proof:  3,
+    name:   "Canonical Octet Sign Clustering",
+    passed,
+    metrics: {
+      signsWithByte:      withByte.length,
+      onsetCount:         byState["ONSET"].length,
+      bodyCount:          byState["BODY"].length,
+      codaCount:          byState["CODA"].length,
+      centroidONSET,
+      centroidBODY,
+      centroidCODA,
+      bodyIsLow,
+      cohenD_ONSET_BODY:  dOB,
+      cohenD_BODY_CODA:   dBC,
+    },
+    verdict: passed
+      ? `BODY centroid=${centroidBODY.toFixed(1)} < ONSET=${centroidONSET.toFixed(1)}, CODA=${centroidCODA.toFixed(1)}; Cohen's d: OB=${dOB.toFixed(3)}, BC=${dBC.toFixed(3)}`
+      : `FAIL: bodyIsLow=${bodyIsLow}, d_OB=${dOB.toFixed(3)}, d_BC=${dBC.toFixed(3)}`,
+  };
+}
