@@ -35,6 +35,7 @@ export function parseFsmTransition(raw: string, prop = "all"): string {
   if (!VALID_TRANSITIONS.has(t)) {
     throw new RangeError(`fsm(${t}) is not a valid Linear A FSM transition`);
   }
-  const timing = FSM_TO_CSS[t] ?? "linear 300ms";
+  const timing = FSM_TO_CSS[t];
+  if (!timing) throw new Error(`No CSS mapping for valid transition: ${t}`);
   return `${prop} ${timing}`;
 }

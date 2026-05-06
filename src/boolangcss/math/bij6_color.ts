@@ -33,7 +33,7 @@ export function bij6ColorToCSS(c: Bij6Color): string {
 
 /** Parse "bij6(r:4 g:3 b:5)" → Bij6Color */
 export function parseBij6Color(raw: string): Bij6Color {
-  const m = raw.match(/bij6\s*\(\s*r:(\d)\s+g:(\d)\s+b:(\d)\s*\)/);
+  const m = raw.match(/bij6\s*\(\s*r:([1-6])\s+g:([1-6])\s+b:([1-6])\s*\)/);
   if (!m) throw new SyntaxError(`Invalid bij6 color: "${raw}"`);
   return { r: Number(m[1]), g: Number(m[2]), b: Number(m[3]) };
 }
