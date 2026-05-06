@@ -63,10 +63,11 @@ async function main() {
   for (const entry of entries) {
     const content = await Deno.readTextFile(`${CORPUS_DIR}/${entry.name}`);
     const { id, site } = extractMeta(content);
-    const groups = extractGroups(content).filter(g => g.includes("."));
-    const scored = groups.length;
+    const rawGroups = extractGroups(content);
+    const groups    = rawGroups.filter(g => g.includes("."));
+    const scored    = groups.length;
     const fsm_score = scoreOutput(groups);
-    scores.push({ id, site, groups: groups.length, scored, fsm_score, passes_gate: fsm_score >= FSM_THRESHOLD });
+    scores.push({ id, site, groups: rawGroups.length, scored, fsm_score, passes_gate: fsm_score >= FSM_THRESHOLD });
   }
 
   // Per-site aggregation
