@@ -1276,332 +1276,332 @@
   },
   "𐚃": {
     "compactIndex": 256,
-    "canonicalByte": 0,
+    "canonicalByte": null,
     "state": "ONSET"
   },
   "𐚄": {
     "compactIndex": 257,
-    "canonicalByte": 1,
+    "canonicalByte": null,
     "state": "CODA"
   },
   "𐛔": {
     "compactIndex": 258,
-    "canonicalByte": 2,
+    "canonicalByte": null,
     "state": "CODA"
   },
   "𐚙": {
     "compactIndex": 259,
-    "canonicalByte": 3,
+    "canonicalByte": null,
     "state": "ONSET"
   },
   "𐚚": {
     "compactIndex": 260,
-    "canonicalByte": 4,
+    "canonicalByte": null,
     "state": "ONSET"
   },
   "𐚛": {
     "compactIndex": 261,
-    "canonicalByte": 5,
+    "canonicalByte": null,
     "state": "ONSET"
   },
   "𐚜": {
     "compactIndex": 262,
-    "canonicalByte": 6,
+    "canonicalByte": null,
     "state": "ONSET"
   },
   "𐚝": {
     "compactIndex": 263,
-    "canonicalByte": 7,
+    "canonicalByte": null,
     "state": "ONSET"
   },
   "𐜀": {
     "compactIndex": 264,
-    "canonicalByte": 8,
+    "canonicalByte": null,
     "state": "ONSET"
   },
   "𐚈": {
     "compactIndex": 265,
-    "canonicalByte": 9,
+    "canonicalByte": null,
     "state": "ONSET"
   },
   "𐚉": {
     "compactIndex": 266,
-    "canonicalByte": 10,
+    "canonicalByte": null,
     "state": "BODY"
   },
   "𐚊": {
     "compactIndex": 267,
-    "canonicalByte": 11,
+    "canonicalByte": null,
     "state": "CODA"
   },
   "𐚵": {
     "compactIndex": 268,
-    "canonicalByte": 12,
+    "canonicalByte": null,
     "state": "CODA"
   },
   "𐚶": {
     "compactIndex": 269,
-    "canonicalByte": 13,
+    "canonicalByte": null,
     "state": "ONSET"
   },
   "𐜟": {
     "compactIndex": 270,
-    "canonicalByte": 14,
+    "canonicalByte": null,
     "state": "BODY"
   },
   "𐛇": {
     "compactIndex": 271,
-    "canonicalByte": 15,
+    "canonicalByte": null,
     "state": "ONSET"
   },
   "𐜂": {
     "compactIndex": 272,
-    "canonicalByte": 8,
+    "canonicalByte": null,
     "state": "ONSET"
   },
   "𐚇": {
     "compactIndex": 273,
-    "canonicalByte": 17,
+    "canonicalByte": null,
     "state": "ONSET"
   },
   "𐜛": {
     "compactIndex": 274,
-    "canonicalByte": 18,
+    "canonicalByte": null,
     "state": "ONSET"
   },
   "𐙧": {
     "compactIndex": 275,
-    "canonicalByte": 19,
+    "canonicalByte": null,
     "state": "CODA"
   },
   "𐛌": {
     "compactIndex": 276,
-    "canonicalByte": 20,
+    "canonicalByte": null,
     "state": "ONSET"
   },
   "𐚟": {
     "compactIndex": 277,
-    "canonicalByte": 21,
+    "canonicalByte": null,
     "state": "ONSET"
   },
   "𐙔": {
     "compactIndex": 278,
-    "canonicalByte": 22,
+    "canonicalByte": null,
     "state": "ONSET"
   },
   "𐚋": {
     "compactIndex": 279,
-    "canonicalByte": 23,
+    "canonicalByte": null,
     "state": "CODA"
   },
   "𐝭": {
     "compactIndex": 280,
-    "canonicalByte": 24,
+    "canonicalByte": null,
     "state": "ONSET"
   },
   "𐛓": {
     "compactIndex": 281,
-    "canonicalByte": 25,
+    "canonicalByte": null,
     "state": "ONSET"
   },
   "𐛈": {
     "compactIndex": 282,
-    "canonicalByte": 26,
+    "canonicalByte": null,
     "state": "ONSET"
   },
   "𐜲": {
     "compactIndex": 283,
-    "canonicalByte": 27,
+    "canonicalByte": null,
     "state": "ONSET"
   },
   "𐜭": {
     "compactIndex": 284,
-    "canonicalByte": 28,
+    "canonicalByte": null,
     "state": "ONSET"
   },
   "𐜬": {
     "compactIndex": 285,
-    "canonicalByte": 29,
+    "canonicalByte": null,
     "state": "ONSET"
   },
   "𐛄": {
     "compactIndex": 286,
-    "canonicalByte": 30,
+    "canonicalByte": null,
     "state": "ONSET"
   },
   "𐚤": {
     "compactIndex": 287,
-    "canonicalByte": 31,
+    "canonicalByte": null,
     "state": "ONSET"
   },
   "𐜴": {
     "compactIndex": 288,
-    "canonicalByte": 4,
+    "canonicalByte": null,
     "state": "CODA"
   },
   "𐜳": {
     "compactIndex": 289,
-    "canonicalByte": 33,
+    "canonicalByte": null,
     "state": "ONSET"
   },
   "𐜆": {
     "compactIndex": 290,
-    "canonicalByte": 34,
+    "canonicalByte": null,
     "state": "ONSET"
   },
   "𐜄": {
     "compactIndex": 291,
-    "canonicalByte": 35,
+    "canonicalByte": null,
     "state": "ONSET"
   },
   "𐜃": {
     "compactIndex": 292,
-    "canonicalByte": 36,
+    "canonicalByte": null,
     "state": "ONSET"
   },
   "𐚥": {
     "compactIndex": 293,
-    "canonicalByte": 37,
+    "canonicalByte": null,
     "state": "ONSET"
   },
   "𐚏": {
     "compactIndex": 294,
-    "canonicalByte": 38,
+    "canonicalByte": null,
     "state": "ONSET"
   },
   "𐚎": {
     "compactIndex": 295,
-    "canonicalByte": 39,
+    "canonicalByte": null,
     "state": "CODA"
   },
   "𐚐": {
     "compactIndex": 296,
-    "canonicalByte": 20,
+    "canonicalByte": null,
     "state": "CODA"
   },
   "𐚑": {
     "compactIndex": 297,
-    "canonicalByte": 41,
+    "canonicalByte": null,
     "state": "CODA"
   },
   "𐚒": {
     "compactIndex": 298,
-    "canonicalByte": 42,
+    "canonicalByte": null,
     "state": "BODY"
   },
   "𐚓": {
     "compactIndex": 299,
-    "canonicalByte": 43,
+    "canonicalByte": null,
     "state": "BODY"
   },
   "𐚔": {
     "compactIndex": 300,
-    "canonicalByte": 44,
+    "canonicalByte": null,
     "state": "BODY"
   },
   "𐝮": {
     "compactIndex": 301,
-    "canonicalByte": 45,
+    "canonicalByte": null,
     "state": "ONSET"
   },
   "𐛠": {
     "compactIndex": 302,
-    "canonicalByte": 46,
+    "canonicalByte": null,
     "state": "CODA"
   },
   "𐛡": {
     "compactIndex": 303,
-    "canonicalByte": 47,
+    "canonicalByte": null,
     "state": "CODA"
   },
   "𐛣": {
     "compactIndex": 304,
-    "canonicalByte": 12,
+    "canonicalByte": null,
     "state": "ONSET"
   },
   "𐛘": {
     "compactIndex": 305,
-    "canonicalByte": 49,
+    "canonicalByte": null,
     "state": "CODA"
   },
   "𐜵": {
     "compactIndex": 306,
-    "canonicalByte": 50,
+    "canonicalByte": null,
     "state": "CODA"
   },
   "𐜢": {
     "compactIndex": 307,
-    "canonicalByte": 51,
+    "canonicalByte": null,
     "state": "ONSET"
   },
   "𐚍": {
     "compactIndex": 308,
-    "canonicalByte": 44,
+    "canonicalByte": null,
     "state": "CODA"
   },
   "𐚬": {
     "compactIndex": 309,
-    "canonicalByte": 53,
+    "canonicalByte": null,
     "state": "BODY"
   },
   "𐙬": {
     "compactIndex": 310,
-    "canonicalByte": 54,
+    "canonicalByte": null,
     "state": "ONSET"
   },
   "𐝢": {
     "compactIndex": 311,
-    "canonicalByte": 55,
+    "canonicalByte": null,
     "state": "BODY"
   },
   "𐝦": {
     "compactIndex": 312,
-    "canonicalByte": 28,
+    "canonicalByte": null,
     "state": "ONSET"
   },
   "𐝠": {
     "compactIndex": 313,
-    "canonicalByte": 57,
+    "canonicalByte": null,
     "state": "ONSET"
   },
   "𐘩": {
     "compactIndex": 314,
-    "canonicalByte": 58,
+    "canonicalByte": null,
     "state": "BODY"
   },
   "𐝡": {
     "compactIndex": 315,
-    "canonicalByte": 59,
+    "canonicalByte": null,
     "state": "CODA"
   },
   "𐜔": {
     "compactIndex": 316,
-    "canonicalByte": 60,
+    "canonicalByte": null,
     "state": "ONSET"
   },
   "𐜕": {
     "compactIndex": 317,
-    "canonicalByte": 61,
+    "canonicalByte": null,
     "state": "ONSET"
   },
   "𐚕": {
     "compactIndex": 318,
-    "canonicalByte": 62,
+    "canonicalByte": null,
     "state": "BODY"
   },
   "𐚖": {
     "compactIndex": 319,
-    "canonicalByte": 63,
+    "canonicalByte": null,
     "state": "CODA"
   },
   "𐛟": {
     "compactIndex": 320,
-    "canonicalByte": 2,
+    "canonicalByte": null,
     "state": "ONSET"
   },
   "𐜁": {
     "compactIndex": 321,
-    "canonicalByte": 65,
+    "canonicalByte": null,
     "state": "ONSET"
   }
 }

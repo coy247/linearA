@@ -1,7 +1,7 @@
 import { assertEquals } from "https://deno.land/std@0.224.0/assert/mod.ts";
 import {
   parseLinearAFile, buildFrequencyTable, positionBias, buildSignFreqArray,
-  buildBigramMatrix, aggregateStateTransitions,
+  buildSignIndex, buildBigramMatrix, aggregateStateTransitions,
 } from "./analyze_signs.ts";
 import type { SignIndex, BigramEntry } from "./analyze_signs.ts";
 
@@ -111,4 +111,17 @@ Deno.test("aggregateStateTransitions: sums counts per state pair", () => {
   assertEquals(agg[1].totalCount, 3);
   const total = agg.reduce((s, a) => s + a.totalCount, 0);
   assertEquals(total, 9);
+});
+
+Deno.test("buildSignIndex: maps signs to compact index, canonical byte, and state", () => {
+  const freq = new Map([
+    ["da", { total: 10, initial: 7, medial: 2, final: 1 }],
+    ["ku", { total: 5,  initial: 1, medial: 3, final: 1 }],
+  ]);
+  const signFreqs = buildSignFreqArray(freq);
+  const idx = buildSignIndex(signFreqs);
+  assertEquals(idx["da"].compactIndex, 1);
+  assertEquals(idx["da"].state, "ONSET");
+  assertEquals(idx["ku"].compactIndex, 2);
+  assertEquals(idx["ku"].state, "BODY");
 });

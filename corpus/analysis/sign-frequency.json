@@ -2552,7 +2552,7 @@
   {
     "sign": "𐚃",
     "compactIndex": 256,
-    "canonicalByte": 0,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 1,
     "freqMedial": 0,
@@ -2562,7 +2562,7 @@
   {
     "sign": "𐚄",
     "compactIndex": 257,
-    "canonicalByte": 1,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 0,
     "freqMedial": 0,
@@ -2572,7 +2572,7 @@
   {
     "sign": "𐛔",
     "compactIndex": 258,
-    "canonicalByte": 2,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 0,
     "freqMedial": 0,
@@ -2582,7 +2582,7 @@
   {
     "sign": "𐚙",
     "compactIndex": 259,
-    "canonicalByte": 3,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 1,
     "freqMedial": 0,
@@ -2592,7 +2592,7 @@
   {
     "sign": "𐚚",
     "compactIndex": 260,
-    "canonicalByte": 4,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 1,
     "freqMedial": 0,
@@ -2602,7 +2602,7 @@
   {
     "sign": "𐚛",
     "compactIndex": 261,
-    "canonicalByte": 5,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 1,
     "freqMedial": 0,
@@ -2612,7 +2612,7 @@
   {
     "sign": "𐚜",
     "compactIndex": 262,
-    "canonicalByte": 6,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 1,
     "freqMedial": 0,
@@ -2622,7 +2622,7 @@
   {
     "sign": "𐚝",
     "compactIndex": 263,
-    "canonicalByte": 7,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 1,
     "freqMedial": 0,
@@ -2632,7 +2632,7 @@
   {
     "sign": "𐜀",
     "compactIndex": 264,
-    "canonicalByte": 8,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 1,
     "freqMedial": 0,
@@ -2642,7 +2642,7 @@
   {
     "sign": "𐚈",
     "compactIndex": 265,
-    "canonicalByte": 9,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 1,
     "freqMedial": 0,
@@ -2652,7 +2652,7 @@
   {
     "sign": "𐚉",
     "compactIndex": 266,
-    "canonicalByte": 10,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 0,
     "freqMedial": 1,
@@ -2662,7 +2662,7 @@
   {
     "sign": "𐚊",
     "compactIndex": 267,
-    "canonicalByte": 11,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 0,
     "freqMedial": 0,
@@ -2672,7 +2672,7 @@
   {
     "sign": "𐚵",
     "compactIndex": 268,
-    "canonicalByte": 12,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 0,
     "freqMedial": 0,
@@ -2682,7 +2682,7 @@
   {
     "sign": "𐚶",
     "compactIndex": 269,
-    "canonicalByte": 13,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 1,
     "freqMedial": 0,
@@ -2692,7 +2692,7 @@
   {
     "sign": "𐜟",
     "compactIndex": 270,
-    "canonicalByte": 14,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 0,
     "freqMedial": 1,
@@ -2702,7 +2702,7 @@
   {
     "sign": "𐛇",
     "compactIndex": 271,
-    "canonicalByte": 15,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 1,
     "freqMedial": 0,
@@ -2712,7 +2712,7 @@
   {
     "sign": "𐜂",
     "compactIndex": 272,
-    "canonicalByte": 8,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 1,
     "freqMedial": 0,
@@ -2722,7 +2722,7 @@
   {
     "sign": "𐚇",
     "compactIndex": 273,
-    "canonicalByte": 17,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 1,
     "freqMedial": 0,
@@ -2732,7 +2732,7 @@
   {
     "sign": "𐜛",
     "compactIndex": 274,
-    "canonicalByte": 18,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 1,
     "freqMedial": 0,
@@ -2742,7 +2742,7 @@
   {
     "sign": "𐙧",
     "compactIndex": 275,
-    "canonicalByte": 19,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 0,
     "freqMedial": 0,
@@ -2752,7 +2752,7 @@
   {
     "sign": "𐛌",
     "compactIndex": 276,
-    "canonicalByte": 20,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 1,
     "freqMedial": 0,
@@ -2762,7 +2762,7 @@
   {
     "sign": "𐚟",
     "compactIndex": 277,
-    "canonicalByte": 21,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 1,
     "freqMedial": 0,
@@ -2772,7 +2772,7 @@
   {
     "sign": "𐙔",
     "compactIndex": 278,
-    "canonicalByte": 22,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 1,
     "freqMedial": 0,
@@ -2782,7 +2782,7 @@
   {
     "sign": "𐚋",
     "compactIndex": 279,
-    "canonicalByte": 23,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 0,
     "freqMedial": 0,
@@ -2792,7 +2792,7 @@
   {
     "sign": "𐝭",
     "compactIndex": 280,
-    "canonicalByte": 24,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 1,
     "freqMedial": 0,
@@ -2802,7 +2802,7 @@
   {
     "sign": "𐛓",
     "compactIndex": 281,
-    "canonicalByte": 25,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 1,
     "freqMedial": 0,
@@ -2812,7 +2812,7 @@
   {
     "sign": "𐛈",
     "compactIndex": 282,
-    "canonicalByte": 26,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 1,
     "freqMedial": 0,
@@ -2822,7 +2822,7 @@
   {
     "sign": "𐜲",
     "compactIndex": 283,
-    "canonicalByte": 27,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 1,
     "freqMedial": 0,
@@ -2832,7 +2832,7 @@
   {
     "sign": "𐜭",
     "compactIndex": 284,
-    "canonicalByte": 28,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 1,
     "freqMedial": 0,
@@ -2842,7 +2842,7 @@
   {
     "sign": "𐜬",
     "compactIndex": 285,
-    "canonicalByte": 29,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 1,
     "freqMedial": 0,
@@ -2852,7 +2852,7 @@
   {
     "sign": "𐛄",
     "compactIndex": 286,
-    "canonicalByte": 30,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 1,
     "freqMedial": 0,
@@ -2862,7 +2862,7 @@
   {
     "sign": "𐚤",
     "compactIndex": 287,
-    "canonicalByte": 31,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 1,
     "freqMedial": 0,
@@ -2872,7 +2872,7 @@
   {
     "sign": "𐜴",
     "compactIndex": 288,
-    "canonicalByte": 4,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 0,
     "freqMedial": 0,
@@ -2882,7 +2882,7 @@
   {
     "sign": "𐜳",
     "compactIndex": 289,
-    "canonicalByte": 33,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 1,
     "freqMedial": 0,
@@ -2892,7 +2892,7 @@
   {
     "sign": "𐜆",
     "compactIndex": 290,
-    "canonicalByte": 34,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 1,
     "freqMedial": 0,
@@ -2902,7 +2902,7 @@
   {
     "sign": "𐜄",
     "compactIndex": 291,
-    "canonicalByte": 35,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 1,
     "freqMedial": 0,
@@ -2912,7 +2912,7 @@
   {
     "sign": "𐜃",
     "compactIndex": 292,
-    "canonicalByte": 36,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 1,
     "freqMedial": 0,
@@ -2922,7 +2922,7 @@
   {
     "sign": "𐚥",
     "compactIndex": 293,
-    "canonicalByte": 37,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 1,
     "freqMedial": 0,
@@ -2932,7 +2932,7 @@
   {
     "sign": "𐚏",
     "compactIndex": 294,
-    "canonicalByte": 38,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 1,
     "freqMedial": 0,
@@ -2942,7 +2942,7 @@
   {
     "sign": "𐚎",
     "compactIndex": 295,
-    "canonicalByte": 39,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 0,
     "freqMedial": 0,
@@ -2952,7 +2952,7 @@
   {
     "sign": "𐚐",
     "compactIndex": 296,
-    "canonicalByte": 20,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 0,
     "freqMedial": 0,
@@ -2962,7 +2962,7 @@
   {
     "sign": "𐚑",
     "compactIndex": 297,
-    "canonicalByte": 41,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 0,
     "freqMedial": 0,
@@ -2972,7 +2972,7 @@
   {
     "sign": "𐚒",
     "compactIndex": 298,
-    "canonicalByte": 42,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 0,
     "freqMedial": 1,
@@ -2982,7 +2982,7 @@
   {
     "sign": "𐚓",
     "compactIndex": 299,
-    "canonicalByte": 43,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 0,
     "freqMedial": 1,
@@ -2992,7 +2992,7 @@
   {
     "sign": "𐚔",
     "compactIndex": 300,
-    "canonicalByte": 44,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 0,
     "freqMedial": 1,
@@ -3002,7 +3002,7 @@
   {
     "sign": "𐝮",
     "compactIndex": 301,
-    "canonicalByte": 45,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 1,
     "freqMedial": 0,
@@ -3012,7 +3012,7 @@
   {
     "sign": "𐛠",
     "compactIndex": 302,
-    "canonicalByte": 46,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 0,
     "freqMedial": 0,
@@ -3022,7 +3022,7 @@
   {
     "sign": "𐛡",
     "compactIndex": 303,
-    "canonicalByte": 47,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 0,
     "freqMedial": 0,
@@ -3032,7 +3032,7 @@
   {
     "sign": "𐛣",
     "compactIndex": 304,
-    "canonicalByte": 12,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 1,
     "freqMedial": 0,
@@ -3042,7 +3042,7 @@
   {
     "sign": "𐛘",
     "compactIndex": 305,
-    "canonicalByte": 49,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 0,
     "freqMedial": 0,
@@ -3052,7 +3052,7 @@
   {
     "sign": "𐜵",
     "compactIndex": 306,
-    "canonicalByte": 50,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 0,
     "freqMedial": 0,
@@ -3062,7 +3062,7 @@
   {
     "sign": "𐜢",
     "compactIndex": 307,
-    "canonicalByte": 51,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 1,
     "freqMedial": 0,
@@ -3072,7 +3072,7 @@
   {
     "sign": "𐚍",
     "compactIndex": 308,
-    "canonicalByte": 44,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 0,
     "freqMedial": 0,
@@ -3082,7 +3082,7 @@
   {
     "sign": "𐚬",
     "compactIndex": 309,
-    "canonicalByte": 53,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 0,
     "freqMedial": 1,
@@ -3092,7 +3092,7 @@
   {
     "sign": "𐙬",
     "compactIndex": 310,
-    "canonicalByte": 54,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 1,
     "freqMedial": 0,
@@ -3102,7 +3102,7 @@
   {
     "sign": "𐝢",
     "compactIndex": 311,
-    "canonicalByte": 55,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 0,
     "freqMedial": 1,
@@ -3112,7 +3112,7 @@
   {
     "sign": "𐝦",
     "compactIndex": 312,
-    "canonicalByte": 28,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 1,
     "freqMedial": 0,
@@ -3122,7 +3122,7 @@
   {
     "sign": "𐝠",
     "compactIndex": 313,
-    "canonicalByte": 57,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 1,
     "freqMedial": 0,
@@ -3132,7 +3132,7 @@
   {
     "sign": "𐘩",
     "compactIndex": 314,
-    "canonicalByte": 58,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 0,
     "freqMedial": 1,
@@ -3142,7 +3142,7 @@
   {
     "sign": "𐝡",
     "compactIndex": 315,
-    "canonicalByte": 59,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 0,
     "freqMedial": 0,
@@ -3152,7 +3152,7 @@
   {
     "sign": "𐜔",
     "compactIndex": 316,
-    "canonicalByte": 60,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 1,
     "freqMedial": 0,
@@ -3162,7 +3162,7 @@
   {
     "sign": "𐜕",
     "compactIndex": 317,
-    "canonicalByte": 61,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 1,
     "freqMedial": 0,
@@ -3172,7 +3172,7 @@
   {
     "sign": "𐚕",
     "compactIndex": 318,
-    "canonicalByte": 62,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 0,
     "freqMedial": 1,
@@ -3182,7 +3182,7 @@
   {
     "sign": "𐚖",
     "compactIndex": 319,
-    "canonicalByte": 63,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 0,
     "freqMedial": 0,
@@ -3192,7 +3192,7 @@
   {
     "sign": "𐛟",
     "compactIndex": 320,
-    "canonicalByte": 2,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 1,
     "freqMedial": 0,
@@ -3202,7 +3202,7 @@
   {
     "sign": "𐜁",
     "compactIndex": 321,
-    "canonicalByte": 65,
+    "canonicalByte": null,
     "freqTotal": 1,
     "freqInitial": 1,
     "freqMedial": 0,

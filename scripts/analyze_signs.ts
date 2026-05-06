@@ -19,7 +19,7 @@ const ANALYSIS_DIR = `${REPO_ROOT}corpus/analysis`;
 export interface SignFreq {
   sign:          string;
   compactIndex:  number;
-  canonicalByte: number;
+  canonicalByte: number | null;
   freqTotal:     number;
   freqInitial:   number;
   freqMedial:    number;
@@ -30,7 +30,7 @@ export interface SignFreq {
 export interface SignIndex {
   [sign: string]: {
     compactIndex:  number;
-    canonicalByte: number;
+    canonicalByte: number | null;
     state:         "ONSET" | "BODY" | "CODA" | "MIXED";
   };
 }
@@ -89,7 +89,9 @@ export function buildSignFreqArray(
     return {
       sign,
       compactIndex,
-      canonicalByte: canonicalOctet(compactIndex),
+      // canonicalOctet maps indices 1–255 to bytes; beyond 255 the byte overflows (AND32 truncates).
+      // Return null for out-of-range indices — the encoding layer handles only the top 255 signs.
+      canonicalByte: compactIndex <= 255 ? canonicalOctet(compactIndex) : null,
       freqTotal:   counts.total,
       freqInitial: counts.initial,
       freqMedial:  counts.medial,
@@ -133,6 +135,7 @@ export function buildBigramMatrix(
   }
   const entries: BigramEntry[] = [];
   for (const [key, count] of counts) {
+    // "→" (U+2192) is safe as delimiter: Linear A signs are U+10600–U+1077F, no overlap.
     const [from, to] = key.split("→");
     const fromState = signIndex[from]?.state ?? "MIXED";
     const toState   = signIndex[to]?.state   ?? "MIXED";
