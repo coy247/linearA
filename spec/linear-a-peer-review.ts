@@ -228,11 +228,11 @@ function loadSignFrequency(): SignFreqEntry[] {
 }
 
 function cohenD(a: number[], b: number[]): number {
-  if (a.length === 0 || b.length === 0) return 0;
+  if (a.length < 2 || b.length < 2) return 0;
   const meanA = a.reduce((s, x) => s + x, 0) / a.length;
   const meanB = b.reduce((s, x) => s + x, 0) / b.length;
-  const varA  = a.reduce((s, x) => s + (x - meanA) ** 2, 0) / a.length;
-  const varB  = b.reduce((s, x) => s + (x - meanB) ** 2, 0) / b.length;
+  const varA  = a.reduce((s, x) => s + (x - meanA) ** 2, 0) / (a.length - 1);
+  const varB  = b.reduce((s, x) => s + (x - meanB) ** 2, 0) / (b.length - 1);
   const pooledSd = Math.sqrt((varA + varB) / 2);
   return pooledSd === 0 ? 0 : Math.abs(meanA - meanB) / pooledSd;
 }
