@@ -9,6 +9,7 @@
 
 import { VALID_TRANSITIONS } from "./linear-a-fsm-validator.ts";
 import { mulberry32 } from "../../booLang-hardening/prng.ts";
+import { CANONICAL_RATIO } from "../../booLang-hardening/acceptable_range_governor.ts";
 
 export interface ProofResult {
   proof:    number;
@@ -74,7 +75,7 @@ export function runProof1(): ProofResult {
   // Bij6 governor slot: ceil(ratio * 6) → digit in [1,6]
   // Expansion tier = digits 5-6 (per booLang_architecture_v2.7.yaml digit_to_role)
   const linearARatio = 3631 / 3980;   // governor derived from corpus
-  const booLangRatio = 9109 / 9919;   // acceptable_range_governor canonical ratio
+  const booLangRatio = CANONICAL_RATIO;
 
   const linearADigit = Math.ceil(linearARatio * 6);
   const booLangDigit = Math.ceil(booLangRatio * 6);
