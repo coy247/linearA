@@ -17,8 +17,7 @@ import { FSM_THRESHOLD } from "../../spec/linear-a-fsm-validator.ts";
 
 const REPO_ROOT = decodeURIComponent(new URL("../../", import.meta.url).pathname);
 
-export function compile(source: string): CompilerOutput[] {
-  const signMap = loadSignMap();
+export function compile(source: string, signMap = loadSignMap()): CompilerOutput[] {
   const rules   = parseBlcss(source);
   const outputs: CompilerOutput[] = [];
 
@@ -44,13 +43,12 @@ export function compile(source: string): CompilerOutput[] {
 async function main() {
   const inputArg  = Deno.args[0] ?? `${REPO_ROOT}examples/example.blcss`;
   const source    = await Deno.readTextFile(inputArg);
-  const outputs   = compile(source);
+  const signMap   = loadSignMap();
+  const outputs   = compile(source, signMap);
 
   const allLinearA: string[] = ["# booLangCSS Linear A IR", ""];
   const allVMC: string[]     = ["; booLangCSS Voynich Machine Code", ""];
   const allCSS: string[]     = [];
-
-  const signMap = loadSignMap();
 
   for (const out of outputs) {
     allLinearA.push(formatLinearAIR(out.linearA, out.rule.selector));

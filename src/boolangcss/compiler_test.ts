@@ -39,12 +39,12 @@ Deno.test("compiler: bij6 color encodes to #rrggbb format", () => {
   const out = compile(`chedy div {\n  daiin color: bij6(r:1 g:1 b:1);\n}`);
   const css  = out[0]?.css ?? "";
   // r=1 g=1 b=1 → each channel = Math.round(0/5*255) = 0 → #000000
-  assert(css.includes("#000000"), `Expected #000000 in: ${css}`);
+  assert(css.includes("color: #000000"), `Expected 'color: #000000' in: ${css}`);
 });
 
 Deno.test("compiler: ll(0) resolves to 'initial'", () => {
   const out = compile(`chedy div {\n  daiin font-size: ll(0);\n}`);
-  assert(out[0]?.css.includes("initial"), "ll(0) should resolve to initial");
+  assert(out[0]?.css.includes("font-size: initial"), "ll(0) should resolve to font-size: initial");
 });
 
 Deno.test("compiler: invalid fsm transition throws", () => {
