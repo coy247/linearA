@@ -8,6 +8,7 @@
  */
 
 import { VALID_TRANSITIONS } from "./linear-a-fsm-validator.ts";
+import { mulberry32 } from "../../booLang-hardening/prng.ts";
 
 export interface ProofResult {
   proof:    number;
@@ -117,16 +118,6 @@ export function runProof2(): ProofResult {
   const signSet = new Set<string>();
   for (const b of matrix.bigrams) { signSet.add(b.from); signSet.add(b.to); }
   const signs = [...signSet];
-
-  // Seeded PRNG (mulberry32) for reproducibility
-  function mulberry32(seed: number): () => number {
-    return function() {
-      seed |= 0; seed = seed + 0x6D2B79F5 | 0;
-      let t = Math.imul(seed ^ seed >>> 15, 1 | seed);
-      t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t;
-      return ((t ^ t >>> 14) >>> 0) / 4294967296;
-    };
-  }
 
   const STATES: Array<"ONSET" | "BODY" | "CODA" | "MIXED"> = ["ONSET", "BODY", "CODA", "MIXED"];
   const N = 10_000;
