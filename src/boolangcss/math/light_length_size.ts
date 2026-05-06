@@ -1,8 +1,8 @@
 /**
  * light_length_size.ts — font-size encoding via light-length tiers.
- * ll(0) = reset (initial), ll(1)-ll(4) = 1em-4em, ll(5) = 100vw (full expansion).
- * n ∈ [0,5] (light_length.ts magnitude domain).
+ * ll(0) = reset (initial). ll(1)–ll(5) use fromBij6Digit() for range validation.
  */
+import { fromBij6Digit } from "../../../../booLang-hardening/light_length.ts";
 
 const TIER_TO_CSS: Record<number, string> = {
   0: "initial",
@@ -18,7 +18,9 @@ export function parseLightLengthSize(raw: string): string {
   const m = raw.match(/ll\s*\(\s*(\d)\s*\)/);
   if (!m) throw new SyntaxError(`Invalid ll() value: "${raw}"`);
   const n = Number(m[1]);
-  if (n < 0 || n > 5) throw new RangeError(`ll(${n}) out of range [0,5]`);
+  if (n === 0) return TIER_TO_CSS[0];
+  if (n > 5) throw new SyntaxError(`ll(${n}) out of range [0,5]`);
+  fromBij6Digit(n); // validates [1,6]; throws RangeError if out of range
   return TIER_TO_CSS[n];
 }
 
