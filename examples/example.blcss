@@ -1,0 +1,24 @@
+// booLangCSS example — demonstrates all mathematical value types
+// Run: deno task build:boolangcss
+
+chedy .hero {
+  daiin color:     bij6(r:4 g:2 b:6);
+  daiin background: bij6(r:1 g:1 b:2);
+  daiin font-size: ll(3);
+  daiin margin:    bij6(2);
+  daiin z-index:   pg(1);
+  daiin transition: fsm(ONSET→BODY);
+}
+
+chedy .card {
+  daiin color:     bij6(r:5 g:5 b:5);
+  daiin font-size: ll(2);
+  daiin padding:   bij6(3);
+  daiin z-index:   pg(0);
+}
+
+chedy body {
+  daiin background: bij6(r:1 g:1 b:1);
+  daiin font-size: ll(1);
+  daiin margin:    bij6(1);
+}
