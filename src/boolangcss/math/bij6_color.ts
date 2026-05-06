@@ -3,9 +3,9 @@
  * Colors are specified as {r, g, b} each in [1,6] — Bij6 digits, no zero.
  * Encodes to: "#rrggbb" CSS hex, where each channel = Math.round((d-1)/5 * 255).
  *
- * The no-zero invariant means no channel can be 0 — minimum intensity is 1/5 = 51 (hex 0x33).
- * This is a structural constraint: "Zero has no representation at the wire layer."
+ * Validation delegates to nonceToBij6/bij6ToNonce roundtrip from booLang-hardening.
  */
+import { nonceToBij6, bij6ToNonce } from "../../../../booLang-hardening/bij6.ts";
 
 export interface Bij6Color {
   r: number;   // digit 1-6
@@ -16,6 +16,11 @@ export interface Bij6Color {
 function validateDigit(d: number, channel: string): void {
   if (!Number.isInteger(d) || d < 1 || d > 6) {
     throw new RangeError(`Bij6Color: ${channel}=${d} out of range [1,6]`);
+  }
+  const state = nonceToBij6(d);
+  const back  = bij6ToNonce(state);
+  if (back !== d) {
+    throw new RangeError(`Bij6Color: ${channel}=${d} failed Bij6 roundtrip (got ${back})`);
   }
 }
 
