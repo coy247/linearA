@@ -14,7 +14,8 @@
  * Data payload: canonical byte from canonicalOctet(compactIndex).
  * A VMC file reads like Voynich manuscript text when printed in EVA font.
  */
-import { canonicalOctet, canonicalToBij6 } from "../../../booLang-hardening/canonical_octet.ts";
+import { canonicalOctet } from "../../../booLang-hardening/canonical_octet.ts";
+import { nonceToBij6, bij6ToBase36 } from "../../../booLang-hardening/bij6.ts";
 import { type LinearAToken, type VMCInstruction } from "./types.ts";
 import { type SignMap } from "./sign_map.ts";
 
@@ -53,7 +54,7 @@ function formatInstr(i: VMCInstruction): string {
   const argsStr = i.args.length > 0
     ? i.args.map(a => String(a).padStart(3)).join(" ")
     : "";
-  const bij6s = i.args.map(a => canonicalToBij6(a)).join(",");
+  const bij6s = i.args.map(a => bij6ToBase36(nonceToBij6(a))).join(",");
   return `${i.opcode.padEnd(10)} ${argsStr.padEnd(15)} ; ${i.comment}  [bij6: ${bij6s || "—"}]`;
 }
 
