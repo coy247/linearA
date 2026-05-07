@@ -1,0 +1,16 @@
+; booLang hello world
+; chedy  .world → daiin life → chey → dy
+;
+; bij6(r:6 g:6 b:1) → expansion yellow  — light at full Bij6 magnitude
+; ll(1)             → 1em               — smallest non-zero light-length
+; pg(1)             → z-index: 100      — mid tier pressure gate
+; fsm(ONSET→BODY)   → ease-out 300ms    — valid corpus transition: onset to iteration
+
+chedy .world {
+  daiin color:      bij6(r:6 g:6 b:1);
+  daiin font-size:  ll(1);
+  daiin z-index:    pg(1);
+  daiin transition: fsm(ONSET→BODY);
+}
+
+dy

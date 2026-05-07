@@ -41,10 +41,10 @@ export function compile(source: string, signMap = loadSignMap()): CompilerOutput
 }
 
 async function main() {
-  const inputArg  = Deno.args[0] ?? `${REPO_ROOT}examples/example.blcss`;
-  const source    = await Deno.readTextFile(inputArg);
-  const signMap   = loadSignMap();
-  const outputs   = compile(source, signMap);
+  const inputArg = Deno.args[0] ?? `${REPO_ROOT}layers/layer1/example.blcss`;
+  const source   = await Deno.readTextFile(inputArg);
+  const signMap  = loadSignMap();
+  const outputs  = compile(source, signMap);
 
   const allLinearA: string[] = ["# booLangCSS Linear A IR", ""];
   const allVMC: string[]     = ["; booLangCSS Voynich Machine Code", ""];
@@ -65,12 +65,32 @@ async function main() {
     console.log(`  ${out.rule.selector.padEnd(20)} FSM=${out.fsmScore.toFixed(4)}  ${gate}`);
   }
 
-  const base = inputArg.replace(/\.blcss$/, "");
-  await Deno.writeTextFile(`${base}.linearA`, allLinearA.join("\n"));
-  await Deno.writeTextFile(`${base}.vmc`,     allVMC.join("\n"));
-  await Deno.writeTextFile(`${base}.css`,     allCSS.join("\n"));
+  // When input is in layers/layer1/, write each artifact to its designated layer directory.
+  // Otherwise fall back to writing alongside the input file.
+  const fileName = inputArg.replace(/^.*\//, "").replace(/\.blcss$/, "");
+  const layer1Match = inputArg.match(/^(.*\/layers\/)layer1\//);
 
-  console.log(`\nWritten: ${base}.linearA  ${base}.vmc  ${base}.css`);
+  let linearAPath: string, vmcPath: string, cssPath: string;
+  if (layer1Match) {
+    const layersRoot = layer1Match[1];
+    linearAPath = `${layersRoot}layer2/${fileName}.linearA`;
+    vmcPath     = `${layersRoot}layer3/${fileName}.vmc`;
+    cssPath     = `${layersRoot}layer4/${fileName}.css`;
+  } else {
+    const base  = inputArg.replace(/\.blcss$/, "");
+    linearAPath = `${base}.linearA`;
+    vmcPath     = `${base}.vmc`;
+    cssPath     = `${base}.css`;
+  }
+
+  await Deno.writeTextFile(linearAPath, allLinearA.join("\n"));
+  await Deno.writeTextFile(vmcPath,     allVMC.join("\n"));
+  await Deno.writeTextFile(cssPath,     allCSS.join("\n"));
+
+  console.log(`\nLayer 1 (booLang):   ${inputArg}`);
+  console.log(`Layer 2 (Linear A):  ${linearAPath}`);
+  console.log(`Layer 3 (VMC):       ${vmcPath}`);
+  console.log(`Layer 4 (CSS):       ${cssPath}`);
 }
 
 if (import.meta.main) main();
