@@ -1,13 +1,19 @@
 {
   "tasks": {
-    "test": "deno test --allow-net --allow-read src/ scripts/analyze_signs_test.ts spec/linear-a-fsm-validator-test.ts",
+    "test": "deno test --allow-net --allow-read src/ scripts/analyze_signs_test.ts spec/linear-a-fsm-validator-test.ts spec/linear-a-peer-review-test.ts",
     "test:canonical": "deno test --allow-net src/canonical_octet_test.ts",
     "test:analyze": "deno test --allow-read scripts/analyze_signs_test.ts",
     "test:fsm": "deno test --allow-net --allow-read spec/linear-a-fsm-validator-test.ts",
+    "test:peer-review": "deno test --allow-read spec/linear-a-peer-review-test.ts",
+    "build:boolangcss": "deno run --allow-read --allow-write src/boolangcss/compiler.ts",
     "corpus:fetch": "deno run --allow-net --allow-write scripts/fetch_corpus.ts",
     "corpus:build": "deno run --allow-read --allow-write scripts/build_corpus.ts",
     "corpus:analyze": "deno run --allow-read --allow-write scripts/analyze_signs.ts",
     "corpus:fsm": "deno run --allow-read --allow-write scripts/derive_fsm.ts",
-    "corpus:health": "deno run --allow-read --allow-write spec/linear-a-corpus-health.ts"
+    "corpus:health": "deno run --allow-read --allow-write spec/linear-a-corpus-health.ts",
+    "decipher": "deno run --allow-read --allow-write scripts/decipher_universal.ts",
+    "interview:pre": "deno run --allow-read --allow-write scripts/meta_interview.ts --phase pre",
+    "interview:post": "deno run --allow-read --allow-write scripts/meta_interview.ts --phase post",
+    "compare": "deno run --allow-read --allow-write scripts/compare_languages.ts"
   }
 }

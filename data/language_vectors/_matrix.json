@@ -1,0 +1,141 @@
+{
+  "generatedAt": "2026-05-08T16:50:56.233Z",
+  "canonicalRatio": 0.9183385421917531,
+  "corpusCount": 4,
+  "vectors": [
+    {
+      "corpusId": "proto_elamite",
+      "scriptName": "Proto-Elamite",
+      "era": "3200–2900 BCE",
+      "governorRatio": 0.87,
+      "bij6Slot": 6,
+      "bij6Hex": "0xFF",
+      "canonicalDistance": 0.048,
+      "transitionEntropy": 3.12,
+      "avgGroupLength": 4.8,
+      "uniqueSigns": 1000,
+      "totalTokens": 48000,
+      "dominantPath": "ONSET→BODY→CODA → ONSET→CODA→ONSET → BODY→BODY→BODY"
+    },
+    {
+      "corpusId": "linear_a",
+      "scriptName": "Linear A",
+      "era": "1800–1450 BCE",
+      "governorRatio": 0.9123,
+      "bij6Slot": 6,
+      "bij6Hex": "0xFF",
+      "canonicalDistance": 0.006,
+      "transitionEntropy": 2.71,
+      "avgGroupLength": 4.2,
+      "uniqueSigns": 56,
+      "totalTokens": 7362,
+      "dominantPath": "ONSET→BODY→BODY → BODY→BODY→BODY → ONSET→BODY→CODA"
+    },
+    {
+      "corpusId": "indus_valley",
+      "scriptName": "Indus Valley / Harappan",
+      "era": "2600–1900 BCE",
+      "governorRatio": 0.86,
+      "bij6Slot": 6,
+      "bij6Hex": "0xFF",
+      "canonicalDistance": 0.058,
+      "transitionEntropy": 2.98,
+      "avgGroupLength": 5,
+      "uniqueSigns": 400,
+      "totalTokens": 20000,
+      "dominantPath": "ONSET→BODY→CODA → ONSET→CODA→ONSET → BODY→BODY→BODY"
+    },
+    {
+      "corpusId": "rongorongo",
+      "scriptName": "Rongorongo",
+      "era": "1200–1877 CE",
+      "governorRatio": 0.74,
+      "bij6Slot": 5,
+      "bij6Hex": "0xCC",
+      "canonicalDistance": 0.178,
+      "transitionEntropy": 2.41,
+      "avgGroupLength": 3.1,
+      "uniqueSigns": 120,
+      "totalTokens": 14000,
+      "dominantPath": "ONSET→BODY→BODY → BODY→BODY→BODY → ONSET→BODY→ONSET"
+    }
+  ],
+  "pairs": [
+    {
+      "a": "proto_elamite",
+      "b": "indus_valley",
+      "Δ_governorRatio": 0.01,
+      "Δ_canonicalDistance": -0.01,
+      "Δ_transitionEntropy": 0.14,
+      "Δ_avgGroupLength": -0.2,
+      "euclidean": 0.238139,
+      "similarityTier": "HIGH"
+    },
+    {
+      "a": "linear_a",
+      "b": "indus_valley",
+      "Δ_governorRatio": 0.0523,
+      "Δ_canonicalDistance": -0.052,
+      "Δ_transitionEntropy": -0.27,
+      "Δ_avgGroupLength": -0.8,
+      "euclidean": 0.710941,
+      "similarityTier": "DIVERGENT"
+    },
+    {
+      "a": "proto_elamite",
+      "b": "linear_a",
+      "Δ_governorRatio": -0.0423,
+      "Δ_canonicalDistance": 0.042,
+      "Δ_transitionEntropy": 0.41,
+      "Δ_avgGroupLength": 0.6,
+      "euclidean": 0.743698,
+      "similarityTier": "DIVERGENT"
+    },
+    {
+      "a": "linear_a",
+      "b": "rongorongo",
+      "Δ_governorRatio": 0.1723,
+      "Δ_canonicalDistance": -0.172,
+      "Δ_transitionEntropy": 0.3,
+      "Δ_avgGroupLength": 1.1,
+      "euclidean": 1.58547,
+      "similarityTier": "DIVERGENT"
+    },
+    {
+      "a": "indus_valley",
+      "b": "rongorongo",
+      "Δ_governorRatio": 0.12,
+      "Δ_canonicalDistance": -0.12,
+      "Δ_transitionEntropy": 0.57,
+      "Δ_avgGroupLength": 1.9,
+      "euclidean": 1.617504,
+      "similarityTier": "DIVERGENT"
+    },
+    {
+      "a": "proto_elamite",
+      "b": "rongorongo",
+      "Δ_governorRatio": 0.13,
+      "Δ_canonicalDistance": -0.13,
+      "Δ_transitionEntropy": 0.71,
+      "Δ_avgGroupLength": 1.7,
+      "euclidean": 1.714957,
+      "similarityTier": "DIVERGENT"
+    }
+  ],
+  "universalMarkers": {
+    "minGovernorRatio": 0.74,
+    "maxGovernorRatio": 0.9123,
+    "allAboveThreshold": true,
+    "convergenceScore": 0.924268,
+    "entropyRange": [
+      2.41,
+      3.12
+    ],
+    "dominantPathModes": [
+      "BODY→BODY→BODY",
+      "ONSET→BODY→CODA",
+      "ONSET→CODA→ONSET",
+      "ONSET→BODY→BODY"
+    ]
+  }
+}
