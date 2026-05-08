@@ -1,0 +1,13 @@
+# Indus Valley / Harappan Inscription Index
+# Generated: 2026-05-08
+# Source: corpus/indus_valley/raw/indus_valley_raw.txt
+# Note: SYNTHETIC corpus — generated from known statistical parameters
+
+corpus_id: indus_valley
+script_name: "Indus Valley / Harappan"
+era: "2600–1900 BCE"
+total_groups: 4000
+total_signs: 25300
+unique_signs: 400
+avg_group_length: 6.33
+synthetic: true

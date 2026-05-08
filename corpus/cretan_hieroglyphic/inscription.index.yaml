@@ -1,0 +1,13 @@
+# Cretan Hieroglyphic Inscription Index
+# Generated: 2026-05-08
+# Source: corpus/cretan_hieroglyphic/raw/cretan_hieroglyphic_raw.txt
+# Note: SYNTHETIC corpus — generated from known statistical parameters
+
+corpus_id: cretan_hieroglyphic
+script_name: "Cretan Hieroglyphic"
+era: "2100–1700 BCE"
+total_groups: 900
+total_signs: 3322
+unique_signs: 96
+avg_group_length: 3.69
+synthetic: true

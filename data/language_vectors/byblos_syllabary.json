@@ -1,0 +1,42 @@
+{
+  "corpusId": "byblos_syllabary",
+  "scriptName": "Byblos Syllabary",
+  "era": "1800–1400 BCE",
+  "totalTokens": 948,
+  "uniqueSigns": 113,
+  "avgGroupLength": 5.266666666666667,
+  "onsetCount": 17,
+  "bodyCount": 48,
+  "codaCount": 12,
+  "mixedCount": 36,
+  "validTransitions": 572,
+  "totalTransitions": 768,
+  "governorRatio": 0.7447916666666666,
+  "bij6Slot": 5,
+  "bij6Hex": "0xCC",
+  "canonicalDistance": 0.17354687552508652,
+  "transitionEntropy": 2.901750702987487,
+  "dominantPath": "BODY→BODY → MIXED→BODY → BODY→MIXED",
+  "topOnsetSigns": [
+    "S020",
+    "S056",
+    "S093",
+    "S058",
+    "S068"
+  ],
+  "topBodySigns": [
+    "S066",
+    "S065",
+    "S002",
+    "S079",
+    "S100"
+  ],
+  "topCodaSigns": [
+    "S102",
+    "S048",
+    "S096",
+    "S089",
+    "S062"
+  ],
+  "generatedAt": "2026-05-08T17:31:38.555Z"
+}

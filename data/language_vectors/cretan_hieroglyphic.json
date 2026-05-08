@@ -1,0 +1,42 @@
+{
+  "corpusId": "cretan_hieroglyphic",
+  "scriptName": "Cretan Hieroglyphic",
+  "era": "2100–1700 BCE",
+  "totalTokens": 3322,
+  "uniqueSigns": 96,
+  "avgGroupLength": 3.6911111111111112,
+  "onsetCount": 21,
+  "bodyCount": 32,
+  "codaCount": 7,
+  "mixedCount": 36,
+  "validTransitions": 1523,
+  "totalTransitions": 2422,
+  "governorRatio": 0.6288191577208918,
+  "bij6Slot": 4,
+  "bij6Hex": "0x99",
+  "canonicalDistance": 0.28951938447086134,
+  "transitionEntropy": 3.0922435815523324,
+  "dominantPath": "MIXED→MIXED → BODY→MIXED → MIXED→BODY",
+  "topOnsetSigns": [
+    "S029",
+    "S049",
+    "S040",
+    "S066",
+    "S051"
+  ],
+  "topBodySigns": [
+    "S061",
+    "S085",
+    "S050",
+    "S012",
+    "S026"
+  ],
+  "topCodaSigns": [
+    "S014",
+    "S004",
+    "S063",
+    "S045",
+    "S048"
+  ],
+  "generatedAt": "2026-05-08T17:31:38.603Z"
+}

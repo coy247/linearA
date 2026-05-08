@@ -1,0 +1,13 @@
+# Proto-Elamite Inscription Index
+# Generated: 2026-05-08
+# Source: corpus/proto_elamite/raw/proto_elamite_raw.txt
+# Note: SYNTHETIC corpus — generated from known statistical parameters
+
+corpus_id: proto_elamite
+script_name: "Proto-Elamite"
+era: "3200–2900 BCE"
+total_groups: 9600
+total_signs: 54562
+unique_signs: 1000
+avg_group_length: 5.68
+synthetic: true

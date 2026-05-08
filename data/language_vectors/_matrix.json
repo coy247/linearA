@@ -1,21 +1,35 @@
 {
-  "generatedAt": "2026-05-08T16:50:56.233Z",
+  "generatedAt": "2026-05-08T17:31:41.751Z",
   "canonicalRatio": 0.9183385421917531,
-  "corpusCount": 4,
+  "corpusCount": 6,
   "vectors": [
+    {
+      "corpusId": "byblos_syllabary",
+      "scriptName": "Byblos Syllabary",
+      "era": "1800–1400 BCE",
+      "governorRatio": 0.7447916666666666,
+      "bij6Slot": 5,
+      "bij6Hex": "0xCC",
+      "canonicalDistance": 0.17354687552508652,
+      "transitionEntropy": 2.901750702987487,
+      "avgGroupLength": 5.266666666666667,
+      "uniqueSigns": 113,
+      "totalTokens": 948,
+      "dominantPath": "BODY→BODY → MIXED→BODY → BODY→MIXED"
+    },
     {
       "corpusId": "proto_elamite",
       "scriptName": "Proto-Elamite",
       "era": "3200–2900 BCE",
-      "governorRatio": 0.87,
-      "bij6Slot": 6,
-      "bij6Hex": "0xFF",
-      "canonicalDistance": 0.048,
-      "transitionEntropy": 3.12,
-      "avgGroupLength": 4.8,
+      "governorRatio": 0.8099951069792269,
+      "bij6Slot": 5,
+      "bij6Hex": "0xCC",
+      "canonicalDistance": 0.1083434352125262,
+      "transitionEntropy": 3.012741729538267,
+      "avgGroupLength": 5.683541666666667,
       "uniqueSigns": 1000,
-      "totalTokens": 48000,
-      "dominantPath": "ONSET→BODY→CODA → ONSET→CODA→ONSET → BODY→BODY→BODY"
+      "totalTokens": 54562,
+      "dominantPath": "BODY→BODY → BODY→MIXED → ONSET→BODY"
     },
     {
       "corpusId": "linear_a",
@@ -32,110 +46,213 @@
       "dominantPath": "ONSET→BODY→BODY → BODY→BODY→BODY → ONSET→BODY→CODA"
     },
     {
+      "corpusId": "cretan_hieroglyphic",
+      "scriptName": "Cretan Hieroglyphic",
+      "era": "2100–1700 BCE",
+      "governorRatio": 0.6288191577208918,
+      "bij6Slot": 4,
+      "bij6Hex": "0x99",
+      "canonicalDistance": 0.28951938447086134,
+      "transitionEntropy": 3.0922435815523324,
+      "avgGroupLength": 3.6911111111111112,
+      "uniqueSigns": 96,
+      "totalTokens": 3322,
+      "dominantPath": "MIXED→MIXED → BODY→MIXED → MIXED→BODY"
+    },
+    {
       "corpusId": "indus_valley",
-      "scriptName": "Indus Valley / Harappan",
+      "scriptName": "Indus Valley",
       "era": "2600–1900 BCE",
-      "governorRatio": 0.86,
-      "bij6Slot": 6,
-      "bij6Hex": "0xFF",
-      "canonicalDistance": 0.058,
-      "transitionEntropy": 2.98,
-      "avgGroupLength": 5,
+      "governorRatio": 0.8262910798122066,
+      "bij6Slot": 5,
+      "bij6Hex": "0xCC",
+      "canonicalDistance": 0.09204746237954653,
+      "transitionEntropy": 2.8271295548168967,
+      "avgGroupLength": 6.325,
       "uniqueSigns": 400,
-      "totalTokens": 20000,
-      "dominantPath": "ONSET→BODY→CODA → ONSET→CODA→ONSET → BODY→BODY→BODY"
+      "totalTokens": 25300,
+      "dominantPath": "BODY→BODY → ONSET→BODY → BODY→MIXED"
     },
     {
       "corpusId": "rongorongo",
       "scriptName": "Rongorongo",
       "era": "1200–1877 CE",
-      "governorRatio": 0.74,
+      "governorRatio": 0.7764558084540348,
       "bij6Slot": 5,
       "bij6Hex": "0xCC",
-      "canonicalDistance": 0.178,
-      "transitionEntropy": 2.41,
-      "avgGroupLength": 3.1,
+      "canonicalDistance": 0.14188273373771831,
+      "transitionEntropy": 3.146863581760601,
+      "avgGroupLength": 4.0071111111111115,
       "uniqueSigns": 120,
-      "totalTokens": 14000,
-      "dominantPath": "ONSET→BODY→BODY → BODY→BODY→BODY → ONSET→BODY→ONSET"
+      "totalTokens": 18032,
+      "dominantPath": "BODY→BODY → BODY→MIXED → MIXED→BODY"
     }
   ],
   "pairs": [
     {
+      "a": "byblos_syllabary",
+      "b": "proto_elamite",
+      "Δ_governorRatio": -0.065203,
+      "Δ_canonicalDistance": 0.065203,
+      "Δ_transitionEntropy": -0.110991,
+      "Δ_avgGroupLength": -0.416875,
+      "euclidean": 0.442033,
+      "similarityTier": "MEDIUM"
+    },
+    {
       "a": "proto_elamite",
       "b": "indus_valley",
-      "Δ_governorRatio": 0.01,
-      "Δ_canonicalDistance": -0.01,
-      "Δ_transitionEntropy": 0.14,
-      "Δ_avgGroupLength": -0.2,
-      "euclidean": 0.238139,
-      "similarityTier": "HIGH"
+      "Δ_governorRatio": -0.016296,
+      "Δ_canonicalDistance": 0.016296,
+      "Δ_transitionEntropy": 0.185612,
+      "Δ_avgGroupLength": -0.641458,
+      "euclidean": 0.496426,
+      "similarityTier": "LOW"
+    },
+    {
+      "a": "byblos_syllabary",
+      "b": "indus_valley",
+      "Δ_governorRatio": -0.081499,
+      "Δ_canonicalDistance": 0.081499,
+      "Δ_transitionEntropy": 0.074621,
+      "Δ_avgGroupLength": -1.058333,
+      "euclidean": 0.596587,
+      "similarityTier": "LOW"
+    },
+    {
+      "a": "proto_elamite",
+      "b": "rongorongo",
+      "Δ_governorRatio": 0.033539,
+      "Δ_canonicalDistance": -0.033539,
+      "Δ_transitionEntropy": -0.134122,
+      "Δ_avgGroupLength": 1.676431,
+      "euclidean": 0.726196,
+      "similarityTier": "DIVERGENT"
+    },
+    {
+      "a": "byblos_syllabary",
+      "b": "rongorongo",
+      "Δ_governorRatio": -0.031664,
+      "Δ_canonicalDistance": 0.031664,
+      "Δ_transitionEntropy": -0.245113,
+      "Δ_avgGroupLength": 1.259556,
+      "euclidean": 0.753949,
+      "similarityTier": "DIVERGENT"
+    },
+    {
+      "a": "cretan_hieroglyphic",
+      "b": "rongorongo",
+      "Δ_governorRatio": -0.147637,
+      "Δ_canonicalDistance": 0.147637,
+      "Δ_transitionEntropy": -0.05462,
+      "Δ_avgGroupLength": -0.316,
+      "euclidean": 0.756582,
+      "similarityTier": "DIVERGENT"
+    },
+    {
+      "a": "byblos_syllabary",
+      "b": "cretan_hieroglyphic",
+      "Δ_governorRatio": 0.115973,
+      "Δ_canonicalDistance": -0.115973,
+      "Δ_transitionEntropy": -0.190493,
+      "Δ_avgGroupLength": 1.575556,
+      "euclidean": 0.939492,
+      "similarityTier": "DIVERGENT"
     },
     {
       "a": "linear_a",
       "b": "indus_valley",
-      "Δ_governorRatio": 0.0523,
-      "Δ_canonicalDistance": -0.052,
-      "Δ_transitionEntropy": -0.27,
-      "Δ_avgGroupLength": -0.8,
-      "euclidean": 0.710941,
+      "Δ_governorRatio": 0.086009,
+      "Δ_canonicalDistance": -0.086047,
+      "Δ_transitionEntropy": -0.11713,
+      "Δ_avgGroupLength": -2.125,
+      "euclidean": 0.952346,
+      "similarityTier": "DIVERGENT"
+    },
+    {
+      "a": "byblos_syllabary",
+      "b": "linear_a",
+      "Δ_governorRatio": -0.167508,
+      "Δ_canonicalDistance": 0.167547,
+      "Δ_transitionEntropy": 0.191751,
+      "Δ_avgGroupLength": 1.066667,
+      "euclidean": 1.027156,
       "similarityTier": "DIVERGENT"
     },
     {
       "a": "proto_elamite",
       "b": "linear_a",
-      "Δ_governorRatio": -0.0423,
-      "Δ_canonicalDistance": 0.042,
-      "Δ_transitionEntropy": 0.41,
-      "Δ_avgGroupLength": 0.6,
-      "euclidean": 0.743698,
-      "similarityTier": "DIVERGENT"
-    },
-    {
-      "a": "linear_a",
-      "b": "rongorongo",
-      "Δ_governorRatio": 0.1723,
-      "Δ_canonicalDistance": -0.172,
-      "Δ_transitionEntropy": 0.3,
-      "Δ_avgGroupLength": 1.1,
-      "euclidean": 1.58547,
+      "Δ_governorRatio": -0.102305,
+      "Δ_canonicalDistance": 0.102343,
+      "Δ_transitionEntropy": 0.302742,
+      "Δ_avgGroupLength": 1.483542,
+      "euclidean": 1.028606,
       "similarityTier": "DIVERGENT"
     },
     {
       "a": "indus_valley",
       "b": "rongorongo",
-      "Δ_governorRatio": 0.12,
-      "Δ_canonicalDistance": -0.12,
-      "Δ_transitionEntropy": 0.57,
-      "Δ_avgGroupLength": 1.9,
-      "euclidean": 1.617504,
+      "Δ_governorRatio": 0.049835,
+      "Δ_canonicalDistance": -0.049835,
+      "Δ_transitionEntropy": -0.319734,
+      "Δ_avgGroupLength": 2.317889,
+      "euclidean": 1.171282,
       "similarityTier": "DIVERGENT"
     },
     {
       "a": "proto_elamite",
+      "b": "cretan_hieroglyphic",
+      "Δ_governorRatio": 0.181176,
+      "Δ_canonicalDistance": -0.181176,
+      "Δ_transitionEntropy": -0.079502,
+      "Δ_avgGroupLength": 1.992431,
+      "euclidean": 1.192546,
+      "similarityTier": "DIVERGENT"
+    },
+    {
+      "a": "linear_a",
       "b": "rongorongo",
-      "Δ_governorRatio": 0.13,
-      "Δ_canonicalDistance": -0.13,
-      "Δ_transitionEntropy": 0.71,
-      "Δ_avgGroupLength": 1.7,
-      "euclidean": 1.714957,
+      "Δ_governorRatio": 0.135844,
+      "Δ_canonicalDistance": -0.135883,
+      "Δ_transitionEntropy": -0.436864,
+      "Δ_avgGroupLength": 0.192889,
+      "euclidean": 1.210247,
+      "similarityTier": "DIVERGENT"
+    },
+    {
+      "a": "cretan_hieroglyphic",
+      "b": "indus_valley",
+      "Δ_governorRatio": -0.197472,
+      "Δ_canonicalDistance": 0.197472,
+      "Δ_transitionEntropy": 0.265114,
+      "Δ_avgGroupLength": -2.633889,
+      "euclidean": 1.529261,
+      "similarityTier": "DIVERGENT"
+    },
+    {
+      "a": "linear_a",
+      "b": "cretan_hieroglyphic",
+      "Δ_governorRatio": 0.283481,
+      "Δ_canonicalDistance": -0.283519,
+      "Δ_transitionEntropy": -0.382244,
+      "Δ_avgGroupLength": 0.508889,
+      "euclidean": 1.674188,
       "similarityTier": "DIVERGENT"
     }
   ],
   "universalMarkers": {
-    "minGovernorRatio": 0.74,
+    "minGovernorRatio": 0.6288191577208918,
     "maxGovernorRatio": 0.9123,
     "allAboveThreshold": true,
-    "convergenceScore": 0.924268,
+    "convergenceScore": 0.88991,
     "entropyRange": [
-      2.41,
-      3.12
+      2.71,
+      3.1469
     ],
     "dominantPathModes": [
-      "BODY→BODY→BODY",
-      "ONSET→BODY→CODA",
-      "ONSET→CODA→ONSET",
-      "ONSET→BODY→BODY"
+      "BODY→MIXED",
+      "BODY→BODY",
+      "MIXED→BODY"
     ]
   }
 }

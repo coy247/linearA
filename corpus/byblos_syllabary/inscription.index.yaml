@@ -1,0 +1,13 @@
+# Byblos Syllabary Inscription Index
+# Generated: 2026-05-08
+# Source: corpus/byblos_syllabary/raw/byblos_syllabary_raw.txt
+# Note: SYNTHETIC corpus — generated from known statistical parameters
+
+corpus_id: byblos_syllabary
+script_name: "Byblos Syllabary"
+era: "1800–1400 BCE"
+total_groups: 180
+total_signs: 948
+unique_signs: 113
+avg_group_length: 5.27
+synthetic: true

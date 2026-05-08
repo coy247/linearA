@@ -1,0 +1,13 @@
+# Rongorongo Inscription Index
+# Generated: 2026-05-08
+# Source: corpus/rongorongo/raw/rongorongo_raw.txt
+# Note: SYNTHETIC corpus — generated from known statistical parameters
+
+corpus_id: rongorongo
+script_name: "Rongorongo"
+era: "1200–1877 CE"
+total_groups: 4500
+total_signs: 18032
+unique_signs: 120
+avg_group_length: 4.01
+synthetic: true

@@ -1,9 +1,83 @@
 {
   "_schema": "booLang score ledger v1",
-  "_note": "Structural Accuracy Score (SAS) = governorRatio*0.50 + (1-canonicalDistance)*0.30 + min(entropy/3.5,1)*0.20. Must strictly increase per entry. Anti-nerf: scoring formula immutable.",
+  "_note": "SAS = governorRatio*0.50 + (1-canonicalDistance)*0.30 + min(entropy/3.5,1)*0.20. Hermes runs must strictly improve on baseline. Anti-nerf: formula immutable.",
   "_booLangThreshold": 0.85,
   "_solvedDefinition": "SAS >= 0.85 AND governorRatio > 0.65 AND structuralTypeIdentified = true",
   "canonicalRatio": 0.9183,
+  "baselines": [
+    {
+      "corpusId": "rongorongo",
+      "scriptName": "Rongorongo",
+      "method": "decipher_universal (naive FSM, synthetic corpus)",
+      "recordedAt": "2026-05-08T00:00:00.000Z",
+      "governorRatio": 0.7765,
+      "canonicalDistance": 0.1419,
+      "entropy": 3.1469,
+      "sas": 0.8254,
+      "bij6Slot": 5,
+      "bij6Hex": "0xCC"
+    },
+    {
+      "corpusId": "proto_elamite",
+      "scriptName": "Proto-Elamite",
+      "method": "decipher_universal (naive FSM, synthetic corpus)",
+      "recordedAt": "2026-05-08T00:00:00.000Z",
+      "governorRatio": 0.8100,
+      "canonicalDistance": 0.1083,
+      "entropy": 3.0127,
+      "sas": 0.8446,
+      "bij6Slot": 5,
+      "bij6Hex": "0xCC"
+    },
+    {
+      "corpusId": "byblos_syllabary",
+      "scriptName": "Byblos Syllabary",
+      "method": "decipher_universal (naive FSM, synthetic corpus)",
+      "recordedAt": "2026-05-08T00:00:00.000Z",
+      "governorRatio": 0.7448,
+      "canonicalDistance": 0.1735,
+      "entropy": 2.9018,
+      "sas": 0.7861,
+      "bij6Slot": 5,
+      "bij6Hex": "0xCC"
+    },
+    {
+      "corpusId": "cretan_hieroglyphic",
+      "scriptName": "Cretan Hieroglyphic",
+      "method": "decipher_universal (naive FSM, synthetic corpus)",
+      "recordedAt": "2026-05-08T00:00:00.000Z",
+      "governorRatio": 0.6288,
+      "canonicalDistance": 0.2895,
+      "entropy": 3.0922,
+      "sas": 0.7041,
+      "bij6Slot": 4,
+      "bij6Hex": "0x99"
+    },
+    {
+      "corpusId": "indus_valley",
+      "scriptName": "Indus Valley / Harappan",
+      "method": "decipher_universal (naive FSM, synthetic corpus)",
+      "recordedAt": "2026-05-08T00:00:00.000Z",
+      "governorRatio": 0.8263,
+      "canonicalDistance": 0.0920,
+      "entropy": 2.8271,
+      "sas": 0.8470,
+      "bij6Slot": 5,
+      "bij6Hex": "0xCC"
+    },
+    {
+      "corpusId": "linear_a",
+      "scriptName": "Linear A",
+      "method": "decipher_universal (empirical DĀMOS corpus)",
+      "recordedAt": "2026-05-06T00:00:00.000Z",
+      "governorRatio": 0.9123,
+      "canonicalDistance": 0.006,
+      "entropy": 2.71,
+      "sas": 0.9089,
+      "bij6Slot": 6,
+      "bij6Hex": "0xFF"
+    }
+  ],
   "entries": [],
   "solved": []
 }
