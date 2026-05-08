@@ -14,6 +14,9 @@
     "decipher": "deno run --allow-read --allow-write scripts/decipher_universal.ts",
     "interview:pre": "deno run --allow-read --allow-write scripts/meta_interview.ts --phase pre",
     "interview:post": "deno run --allow-read --allow-write scripts/meta_interview.ts --phase post",
-    "compare": "deno run --allow-read --allow-write scripts/compare_languages.ts"
+    "compare": "deno run --allow-read --allow-write scripts/compare_languages.ts",
+    "hermes:queue": "deno run --allow-read --allow-write --allow-net scripts/hermes_decipher.ts --queue",
+    "hermes:decipher": "deno run --allow-read --allow-write --allow-net scripts/hermes_decipher.ts",
+    "hermes:scores": "deno eval \"const l=JSON.parse(Deno.readTextFileSync('data/scores/ledger.json')); console.log('\\nScore Ledger:'); l.entries.forEach(e=>console.log(' ',e.corpusId.padEnd(22),e.sas.toFixed(4),(e.delta!==null?(e.delta>0?'+':'')+e.delta.toFixed(4):'first').padStart(8),'tok/s:'+e.tokensPerSecond,e.solvedThisRun?'*** SOLVED ***':'')); console.log('\\nSolved:',l.solved.length); l.solved.forEach(s=>console.log(' ',s.scriptName,'—',s.solvedAt,'/','SAS:'+s.sas.toFixed(4)));\""
   }
 }

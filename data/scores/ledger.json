@@ -1,0 +1,9 @@
+{
+  "_schema": "booLang score ledger v1",
+  "_note": "Structural Accuracy Score (SAS) = governorRatio*0.50 + (1-canonicalDistance)*0.30 + min(entropy/3.5,1)*0.20. Must strictly increase per entry. Anti-nerf: scoring formula immutable.",
+  "_booLangThreshold": 0.85,
+  "_solvedDefinition": "SAS >= 0.85 AND governorRatio > 0.65 AND structuralTypeIdentified = true",
+  "canonicalRatio": 0.9183,
+  "entries": [],
+  "solved": []
+}
